@@ -11,7 +11,7 @@
    File file ;
    //ServletContext context = pageContext.getServletContext();
    //String filePath = context.getInitParameter("file-upload");
-	String filePath = "uploads/"+request.getAttribute("username")+"/";
+	String filePath = "uploads/."+request.getAttribute("username")+"/";
 	
    // Verify the content type
    String contentType = request.getContentType();
