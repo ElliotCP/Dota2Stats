@@ -6,25 +6,31 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.AbstractController;
-
 @Controller
+//@RequestMapping("/main")
 public class AppController{
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
-		model.addAttribute("message", "Hello! This is Spring MVC Web Controller.");
-		return "output";
+		model.addAttribute("message", "Hello! This is home page please log in to proceed.");
+		return "home";
 	}
 	
 	
 	@RequestMapping(value = "/UploadReplay", method = RequestMethod.POST)
 	public String upload(ModelMap model) {
 //		model.addAttribute("message", "Hello! This is Spring MVC Web Controller.");
-		return "UploadFile";
+		return "uploadFile";
+	}
+	
+	@RequestMapping(value = "/common", method = RequestMethod.GET)
+	public String printLoggedIn(ModelMap model) {
+		model.addAttribute("message", "Hello! You Have Logged In choose file to upload");
+		return "loggedIn_home";
+	}
+	
+	@RequestMapping(value = "/denied", method = RequestMethod.GET)
+ 	public String getDeniedPage() {
+		return "denied";
 	}
 }

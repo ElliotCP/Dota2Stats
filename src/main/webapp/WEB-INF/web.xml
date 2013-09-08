@@ -7,6 +7,16 @@
 
 	<display-name>Spring MVC Web Application</display-name>
 
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
 	<!-- Main servlet class. -->
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
@@ -17,15 +27,17 @@
 	<!-- Servlet will be responsible for serving all requests. -->
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
-		<url-pattern>/</url-pattern>
+		<url-pattern>/main/*</url-pattern>
 	</servlet-mapping>
 
 	<!-- Spring configuration file to load into the DispatcherServlet. -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+		<param-value>
+		    /WEB-INF/dispatcher-servlet.xml
+		   	/WEB-INF/dispatcher-security.xml
+		</param-value>
 	</context-param>
-
 
 	<context-param>
 		<description>Location to store uploaded file</description>
