@@ -1,0 +1,979 @@
+alchemist_acid_spray,Acid Spray
+alchemist_chemical_rage,Chemical Rage
+alchemist_goblins_greed,Goblin's Greed
+alchemist_unstable_concoction,Unstable Concoction
+alchemist_unstable_concoction_throw,Unstable Concoction (Throw)
+alpha_wolf_command_aura,Command Aura (Alpha Wolf)
+alpha_wolf_critical_strike,Critical Strike (Alpha Wolf)
+ancient_apparition_chilling_touch,Chilling Touch
+ancient_apparition_cold_feet,Cold Feet
+ancient_apparition_ice_blast,Ice Blast
+ancient_apparition_ice_blast_release,Ice Blast (Release)
+ancient_apparition_ice_vortex,Ice Vortex
+antimage_blink,Blink (AM)
+antimage_mana_break,Mana Break
+antimage_mana_void,Mana Void
+antimage_spell_shield,Spell Shield
+attribute_bonus,Attribute Bonus
+axe_battle_hunger,Battle Hunger
+axe_berserkers_call,Berserker's Call
+axe_counter_helix,Counter Helix
+axe_culling_blade,Culling Blade
+backdoor_protection,Backdoor Protection
+backdoor_protection_in_base,Backdoor Protection (Base)
+bane_brain_sap,Brain Sap
+bane_enfeeble,Enfeeble
+bane_fiends_grip,Fiend's Grip
+bane_nightmare,Nightmare
+base,Base
+batrider_firefly,Firefly
+batrider_flamebreak,Flame Break
+batrider_flaming_lasso,Flaming Lasso
+batrider_sticky_napalm,Sticky Napalm
+beastmaster_boar_poison,Poison (Boar)
+beastmaster_call_of_the_wild,Call of the Wild
+beastmaster_greater_boar_poison,Greater Poison (Greater Boar)
+beastmaster_hawk_invisibility,Invisibility (Hawk)
+beastmaster_inner_beast,Inner Beast
+beastmaster_primal_roar,Primal Roar
+beastmaster_wild_axes,Wild Axes
+big_thunder_lizard_frenzy,Frenzy (Thunder Lizard)
+big_thunder_lizard_slam,Slam (Thunder Lizard)
+black_dragon_splash_attack,Splash Attack (Black Dragon)
+bloodseeker_blood_bath,Blood Bath
+bloodseeker_bloodrage,Bloodrage
+bloodseeker_rupture,Rupture
+bloodseeker_thirst,Thirst
+blue_dragonspawn_overseer_devotion_aura,Devotion Aura (Dragonspawn Overseer)
+blue_dragonspawn_overseer_evasion,Evasion (Dragonspawn Overseer)
+blue_dragonspawn_sorcerer_evasion,Evasion (Dragonspawn Sorcerer)
+bold_taskmaster_speed_aura,Speed Aura
+bounty_hunter_jinada,Jinada
+bounty_hunter_shuriken_toss,Shuriken Toss
+bounty_hunter_track,Track
+bounty_hunter_wind_walk,Wind Walk
+brewmaster_drunken_brawler,Drunken Brawler
+brewmaster_drunken_haze,Drunken Haze
+brewmaster_earth_hurl_boulder,Hurl Boulder (Earth Panda)
+brewmaster_earth_pulverize,Pulverize (Earth Panda)
+brewmaster_earth_spell_immunity,Spell Immunity (Earth Panda)
+brewmaster_fire_permanent_immolation,Permanent Immolation
+brewmaster_primal_split,Primal Split
+brewmaster_storm_cyclone,Cyclone (Storm Panda)
+brewmaster_storm_dispel_magic,Dispel Magic (Storm Panda)
+brewmaster_storm_wind_walk,Wind Walk (Storm Panda)
+brewmaster_thunder_clap,Thunder Clap
+broodmother_incapacitating_bite,Incapacitating Bite
+broodmother_insatiable_hunger,Insatiable Hunger
+broodmother_poison_sting,Poison Sting (Spiderling)
+broodmother_spawn_spiderite,Spawn Spiderite
+broodmother_spawn_spiderlings,Spawn Spiderlings
+broodmother_spin_web,Spin Web
+centaur_khan_war_stomp,War Stomp (Neutral)
+centaur_khan_endurance_aura,Endurance Aura
+chaos_knight_chaos_bolt,Chaos Bolt
+chaos_knight_chaos_strike,Chaos Strike
+chaos_knight_phantasm,Phantasm
+chaos_knight_reality_rift,Reality Rift
+chen_hand_of_god,Hand of God
+chen_holy_persuasion,Holy Persuasion
+chen_penitence,Penitence
+chen_test_of_faith,Test of Faith
+clinkz_death_pact,Death Pact
+clinkz_searing_arrows,Searing Arrows
+clinkz_strafe,Strafe
+clinkz_wind_walk,Wind walk
+courier_burst,Speed Burst
+courier_go_to_secretshop,Go to Secret Shop
+courier_return_stash_items,Return to stash items
+courier_return_to_base,Return to Base
+courier_shield,Shield
+courier_take_stash_items,Stash Items
+courier_transfer_items,Transfer Items
+crystal_maiden_brilliance_aura,Brilliance Aura
+crystal_maiden_crystal_nova,Crystal Nova
+crystal_maiden_freezing_field,Freezing Field
+crystal_maiden_frostbite,Frostbite
+dark_seer_ion_shell,Ion Shell
+dark_seer_surge,Surge
+dark_seer_vacuum,Vacuum
+dark_seer_wall_of_replica,Wall of Replica
+dark_troll_warlord_ensnare,Ensnare (Troll)
+dark_troll_warlord_raise_dead,Raise Dead
+dazzle_poison_touch,Poison Touch
+dazzle_shadow_wave,Shadow Wave
+dazzle_shallow_grave,Shallow Grave
+dazzle_weave,Weave
+death_prophet_carrion_swarm,Carrion Swarm
+death_prophet_exorcism,Exorcism
+death_prophet_silence,Silence
+death_prophet_witchcraft,Witchcraft
+default_attack,Default Attack
+doom_bringer_devour,Devour
+doom_bringer_doom,Doom
+doom_bringer_empty,Empty
+doom_bringer_lvl_death,Lvl? Death
+doom_bringer_scorched_earth,Scorched Earth
+dota_fountain,Fountain
+dota_unknown,Unknown
+dragon_knight_breathe_fire,Breathe Fire
+dragon_knight_dragon_blood,Dragon Blood
+dragon_knight_dragon_tail,Dragon Tail
+dragon_knight_elder_dragon_form,Elder Dragon Form
+dragon_knight_frost_breath,Frost Breath
+drow_ranger_frost_arrows,Frost Arrows
+drow_ranger_marksmanship,Marksmanship
+drow_ranger_silence,Silence
+drow_ranger_trueshot,True Shot
+earthshaker_aftershock,Aftershock
+earthshaker_echo_slam,Echo Slam
+earthshaker_enchant_totem,Enchant Totem
+earthshaker_fissure,Fissure
+enchantress_enchant,Enchant
+enchantress_impetus,Impetus
+enchantress_natures_attendants,Nature's Attendants
+enchantress_untouchable,Untouchable
+enigma_black_hole,Black hole
+enigma_demonic_conversion,Demonic Conversion
+enigma_malefice,Malefice
+enigma_midnight_pulse,Midnight Pulse
+enraged_wildkin_tornado,Tornado
+enraged_wildkin_toughness_aura,Toughness Aura
+faceless_void_backtrack,Backtrack
+faceless_void_chronosphere,Chronosphere
+faceless_void_time_walk,Time Walk
+forest_troll_high_priest_heal,Heal (Priest)
+forged_spirit_melting_strike,Melting Strike
+furion_force_of_nature,Force of Nature
+furion_sprout,Sprout
+furion_teleportation,Teleportation
+furion_wrath_of_nature,Wrath of Nature
+ghost_frost_attack,Frost Attack
+giant_wolf_critical_strike,Critical Strike (Giant Wolf)
+gnoll_assassin_envenomed_weapon,Envenomed Weapon damage
+gyrocopter_call_down,Call Down
+gyrocopter_flak_cannon,Flak Cannon
+gyrocopter_homing_missile,Homing Missile
+gyrocopter_rocket_barrage,Rocket Barrage
+harpy_storm_chain_lightning,Chain Lightning (Harpy)
+huskar_berserkers_blood,Berserker's Blood
+huskar_burning_spear,Burning Spear
+huskar_inner_vitality,Inner Vitality
+huskar_life_break,Life Break
+invoker_alacrity,Alacrity
+invoker_chaos_meteor,Chaos Meteor
+invoker_cold_snap,Cold Snap
+invoker_deafening_blast,Deafening Blast
+invoker_emp,EMP
+invoker_empty1,Empty #1
+invoker_empty2,Empty #2
+invoker_exort,Exort
+invoker_forge_spirit,Forge Spirit
+invoker_ghost_walk,Ghost Walk
+invoker_ice_wall,Ice Wall
+invoker_invoke,Invoke
+invoker_quas,Quas
+invoker_sun_strike,Sun Strike
+invoker_tornado,Tornado
+invoker_wex,Wex
+item_armlet,Armlet HP Modifier
+item_dagon,Dagon
+item_diffusal_blade,Diffusal Blade Purge
+item_diffusal_blade_2,Diffusal Blade 2
+item_hand_of_midas,Hand of Midas
+item_helm_of_the_dominator,Helm of the Dominator
+item_lifesteal,Lifesteal (item)
+item_maelstrom,Maelstrom lightning
+item_magic_stick,Magic Stick Heal
+item_magic_wand,Magic Wand Heal
+item_mask_of_madness,Mask of Madness
+item_mekansm,Mekansm
+item_mjollnir,Mjollnir lightning
+item_orchid,Orchid Damage
+item_radiance,Radiance
+item_satanic,Satanic
+item_sheepstick,Scythe of Vyse
+item_urn_of_shadows,Urn of Shadows
+item_vladmir,Vladmir
+jakiro_dual_breath,Dual Breath
+jakiro_ice_path,Ice Path
+jakiro_liquid_fire,Liquid Fire
+jakiro_macropyre,Macropyre
+juggernaut_blade_dance,Blade Dance
+juggernaut_blade_fury,Bladefury
+juggernaut_healing_ward,Healing Ward
+juggernaut_omni_slash,Omnislash
+kunkka_ghostship,Ghost ship
+kunkka_return,Return
+kunkka_tidebringer,Tidebringer
+kunkka_torrent,Torrent
+kunkka_x_marks_the_spot,X Marks the Spot
+leshrac_diabolic_edict,Diabolic Edict
+leshrac_lightning_storm,Lightning Storm
+leshrac_pulse_nova,Pulse Nova
+leshrac_split_earth,Split Earth
+lich_chain_frost,Chain Frost
+lich_dark_ritual,Dark Ritual
+lich_frost_armor,Frost Armor
+lich_frost_nova,Frost Nova
+life_stealer_consume,Consume
+life_stealer_feast,Feast
+life_stealer_infest,Infest
+life_stealer_rage,Rage
+lina_dragon_slave,Dragon Slave
+lina_fiery_soul,Fiery Soul
+lina_laguna_blade,Laguna Blade
+lina_light_strike_array,Light Strike Array
+lion_finger_of_death,Finger of Death
+lion_impale,Impale
+lion_mana_drain,Mana Drain
+lion_voodoo,Voodoo
+lone_druid_rabid,Rabid
+lone_druid_spirit_bear,Summon Bear
+lone_druid_spirit_bear_demolish,Demolish
+lone_druid_spirit_bear_entangle,Entangle
+lone_druid_spirit_bear_return,Return
+lone_druid_synergy,Sinergy
+lone_druid_true_form,True Form
+lone_druid_true_form_battle_cry,Battle Cry (Bear Form)
+luna_eclipse,Eclipse
+luna_lucent_beam,Lucent Beam
+luna_lunar_blessing,Lunar Blessing
+luna_moon_glaive,Moon Glaive
+lycan_feral_impulse,Feral Impulse
+lycan_howl,Howl
+lycan_shapeshift,Shapeshift
+lycan_summon_wolves,Wolves
+lycan_summon_wolves_critical_strike,Critical Strike (Wolves)
+lycan_summon_wolves_invisibility,Invisibility (Wolves)
+meepo_divided_we_stand,Divided We Stand
+meepo_earthbind,Earthbind
+meepo_geostrike,Geostrike
+meepo_poof,Poof
+mirana_arrow,Mirana's Arrow
+mirana_invis,Moonlight Shadow
+mirana_leap,Leap
+mirana_starfall,Starfall
+modifier_axe_battle_hunger,Battle Hunger debuff
+modifier_axe_battle_hunger_self,Battle Hunger buff
+modifier_axe_berserkers_call,Berserker's call debuff
+modifier_axe_berserkers_call_armor,Berserker's call
+modifier_axe_culling_blade_boost,Culling Blade Movespeed Buff
+modifier_black_king_bar_immune,Black King Bar Immunity
+modifier_bloodseeker_bloodrage,Bloodrage debuff
+modifier_bloodseeker_rupture,Rupture debuff
+modifier_bloodseeker_thirst_speed,Thirst Movespeed Buff
+modifier_boots_of_travel_incoming,Boots of Travel TP Buff
+modifier_bottle_regeneration,Bottle Heal/Regen
+modifier_brewmaster_drunken_brawler,Drunken Brawler Debuff
+modifier_brewmaster_drunken_haze,Drunken Haze Debuff
+modifier_brewmaster_fire_permanent_immolation,Permanent Immolation Buff
+modifier_brewmaster_primal_split_duration,Primal Split Transformation
+modifier_brewmaster_storm_cyclone,Cyclone (Brewmaster)
+modifier_brewmaster_thunder_clap,Thunder Clap (Brewmaster)
+modifier_broodmother_incapacitating_bite_orb,Incapacitating Bite Debuff
+modifier_broodmother_insatiable_hunger,Insatiable Hunger buff
+modifier_broodmother_poison_sting_debuff,Poison Sting (debuff)
+modifier_broodmother_spawn_spiderite_debuff,Spawn Spiderite (debuff)
+modifier_broodmother_spawn_spiderlings,Spawn Spiderlings debuff
+modifier_centaur_khan_endurance_aura_bonus,Endurance Aura Buff
+modifier_clarity_potion,Clarity Potion regen
+modifier_crystal_maiden_brilliance_aura_effect,Brilliance Aura (CM)
+modifier_crystal_maiden_crystal_nova,Crystal Nova Slow
+modifier_crystal_maiden_freezing_field_slow,Freezing Field Slow effect
+modifier_crystal_maiden_frostbite,Frostbite Debuff
+modifier_dragon_knight_corrosive_breath,Corrosive Breath
+modifier_dragon_knight_corrosive_breath_dot,Corrosive Breath DOT
+modifier_dragon_knight_frost_breath,Frost Breath
+modifier_dragon_knight_frost_breath_slow,Frost Breath Slow
+modifier_dragon_knight_splash_attack,Splash Attack (DK)
+modifier_faceless_void_chronosphere,Chronosphere
+modifier_faceless_void_chronosphere_freeze,Chronosphere'd Debuff
+modifier_faceless_void_time_walk_slow,Time Walk Slow Debuff
+modifier_faceless_void_timelock_freeze,Time Lock Stun
+modifier_flask_healing,Flask Heal
+modifier_forged_spirit_melting_strike_debuff,Melting Strike Debuff
+modifier_ghost_frost_attack_slow,Frost Attack Debuff
+modifier_gnoll_assassin_envenomed_weapon_poison,Envenomed Weapon debuff
+modifier_illusion,Illusion
+modifier_invisible,Invisible
+modifier_invoker_alacrity,Alacrity
+modifier_invoker_chaos_meteor_burn,Chaos Meteor Burn Debuff
+modifier_invoker_chaos_meteor_land,Chaos Meteor Land Debuff
+modifier_invoker_cold_snap,Cold Snap Debuff
+modifier_invoker_deafening_blast_disarm,Deafening Blast Disarm Debuff
+modifier_invoker_deafening_blast_knockback,Deafening Blast Knockback Debuff
+modifier_invoker_exort_instance,Exort Instance
+modifier_invoker_ghost_walk_enemy,Ghost Walk Slow Aura
+modifier_invoker_ghost_walk_self,Ghost Walk Invisibility
+modifier_invoker_ice_wall_slow_aura,Ice Wall Slow Aura
+modifier_invoker_ice_wall_slow_debuff,Ice Wall Slow Debuff
+modifier_invoker_ice_wall_thinker,Ice Wall Thinker
+modifier_invoker_quas_instance,Quas Instance
+modifier_invoker_sun_strike,Sun Strike
+modifier_invoker_tornado,Tornado debuff
+modifier_invoker_wex_instance,Wex Instance
+modifier_invulnerable,Invulnerable
+modifier_item_ancient_janggo_active,Drum Active Buff
+modifier_item_ancient_janggo_aura_effect,Drum's aura
+modifier_item_armlet_unholy_strength,Unholy Strength Buff/Debuff
+modifier_item_assault_negative_armor,Assault Cuirass Negative Armor Hero Debuff
+modifier_item_assault_positive,Assault Cuirass Positive Armor Buff
+modifier_item_assault_positive_buildings,Assault Cuirass Positive Armor Building Buff
+modifier_item_buckler_effect,Buckler Armor Effect
+modifier_item_diffusal_blade_slow,Diffusal Blade Slow
+modifier_item_dustofappearance,Dust of Appearance debuff
+modifier_item_forcestaff_active,Force Staff Push
+modifier_item_headdress_aura,Headress Aura Buff
+modifier_item_mask_of_madness_berserk,Berserk (MoM)
+modifier_item_mekansm_aura,Mekansm Aura
+modifier_item_mekansm_spell,Mekansm Buff
+modifier_item_mjollnir_static,Static Charge Buff
+modifier_item_phase_boots_active,Phase Boots Buff
+modifier_item_pipe_barrier,Pipe Barrier Buff
+modifier_item_radiance_debuff,Radiance tick
+modifier_item_ring_of_aquila_aura_bonus,RoA Aura
+modifier_item_ring_of_basilius_aura_bonus,RoB Aura
+modifier_item_satanic_unholy,Satanic Unholy Rage Buff
+modifier_item_soul_ring_buff,Soul Ring Buff
+modifier_item_urn_damage,Urn of Shadows Damage
+modifier_item_urn_heal,Urn of Shadows Heal
+modifier_item_vladmir_main,Vladmir auras
+modifier_knockback,Knockback Debuff
+modifier_lina_fiery_soul,Fiery Soul
+modifier_lina_laguna_blade,Laguna Blade effect
+modifier_maledict,Maledict debuff
+modifier_orchid_malevolence_debuff,Orchid Malevolence Debuff
+modifier_polar_furbolg_ursa_warrior_thunder_clap,Thunder Clap Debuff (Neutral)
+modifier_pudge_dismember,Dismembered Debuff
+modifier_pudge_flesh_heap,Flesh Heap Buff
+modifier_pudge_meat_hook,Meat Hook Pull Debuff
+modifier_pudge_rot,Rot Slow debuff
+modifier_queenofpain_shadow_strike,Shadow Strike
+modifier_riki_smoke_screen,Smoke Screen debuff
+modifier_riki_smoke_screen_thinker,Smoke screen thinker debuff (?)
+modifier_roshan_slam,Roshan Slam Slow
+modifier_rune_doubledamage,Double Damage Rune effect
+modifier_rune_haste,Haste Rune effect
+modifier_rune_invis,Invisibility Rune Effect
+modifier_rune_regen,Regen Rune effect
+modifier_shadow_demon_disruption,Disruption
+modifier_shadow_demon_purge_slow,Demonic Purge Debuff
+modifier_shadow_demon_shadow_poison,Shadow Poison Debuff
+modifier_shadow_demon_soul_catcher,Soul Catcher Debuff
+modifier_sheepstick_debuff,Scythe of Vyse Debuff
+modifier_slardar_amplify_damage,Amplify Damage Debuff
+modifier_slardar_sprint,Sprint Buff
+modifier_slithereen_crush,Slithereen Crush's slow
+modifier_smoke_of_deceit,Smoke of Deceit Buff
+modifier_storm_spirit_ball_lightning,Ball Lightning Buff
+modifier_storm_spirit_electric_vortex_pull,Electric Vortex Pull Debuff
+modifier_storm_spirit_electric_vortex_self_slow,Electric Vortex Self Slow Debuff
+modifier_storm_spirit_overload,Overload buff
+modifier_storm_spirit_overload_debuff,Overload Debuff
+modifier_stunned,Stunned
+modifier_tango_heal,Tango Heal
+modifier_teleporting,Teleporting (buff)
+modifier_drow_ranger_trueshot,Trueshot Aura Buff
+modifier_tidehunter_gush,Gush Slow/-Armor Debuff
+modifier_warlock_fatal_bonds,Fatal Bonds Debuff
+modifier_shadow_shaman_shackles,Shackles Debuff
+modifier_warlock_shadow_word,Shadow Word buff/debuff
+modifier_shadow_shaman_voodoo,Voodoo debuff
+modifier_tinker_laser_blind,Blinded debuff
+warlock_shadow_word,Shadow Word
+modifier_drow_ranger_frost_arrows_slow,Frost Arrow Slow Debuff
+modifier_morphling_morph,Morphing buff
+modifier_morphling_morph_str,Morphing into STR buff
+modifier_tidehunter_anchor_smash,Anchor Smash debuff
+modifier_juggernaut_healing_ward_aura,Healing Ward Aura
+modifier_juggernaut_healing_ward_heal,Healing Ward Heal
+modifier_juggernaut_blade_fury,Blade Fury Buff
+modifier_warlock_golem_permanent_immolation_debuff,Permanent Immolation Debuff
+modifier_silence,Silence
+modifier_tidehunter_ravage,Ravage debuff
+modifier_juggernaut_omnislash,Omnislashing effect
+modifier_morphling_adaptive_strike,Adaptive Strike Effect
+modifier_item_tranquil_boots_heal,Tranquil Boots Heal
+modifier_tinker_march_thinker,March of the machines (debuff?)
+modifier_necronomicon_archer_aura,Necro Archer Aura
+item_tranquil_boots,Tranquil Boots
+modifier_morphling_replicate_timer,Replicate Timer
+modifier_tinker_rearm,Rearm channeling
+modifier_sange_and_yasha_buff,Sange & Yasha Buff
+modifier_cyclone,Cyclone (Eul)
+modifier_warlock_upheaval,Upheaval (debuff)
+modifier_item_shivas_guard_aura,Shiva's Guard Aura
+modifier_item_invisibility_edge_windwalk,Wind Walk (Shadow Blade)
+item_shivas_guard,Shiva's Guard
+modifier_item_shivas_guard_blast,Shiva's Guard Blast debuff
+modifier_voodoo_restoration_heal,Voodoo Restoration Buff
+modifier_zuus_static_field,Static Field Debuff
+morphling_adaptive_strike,Adaptive Strike
+morphling_morph,Morph
+morphling_morph_agi,Morph Str->Agi
+morphling_morph_replicate,Jump into Replicate
+morphling_morph_str,Morph Agi->Str
+morphling_replicate,Replicate
+morphling_waveform,Waveform
+necrolyte_death_pulse,Death Pulse
+necrolyte_heartstopper_aura,Heartstopper Aura
+necrolyte_reapers_scythe,Reaper's Scythe
+necrolyte_sadist,Sadist
+necronomicon_archer_aoe,Speed Aura (Necro Archer)
+necronomicon_archer_mana_burn,Mana Burn (Necro Archer)
+necronomicon_warrior_last_will,Last Will (Necro Warrior)
+necronomicon_warrior_mana_burn,Mana Break (Necro Warrior)
+necronomicon_warrior_sight,True Sight (Necro Warrior)
+neutral_spell_immunity,Spell Immunity
+nevermore_dark_lord,Presence of the Dark Lord
+nevermore_necromastery,Necromastery
+nevermore_requiem,Requiem of Souls
+nevermore_shadowraze1,Shadow Raze (Short)
+nevermore_shadowraze2,Shadow Raze (Medium)
+nevermore_shadowraze3,Shadow Raze (Long)
+night_stalker_crippling_fear,Crippling Fear
+night_stalker_darkness,Darkness
+night_stalker_hunter_in_the_night,Hunter in the Night
+night_stalker_void,Void
+npc_dota_badguys_fillers,Dire Building
+npc_dota_badguys_fort,Dire Ancient
+npc_dota_badguys_melee_rax_bot,Dire Bottom Melee Barracks
+npc_dota_badguys_melee_rax_mid,Dire Mid Melee Barracks
+npc_dota_badguys_melee_rax_top,Dire Top Melee Barracks
+npc_dota_badguys_range_rax_bot,Dire Bottom Ranged Barracks
+npc_dota_badguys_range_rax_mid,Dire Mid Ranged Barracks
+npc_dota_badguys_range_rax_top,Dire Top Ranged Barracks
+npc_dota_badguys_siege,Dire's Siege Creep
+npc_dota_badguys_tower1_bot,Dire Bottom Tier 1 Tower
+npc_dota_badguys_tower1_mid,Dire Mid Tier 1 Tower
+npc_dota_badguys_tower1_top,Dire Top Tier 1 Tower
+npc_dota_badguys_tower2_bot,Dire Bottom Tier 2 Tower
+npc_dota_badguys_tower2_mid,Dire Mid Tier 2 Tower
+npc_dota_badguys_tower2_top,Dire Top Tier 2 Tower
+npc_dota_badguys_tower3_bot,Dire Bottom Tier 3 Tower
+npc_dota_badguys_tower3_mid,Dire Mid Tier 3 Tower
+npc_dota_badguys_tower3_top,Dire Top Tier 3 Tower
+npc_dota_badguys_tower4,Dire Tier 4 Tower
+npc_dota_beastmaster_boar,Boar
+npc_dota_beastmaster_greater_boar,Greater Boar
+npc_dota_brewmaster_earth_1,Earth Panda (Lv1)
+npc_dota_brewmaster_earth_2,Earth Panda (Lv2)
+npc_dota_brewmaster_earth_3,Earth Panda (Lv3)
+npc_dota_brewmaster_earth_4,Earth Panda (Lv4)
+npc_dota_brewmaster_fire_1,Fire Panda (Lv1)
+npc_dota_brewmaster_fire_2,Fire Panda (Lv2)
+npc_dota_brewmaster_fire_3,Fire Panda (Lv3)
+npc_dota_brewmaster_fire_4,Fire Panda (Lv4)
+npc_dota_brewmaster_storm_1,Storm Panda (Lv1)
+npc_dota_brewmaster_storm_2,Storm Panda (Lv2)
+npc_dota_brewmaster_storm_3,Storm Panda (Lv3)
+npc_dota_brewmaster_storm_4,Storm Panda (Lv4)
+npc_dota_broodmother_spiderite,Spiderite
+npc_dota_broodmother_spiderling,Spiderling
+npc_dota_broodmother_web,Web
+npc_dota_courier,Courier
+npc_dota_creep_badguys_melee,Melee Dire Creep
+npc_dota_creep_badguys_melee_upgraded,Melee Dire Mega Creep
+npc_dota_creep_badguys_ranged,Ranged Dire Creep
+npc_dota_creep_badguys_ranged_upgraded,Ranged Dire Mega Creep
+npc_dota_creep_goodguys_melee,Melee Radiant Creep
+npc_dota_creep_goodguys_melee_upgraded,Melee Radiant Mega Creep
+npc_dota_creep_goodguys_ranged,Ranged Radiant Creep
+npc_dota_creep_goodguys_ranged_upgraded,Ranged Radiant Mega Creep
+npc_dota_dark_troll_warlord_skeleton_warrior,Skeleton Warrior
+npc_dota_dire_eidolon,Dire Eidolon
+npc_dota_eidolon,Eidolon
+npc_dota_enraged_wildkin_tornado,Tornado
+npc_dota_furion_treant,Treant
+npc_dota_goodguys_fillers,Radiant Building
+npc_dota_goodguys_fort,Radiant Ancient
+npc_dota_goodguys_melee_rax_bot,Radiant Bottom Melee Barracks
+npc_dota_goodguys_melee_rax_mid,Radiant Mid Melee Barracks
+npc_dota_goodguys_melee_rax_top,Radiant Top Melee Barracks
+npc_dota_goodguys_range_rax_bot,Radiant Bottom Ranged Barracks
+npc_dota_goodguys_range_rax_mid,Radiant Mid Ranged Barracks
+npc_dota_goodguys_range_rax_top,Radiant Top Ranged Barracks
+npc_dota_goodguys_siege,Radiant's Siege Creep
+npc_dota_goodguys_tower1_bot,Radiant Bottom Tier 1 Tower
+npc_dota_goodguys_tower1_mid,Radiant Mid Tier 1 Tower
+npc_dota_goodguys_tower1_top,Radiant Top Tier 1 Tower
+npc_dota_goodguys_tower2_bot,Radiant Bottom Tier 2 Tower
+npc_dota_goodguys_tower2_mid,Radiant Mid Tier 2 Tower
+npc_dota_goodguys_tower2_top,Radiant Top Tier 2 Tower
+npc_dota_goodguys_tower3_bot,Radiant Bottom Tier 3 Tower
+npc_dota_goodguys_tower3_mid,Radiant Mid Tier 3 Tower
+npc_dota_goodguys_tower3_top,Radiant Top Tier 3 Tower
+npc_dota_goodguys_tower4,Radiant Tier 4 Tower
+npc_dota_greater_eidolon,Greater Eidolon
+npc_dota_greater_hawk,Greater Hawk
+npc_dota_gyrocopter_homing_missile,Homing Missile
+npc_dota_hero_alchemist,Alchemist
+npc_dota_hero_ancient_apparition,Ancient Apparition
+npc_dota_hero_antimage,Antimage
+npc_dota_hero_axe,Axe
+npc_dota_hero_bane,Bane
+npc_dota_hero_base,Base Hero
+npc_dota_hero_batrider,Batrider
+npc_dota_hero_beastmaster,Beastmaster
+npc_dota_hero_bloodseeker,Bloodseeker
+npc_dota_hero_bounty_hunter,Bounty Hunter
+npc_dota_hero_brewmaster,Brewmaster
+npc_dota_hero_broodmother,Broodmother
+npc_dota_hero_chaos_knight,Chaos Knight
+npc_dota_hero_chen,Chen
+npc_dota_hero_clinkz,Clinkz
+npc_dota_hero_crystal_maiden,Crystal Maiden
+npc_dota_hero_dark_seer,Dark Seer
+npc_dota_hero_dazzle,Dazzle
+npc_dota_hero_death_prophet,Death Prophet
+npc_dota_hero_doom_bringer,Doom Bringer
+npc_dota_hero_dragon_knight,Dragon Knight
+npc_dota_hero_drow_ranger,Drow Ranger
+npc_dota_hero_earthshaker,Earthshaker
+npc_dota_hero_enchantress,Enchantress
+npc_dota_hero_enigma,Enigma
+npc_dota_hero_faceless_void,Faceless Void
+npc_dota_hero_furion,Furion
+npc_dota_hero_gyrocopter,Gyrocopter
+npc_dota_hero_huskar,Huskar
+npc_dota_hero_invoker,Invoker
+npc_dota_hero_jakiro,Jakiro
+npc_dota_hero_juggernaut,Juggernaut
+npc_dota_hero_kunkka,Kunkka
+npc_dota_hero_leshrac,Leshrac
+npc_dota_hero_lich,Lich
+npc_dota_hero_life_stealer,Lifestealer
+npc_dota_hero_lina,Lina
+npc_dota_hero_lion,Lion
+npc_dota_hero_lone_druid,Lone Druid
+npc_dota_hero_luna,Luna
+npc_dota_hero_lycan,Lycan
+npc_dota_hero_meepo,Meepo
+npc_dota_hero_mirana,Mirana
+npc_dota_hero_morphling,Morphling
+npc_dota_hero_necrolyte,Necrolyte
+npc_dota_hero_nevermore,Shadow Fiend
+npc_dota_hero_night_stalker,Night Stalker
+npc_dota_hero_obsidian_destroyer,Obsidian Destroyer
+npc_dota_hero_ogre_magi,Ogre Magi
+npc_dota_hero_omniknight,Omniknight
+npc_dota_hero_phantom_assassin,Phantom Assassin
+npc_dota_hero_phantom_lancer,Phantom Lancer
+npc_dota_hero_puck,Puck
+npc_dota_hero_pudge,Pudge
+npc_dota_hero_pugna,Pugna
+npc_dota_hero_queenofpain,Queen of Pain
+npc_dota_hero_rattletrap,Rattletrap
+npc_dota_hero_razor,Razor
+npc_dota_hero_riki,Riki
+npc_dota_hero_sand_king,Sand King
+npc_dota_hero_shadow_demon,Shadow Demon
+npc_dota_hero_shadow_shaman,Shadow Shaman
+npc_dota_hero_silencer,Silencer
+npc_dota_hero_skeleton_king,Skeleton King
+npc_dota_hero_slardar,Slardar
+npc_dota_hero_sniper,Sniper
+npc_dota_hero_spectre,Spectre
+npc_dota_hero_spirit_breaker,Spirit Breaker
+npc_dota_hero_storm_spirit,Storm Spirit
+npc_dota_hero_sven,Sven
+npc_dota_hero_templar_assassin,Templar Assassin
+npc_dota_hero_tidehunter,Tidehunter
+npc_dota_hero_tinker,Tinker
+npc_dota_hero_tiny,Tiny
+npc_dota_hero_treant,Treant
+npc_dota_hero_undying,Undying
+npc_dota_hero_ursa,Ursa
+npc_dota_hero_vengefulspirit,Vengeful Spirit
+npc_dota_hero_venomancer,Venomancer
+npc_dota_hero_viper,Viper
+npc_dota_hero_warlock,Warlock
+npc_dota_hero_weaver,Weaver
+npc_dota_hero_windrunner,Windrunner
+npc_dota_hero_witch_doctor,Witch Doctor
+npc_dota_hero_zuus,Zeus
+npc_dota_invoker_forged_spirit,Forged Spirit
+npc_dota_juggernaut_healing_ward,Healing Ward
+npc_dota_lesser_eidolon,Lesser Eidolon
+npc_dota_lone_druid_bear1,Bear (Lv1)" ;
+npc_dota_lone_druid_bear2,Bear (Lv2)" ;
+npc_dota_lone_druid_bear3,Bear (Lv3)" ;
+npc_dota_lone_druid_bear4,Bear (Lv4)" ;
+npc_dota_lycan_wolf1,Lycan's Wolf (Lv1)" ;
+npc_dota_lycan_wolf2,Lycan's Wolf (Lv2)" ;
+npc_dota_lycan_wolf3,Lycan's Wolf (Lv3)" ;
+npc_dota_lycan_wolf4,Lycan's Wolf (Lv4)" ;
+npc_dota_necronomicon_archer_1,Necronomicon Archer (Lv1)
+npc_dota_necronomicon_archer_2,Necronomicon Archer (Lv2)
+npc_dota_necronomicon_archer_3,Necronomicon Archer (Lv3)
+npc_dota_necronomicon_warrior_1,Necronomicon Warrior (Lv1)
+npc_dota_necronomicon_warrior_2,Necronomicon Warrior (Lv2)
+npc_dota_necronomicon_warrior_3,Necronomicon Warrior (Lv3)
+npc_dota_neutral_alpha_wolf,Alpha Wolf
+npc_dota_neutral_big_thunder_lizard,Big Thunder Lizzard
+npc_dota_neutral_black_dragon,Black Dragon
+npc_dota_neutral_black_drake,Black Drake
+npc_dota_neutral_blue_dragonspawn_overseer,BLue Dragonspawn Overseer
+npc_dota_neutral_blue_dragonspawn_sorcerer,Blue Dragonspawn Sorcerer
+npc_dota_neutral_centaur_khan,Centaur Khan
+npc_dota_neutral_centaur_outrunner,Centaur Outrunner
+npc_dota_neutral_dark_troll,Dark Troll
+npc_dota_neutral_dark_troll_warlord,Dark Troll Warlord
+npc_dota_neutral_elder_jungle_stalker,Elder Jungle Stalker
+npc_dota_neutral_enraged_wildkin,Enraged Wildkin
+npc_dota_neutral_fel_beast,Fel Beast
+npc_dota_neutral_forest_troll_berserker,Forest Troll Berserker
+npc_dota_neutral_forest_troll_high_priest,Troll High Priest
+npc_dota_neutral_ghost,Ghost
+npc_dota_neutral_giant_wolf,Giant Wolf
+npc_dota_neutral_gnoll_assassin,Gnoll Assassin
+npc_dota_neutral_granite_golem,Granite Golem
+npc_dota_neutral_harpy_scout,Harpy Scout
+npc_dota_neutral_harpy_storm,Harpy Storm
+npc_dota_neutral_jungle_stalker,Jungle Stalker
+npc_dota_neutral_kobold,Kobold
+npc_dota_neutral_kobold_taskmaster,Kobold Taskmaster
+npc_dota_neutral_kobold_tunneler,Kobold Tunneler
+npc_dota_neutral_mud_golem,Mud Golem
+npc_dota_neutral_ogre_magi,Ogre Magi (Neutral)
+npc_dota_neutral_ogre_mauler,Ogre Mauler
+npc_dota_neutral_polar_furbolg_champion,Furbolg Champion
+npc_dota_neutral_polar_furbolg_ursa_warrior,Furbolg Ursa Warrior
+npc_dota_neutral_rock_golem,Rock Golem
+npc_dota_neutral_satyr_hellcaller,Satyr Hellcaller
+npc_dota_neutral_satyr_soulstealer,Satyr Soulstealer
+npc_dota_neutral_satyr_trickster,Satyr Trickster
+npc_dota_neutral_small_thunder_lizard,Small Thunder Lizzard
+npc_dota_neutral_wildkin,Wildkin
+npc_dota_observer_wards,Observer Ward
+npc_dota_plasma_field,Plasma Field
+npc_dota_pugna_nether_ward_1,Nether Ward (Lv1)
+npc_dota_pugna_nether_ward_2,Nether Ward (Lv2)
+npc_dota_pugna_nether_ward_3,Nether Ward (Lv3)
+npc_dota_pugna_nether_ward_4,Nether Ward (Lv4)
+npc_dota_rattletrap_cog,Cog
+npc_dota_rattletrap_rocket,Rocket
+npc_dota_roshan,Roshan
+npc_dota_scout_hawk,Hawk
+npc_dota_sentry_wards,Sentry Ward
+npc_dota_shadow_shaman_ward_1,Serpent Ward (Lv1)
+npc_dota_shadow_shaman_ward_2,Serpent Ward (Lv2)
+npc_dota_shadow_shaman_ward_3,Serpent Ward (Lv3)
+npc_dota_stormspirit_remnant,Spirit Remnant
+npc_dota_templar_assassin_psionic_trap,Psionic Trap
+npc_dota_thinker,Thinker (?)
+npc_dota_unit_tombstone1,Tombstone (Lv1)
+npc_dota_unit_tombstone2,Tombstone (Lv2)
+npc_dota_unit_tombstone3,Tombstone (Lv3)
+npc_dota_unit_tombstone4,Tombstone (Lv4)
+npc_dota_unit_undying_zombie,Zombie (Undying)
+npc_dota_units_base,Base unit
+npc_dota_venomancer_plague_ward_1,Plague Ward (Lv1)
+npc_dota_venomancer_plague_ward_2,Plague Ward (Lv2)
+npc_dota_venomancer_plague_ward_3,Plague Ward (Lv3)
+npc_dota_venomancer_plague_ward_4,Plague Ward (Lv4)
+npc_dota_warlock_golem_1,Golem Lv1
+npc_dota_warlock_golem_2,Golem Lv2
+npc_dota_warlock_golem_3,Golem Lv3
+npc_dota_warlock_golem_scepter_1,Golem Lv1 (Aghanim)
+npc_dota_warlock_golem_scepter_2,Golem Lv2 (Aghanim)
+npc_dota_warlock_golem_scepter_3,Golem Lv3 (Aghanim)
+npc_dota_weaver_swarm,Swarm scarab
+npc_dota_witch_doctor_death_ward,Death Ward
+obsidian_destroyer_arcane_orb,Arcane Orb
+obsidian_destroyer_astral_imprisonment,Astral Imprisonment
+obsidian_destroyer_essence_aura,Essence Aura
+obsidian_destroyer_sanity_eclipse,Sanity Eclipse
+ogre_magi_bloodlust,Bloodlust
+ogre_magi_fireblast,Fireblast
+ogre_magi_frost_armor,Frost Armor
+ogre_magi_ignite,Ignite
+ogre_magi_multicast,Multicast
+omniknight_degen_aura,Degen Aura
+omniknight_guardian_angel,Guardian Angel
+omniknight_purification,Purification
+omniknight_repel,Repel
+phantom_assassin_blur,Blur
+phantom_assassin_coup_de_grace,Coup de Grace
+phantom_assassin_phantom_strike,Phantom Strike
+phantom_assassin_stifling_dagger,Stifling Dagger
+phantom_lancer_doppelwalk,Doppelwalk
+phantom_lancer_juxtapose,Juxtapose
+phantom_lancer_phantom_edge,Phantom Edge
+phantom_lancer_spirit_lance,Spirit Lance
+polar_furbolg_ursa_warrior_thunder_clap,Thunder Clap (Neutral)
+puck_dream_coil,Dream Coil
+puck_ethereal_jaunt,Ethereal Jaunt
+puck_illusory_orb,Illusory Orb
+puck_phase_shift,Phase Shift
+puck_waning_rift,Waning Rift
+pudge_dismember,Dismember
+pudge_flesh_heap,Flesh Heap
+pudge_meat_hook,Meat Hook
+pudge_rot,Rot
+pugna_decrepify,Decrepify
+pugna_life_drain,Life Drain
+pugna_nether_blast,Nether Blast
+pugna_nether_ward,Nether Ward
+queenofpain_blink,Blink
+queenofpain_scream_of_pain,Scream of Pain
+queenofpain_shadow_strike,Shadow Strike
+queenofpain_sonic_wave,Sonic Wave
+rattletrap_battery_assault,Battery Assault
+rattletrap_hookshot,Hookshot
+rattletrap_power_cogs,Power Cogs
+rattletrap_rocket_flare,Rocket Flare
+razor_eye_of_the_storm,Eye of the Storm
+razor_plasma_field,Plasma Field
+razor_static_link,Static Link
+razor_unstable_current,Unstable Current
+rest_troll_high_priest_mana_aura,Mana Aura (Troll Priest)
+riki_backstab,Backstab
+riki_blink_strike,Blink Strike
+riki_permanent_invisibility,Permanent Invisibility
+riki_smoke_screen,Smoke Screen
+roshan_bash,Bash (Roshan)
+roshan_devotion,Devotion (Roshan)
+roshan_illusion_protection,Illusion Protection (Roshan)
+roshan_slam,Roshan Slam
+roshan_spell_block,Spell Block (Roshan)
+sandking_burrowstrike,Burrowstrike
+sandking_caustic_finale,Caustic Finale
+sandking_epicenter,Epicenter
+sandking_sand_storm,Sand Storm
+satyr_hellcaller_shockwave,Shockwave (Satyr)
+satyr_hellcaller_unholy_aura,Unholy Aura (Satyr)
+satyr_soulstealer_mana_burn,Mana burn (Satyr)
+satyr_trickster_purge,Purge (Satyr)
+shadow_demon_demonic_purge,Demonic Purge
+shadow_demon_disruption,Disruption
+shadow_demon_shadow_poison,Shadow Poison
+shadow_demon_shadow_poison_release,Shadow Poison Release
+shadow_demon_soul_catcher,Soul Catcher
+shadow_shaman_ether_shock,Ether Shock
+shadow_shaman_mass_serpent_ward,Mass Serpent Ward
+shadow_shaman_shackles,Shackles
+shadow_shaman_voodoo,Voodoo
+silencer_curse_of_the_silent,Curse of the Silent
+silencer_glaives_of_wisdom,Glaives of Wisdom
+silencer_global_silence,Global Silence
+silencer_last_word,Last Word
+skeleton_king_critical_strike,Critical Strike (Skel King)
+skeleton_king_hellfire_blast,Hellfire Blast
+skeleton_king_reincarnation,Reincarnation
+skeleton_king_vampiric_aura,Vampiric Aura
+slardar_amplify_damage,Amplify Damage
+slardar_bash,Bash (Slardar)
+slardar_slithereen_crush,Slithereen Crush
+slardar_sprint,Sprint
+sniper_assassinate,Assassinate
+sniper_headshot,Headshot
+sniper_shrapnel,Shrapnel
+sniper_take_aim,Take Aim
+spectre_desolate,Desolate
+spectre_dispersion,Dispersion
+spectre_haunt,Haunt
+spectre_reality,Reality
+spectre_spectral_dagger,Spectral Dagger
+spirit_breaker_charge_of_darkness,Charge of Darkness
+spirit_breaker_empowering_haste,Empowering Haste
+spirit_breaker_greater_bash,Greater Bash
+spirit_breaker_nether_strike,Nether Strike
+storm_spirit_ball_lightning,Ball Lightning
+storm_spirit_electric_vortex,Electric Vortex
+storm_spirit_overload,Overload (damage)
+storm_spirit_static_remnant,Static Remnant
+sven_gods_strength,God's Strength
+sven_great_cleave,Great Cleave
+sven_storm_bolt,Storm Bolt
+sven_warcry,War Cry
+templar_assassin_meld,Meld
+templar_assassin_psi_blades,Psi Blades
+templar_assassin_psionic_trap,Psionic Trap
+templar_assassin_refraction,Refraction
+templar_assassin_self_trap,Self Trap
+templar_assassin_trap,Trap
+tidehunter_anchor_smash,Anchor Smash
+tidehunter_gush,Gush
+tidehunter_kraken_shell,Kraken Shell
+tidehunter_ravage,Ravage
+tinker_heat_seeking_missile,Heat Seeking Missile
+tinker_laser,Laser
+tinker_march_of_the_machines,March of the Machines
+tinker_rearm,Rearm
+tiny_avalanche,Avalanche
+tiny_craggy_exterior,Craggy Exterior
+tiny_grow,Grow
+tiny_toss,Toss
+tornado_tempest,Tempest
+treant_leech_seed,Leech Seed
+treant_living_armor,Living Armor
+treant_natures_guise,Nature's Guise
+treant_overgrowth,Overgrowth
+undying_decay,Decay
+undying_flesh_golem,Flesh Golem
+undying_soul_rip,Soul Rip
+undying_tombstone,Tombstone
+undying_tombstone_zombie_aura,Zombie Aura
+undying_tombstone_zombie_deathstrike,Deathstrike (Zombie)
+ursa_earthshock,Earthshock
+ursa_enrage,Enrage
+ursa_fury_swipes,Fury Swipes
+ursa_overpower,Overpower
+vengefulspirit_command_aura,Command Aura
+vengefulspirit_magic_missile,Magic Missile
+vengefulspirit_nether_swap,Nether Swap
+vengefulspirit_wave_of_terror,Wave of Terror
+venomancer_plague_ward,Plague Ward
+venomancer_poison_nova,Poison Nova
+venomancer_poison_sting,Poison Sting (Venomancer)
+venomancer_venomous_gale,Venomous Gale
+viper_corrosive_skin,Corrosive Skin
+viper_nethertoxin,NetherToxin
+viper_poison_attack,Poison Attack
+viper_viper_strike,Viper Strike
+warlock_fatal_bonds,Fatal Bonds
+warlock_golem_flaming_fists,Golem's Flaming Fists
+warlock_golem_permanent_immolation,Golem's Permanent Immolation
+warlock_rain_of_chaos,Rain of Chaos
+warlock_shadowword,Shadow Word
+warlock_upheaval,Upheaval
+weaver_geminate_attack,Geminate Attack
+weaver_shukuchi,Shukuchi
+weaver_the_swarm,The Swarm
+weaver_time_lapse,Time Lapse
+windrunner_focusfire,Focus Fire
+windrunner_powershot,Powershot
+windrunner_shackleshot,ShackleShot
+windrunner_windrun,Windrun
+witch_doctor_death_ward,Death Ward
+witch_doctor_maledict,Maledict
+witch_doctor_paralyzing_cask,Paralyzing Cask
+witch_doctor_voodoo_restoration,Voodoo Restoration
+zuus_arc_lightning,Arc Lightning
+zuus_lightning_bolt,Lightning Bolt
+zuus_static_field,Static Field
+zuus_thundergods_wrath,Thundergod's Wrath
+modifier_item_bracer,Bracer
+modifier_item_gauntlets,Gauntlet
+modifier_item_circlet,Circlet of Nobility
+modifier_item_slippers,Slippers of Agility
+modifier_item_wraith_band,Wraith Band
+modifier_item_mantle,Mantle of Intelligence
+modifier_item_null_talisman,Null Talisman
+modifier_item_boots_of_speed,Boots of Speed
+modifier_item_boots_of_travel,Boots of Travel
+modifier_item_power_treads,Power Treads
+modifier_item_phase_boots,Phase Boots
+modifier_item_tranquil_boots,Tranquil Boots
+modifier_item_gloves_of_haste,Gloves of Haste
+modifier_item_belt_of_strength,Belt of Strength
+modifier_item_robe_of_magi,Robe of Magi
+modifier_item_boots_of_elves,Boots of Elvenskin
+modifier_item_blades_of_attack,Blades of Attack
+modifier_item_empty_bottle,Bottle
+modifier_item_demon_edge,Demon Edge
+modifier_item_eaglehorn,Eaglesong
+modifier_item_reaver,Reaver
+modifier_item_sacred_relic,Sacred Relic
+modifier_item_hyperstone,Hyperstone
+modifier_item_ring_of_health,Ring of Health
+modifier_item_void_stone,Void Stone
+modifier_item_mystic_staff,Mystic Staff
+modifier_item_energy_booster,Energy Booster
+modifier_item_point_booster,Point Booster
+modifier_item_vitality_booster,Vitality Booster
+modifier_item_broadsword,Broadsword
+modifier_item_quarterstaff,Quarterstaff
+modifier_item_claymore,Claymore
+modifier_item_ring_of_protection,Ring of Protection
+modifier_item_stout_shield,Stout Shield
+modifier_item_javelin,Javelin
+modifier_item_mithril_hammer,Mithril Hammer
+modifier_item_chainmail,Chainmail
+modifier_item_helm_of_iron_will,Helm of Iron Will
+modifier_item_plate_mail,Plate Mail
+modifier_item_quelling_blade,Quelling Blade
+modifier_item_ironwood_branch,Iron Branch
+modifier_item_ogre_axe,Ogre Club
+modifier_item_blade_of_alacrity,Blade of Alacrity
+modifier_item_staff_of_wizardry,Staff of Wizardry
+modifier_item_ultimate_orb,Ultimate Orb
+modifier_item_mask_of_death,Mask of Death
+modifier_item_ring_of_regeneration,Ring of Regeneration
+modifier_item_blink_dagger,Blink Dagger
+modifier_item_sobi_mask,Sage's Mask
+modifier_item_gem_of_true_sight,Gem of True Sight
+modifier_item_planeswalkers_cloak,Cloak
+modifier_item_magic_stick,Magic Stick
+modifier_item_magic_wand,Magic Wand
+modifier_item_talisman_of_evasion,Talisman of Evasion
+modifier_item_ghost_scepter,Ghost Scepter
+modifier_item_hand_of_midas,Hand of Midas
+modifier_item_oblivion_staff,Oblivion Staff
+modifier_item_perseverance,Perseverance
+modifier_item_poor_mans_shield,Poor Man's Shield
+modifier_item_dustofappearance,Dust of Appearance
+modifier_item_buff_ward,Observer Ward
+modifier_item_divine_rapier,Divine Rapier
+modifier_item_monkey_king_bar,Monkey King Bar
+modifier_item_radiance,Radiance
+modifier_item_butterfly,Butterfly
+modifier_item_greater_crit,Daedalus
+modifier_item_cranium_basher,Cranium Basher
+modifier_item_abyssal_blade,Abyssal Blade
+modifier_item_battlefury,Battlefury
+modifier_item_manta_style,Manta Style
+modifier_item_lesser_crit,Crystalis
+modifier_item_armlet,Armlet
+modifier_item_invisibility_edge,Shadow Blade
+modifier_item_sheepstick,Scythe of Vyse
+modifier_item_orchid_malevolence,Orchid Malevolence
+modifier_item_rod_of_atos,Rod of Atos
+modifier_item_cyclone,Cyclone
+modifier_item_forcestaff,Force Staff
+modifier_item_dagon,Dagon
+modifier_item_refresherorb,Refresher Orb
+modifier_item_ultimate_scepter,Ultimate Scepter
+modifier_item_assault,Assault Cuirass
+modifier_item_heart,Heart of Tarrasque
+modifier_item_black_king_bar,Black King Bar
+modifier_item_aegis,Aegis
+modifier_item_shivas_guard,Shiva's Guard
+modifier_item_bloodstone,Bloodstone
+modifier_item_sange,Sange
+modifier_item_yasha,Yasha
+modifier_item_sange_and_yasha,Sange & Yasha
+modifier_item_mask_of_madness,Mask of Madness
+modifier_item_sphere,Linken's Sphere
+modifier_item_vanguard,Vanguard
+modifier_item_blade_mail,Blade Mail
+modifier_item_soul_booster,Soul Booster
+modifier_item_hood_of_defiance,Hood of Defiance
+modifier_item_mekansm,Mekansm
+modifier_item_vladmir,Vladmir's Offering
+modifier_item_arcane_ring,Arcane Ring
+modifier_item_buckler,Buckler
+modifier_item_ring_of_basilius,Ring of Basilius
+modifier_item_pipe,Pipe of Insight
+modifier_item_urn_of_shadows,Urn of Shadows
+modifier_item_headdress,Headdress
+modifier_item_satanic,Satanic
+modifier_item_helm_of_the_dominator,Helm of the Dominator
+modifier_item_desolator,Desolator
+modifier_item_skadi,Skadi
+modifier_item_mjollnir,Mjollnir
+modifier_item_maelstrom,Maelstrom
+modifier_item_diffusal_blade,Diffusal Blade
+modifier_item_ethereal_blade,Ethereal Blade
+modifier_item_soul_ring,Soul Ring
+modifier_item_necronomicon,Necronomicon
+modifier_item_arcane_boots,Arcane Boots
+modifier_item_orb_of_venom,Orb of Venom
+modifier_item_ancient_janggo,Drums
+modifier_item_medallion_of_courage,Medallion Of Courage
+modifier_item_veil_of_discord,Veil of Discord
+modifier_item_heavens_halberd,Heaven's Halberd
+modifier_item_ring_of_aquila,Ring of Aquila
+modifier_item_shadow_amulet,Shadow Amulet

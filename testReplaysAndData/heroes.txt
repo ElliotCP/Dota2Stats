@@ -1,0 +1,100 @@
+npc_dota_hero_alchemist, Alchemist, 73
+npc_dota_hero_ancient_apparition, Ancient Apparition, 68
+npc_dota_hero_antimage, Anti-Mage, 1
+npc_dota_hero_axe, Axe, 2
+npc_dota_hero_bane, Bane, 3
+npc_dota_hero_base, Base Hero, 0
+npc_dota_hero_batrider, Batrider, 65
+npc_dota_hero_beastmaster, Beastmaster, 38
+npc_dota_hero_bloodseeker, Bloodseeker, 4
+npc_dota_hero_bounty_hunter, Bounty Hunter, 62
+npc_dota_hero_brewmaster, Brewmaster, 78
+npc_dota_hero_bristleback, Bristleback, 99
+npc_dota_hero_broodmother, Broodmother, 61
+npc_dota_hero_centaur, Centaur Warrunner, 96
+npc_dota_hero_chaos_knight, Chaos Knight, 81
+npc_dota_hero_chen, Chen, 66
+npc_dota_hero_clinkz, Clinkz, 56
+npc_dota_hero_crystal_maiden, Crystal Maiden, 5
+npc_dota_hero_dark_seer, Dark Seer, 55
+npc_dota_hero_dazzle, Dazzle, 50
+npc_dota_hero_death_prophet, Death Prophet, 43
+npc_dota_hero_disruptor, Disruptor, 87
+npc_dota_hero_doom_bringer, Doom Bringer, 69
+npc_dota_hero_dragon_knight, Dragon Knight, 49
+npc_dota_hero_drow_ranger, Drow Ranger, 6
+npc_dota_hero_earthshaker, Earthshaker, 7
+npc_dota_hero_enchantress, Enchantress, 58
+npc_dota_hero_enigma, Enigma, 33
+npc_dota_hero_faceless_void, Faceless Void, 41
+npc_dota_hero_furion, Nature's Prophet, 53
+npc_dota_hero_gyrocopter, Gyrocopter, 72
+npc_dota_hero_huskar, Huskar, 59
+npc_dota_hero_invoker, Invoker, 74
+npc_dota_hero_jakiro, Jakiro, 64
+npc_dota_hero_juggernaut, Juggernaut, 8
+npc_dota_hero_keeper_of_the_light, Keeper of the Light, 90
+npc_dota_hero_kunkka, Kunkka, 23
+npc_dota_hero_leshrac, Leshrac, 52
+npc_dota_hero_lich, Lich, 31
+npc_dota_hero_life_stealer, Lifestealer, 54
+npc_dota_hero_lina, Lina, 25
+npc_dota_hero_lion, Lion, 26
+npc_dota_hero_lone_druid, Lone Druid, 80
+npc_dota_hero_luna, Luna, 48
+npc_dota_hero_lycan, Lycanthrope, 77
+npc_dota_hero_magnataur, Magnus, 97
+npc_dota_hero_medusa, Medusa, 94
+npc_dota_hero_meepo, Meepo, 82
+npc_dota_hero_mirana, Mirana, 9
+npc_dota_hero_morphling, Morphling, 10
+npc_dota_hero_necrolyte, Necrolyte, 36
+npc_dota_hero_naga_siren, Naga Siren, 89
+npc_dota_hero_nevermore, Shadow Fiend, 11
+npc_dota_hero_night_stalker, Night Stalker, 60
+npc_dota_hero_nyx_assassin, Nyx Assassin, 88
+npc_dota_hero_obsidian_destroyer, Outworld Destroyer, 76
+npc_dota_hero_ogre_magi, Ogre Magi, 84
+npc_dota_hero_omniknight, Omniknight, 57
+npc_dota_hero_phantom_assassin, Phantom Assassin, 44
+npc_dota_hero_phantom_lancer, Phantom Lancer, 12
+npc_dota_hero_puck, Puck, 13
+npc_dota_hero_pudge, Pudge, 14
+npc_dota_hero_pugna, Pugna, 45
+npc_dota_hero_queenofpain, Queen of Pain, 39
+npc_dota_hero_rattletrap, Clockwerk, 51
+npc_dota_hero_razor, Razor, 15
+npc_dota_hero_riki, Riki, 32
+npc_dota_hero_rubick, Rubick, 86
+npc_dota_hero_sand_king, Sand King, 16
+npc_dota_hero_shadow_demon, Shadow Demon, 79
+npc_dota_hero_shadow_shaman, Shadow Shaman, 27
+npc_dota_hero_shredder, Timbersaw, 98
+npc_dota_hero_silencer, Silencer, 75
+npc_dota_hero_skeleton_king, Skeleton King, 42
+npc_dota_hero_slardar, Slardar, 28
+npc_dota_hero_slark, Slark, 93
+npc_dota_hero_sniper, Sniper, 35
+npc_dota_hero_spectre, Spectre, 67
+npc_dota_hero_spirit_breaker, Spirit Breaker, 71
+npc_dota_hero_storm_spirit, Storm Spirit, 17
+npc_dota_hero_sven, Sven, 18
+npc_dota_hero_templar_assassin, Templar Assassin, 46
+npc_dota_hero_tidehunter, Tidehunter, 29
+npc_dota_hero_tinker, Tinker, 34
+npc_dota_hero_tiny, Tiny, 19
+npc_dota_hero_treant, Treant Protector, 83
+npc_dota_hero_troll_warlord, Troll Warlord, 95
+npc_dota_hero_tusk, Tusk, 100
+npc_dota_hero_undying, Undying, 85
+npc_dota_hero_ursa, Ursa, 70
+npc_dota_hero_vengefulspirit, Vengeful Spirit, 20
+npc_dota_hero_venomancer, Venomancer, 40
+npc_dota_hero_viper, Viper, 47
+npc_dota_hero_visage, Visage, 92
+npc_dota_hero_warlock, Warlock, 37
+npc_dota_hero_weaver, Weaver, 63
+npc_dota_hero_windrunner, Windrunner, 21
+npc_dota_hero_wisp, Wisp, 91
+npc_dota_hero_witch_doctor, Witch Doctor, 30
+npc_dota_hero_zuus, Zeus, 22
