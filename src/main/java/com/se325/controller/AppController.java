@@ -5,10 +5,16 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+
+
 
 @Controller
 //@RequestMapping("/main")
 public class AppController{
+	
+	protected static String username;
 
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String printWelcome(ModelMap model) {
@@ -25,12 +31,19 @@ public class AppController{
 	
 	@RequestMapping(value = "/common", method = RequestMethod.GET)
 	public String printLoggedIn(ModelMap model) {
-		model.addAttribute("message", "Hello! You Have Logged In choose file to upload");
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		username = this.get64BitId(auth.getName());
+		model.addAttribute("message", "Hello! "+username+" You Have Logged In choose file to upload");
 		return "loggedIn_home";
 	}
 	
 	@RequestMapping(value = "/denied", method = RequestMethod.GET)
  	public String getDeniedPage() {
 		return "denied";
+	}
+	
+	
+	private String get64BitId(String claimedId){		
+		return claimedId.substring(claimedId.indexOf("/id/")+4);
 	}
 }
