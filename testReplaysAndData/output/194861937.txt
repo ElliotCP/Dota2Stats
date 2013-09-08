@@ -1,0 +1,2133 @@
+Bans and Picks:
+
+Dire bans Bane.
+Radiant bans Batrider.
+Dire bans Wisp.
+Radiant bans Dark Seer.
+Dire picks Gyrocopter.
+Radiant picks Lifestealer.
+Radiant picks Lone Druid.
+Dire picks Puck.
+Dire picks Shadow Demon.
+Radiant picks Keeper of the Light.
+Dire bans Treant Protector.
+Radiant bans Clockwerk.
+Dire bans Templar Assassin.
+Radiant bans Weaver.
+Dire bans Outworld Destroyer.
+Radiant bans Nature's Prophet.
+Dire picks Leshrac.
+Radiant picks Magnus.
+Dire picks Ursa.
+Radiant picks Nyx Assassin.
+
+Hero Level Ups: 
+
+11:20 (00:49). Gyrocopter reached Lvl 2.
+11:27 (00:56). Puck reached Lvl 2.
+11:34 (01:03). Magnus reached Lvl 2.
+11:49 (01:17). Keeper of the Light reached Lvl 2.
+11:49 (01:18). Lone Druid reached Lvl 2.
+11:53 (01:21). Lifestealer reached Lvl 2.
+12:05 (01:34). Magnus reached Lvl 3.
+12:06 (01:35). Puck reached Lvl 3.
+12:12 (01:41). Lone Druid reached Lvl 3.
+12:21 (01:49). Nyx Assassin reached Lvl 2.
+12:29 (01:58). Gyrocopter reached Lvl 3.
+12:31 (02:00). Lifestealer reached Lvl 3.
+12:33 (02:02). Keeper of the Light reached Lvl 3.
+12:44 (02:13). Ursa reached Lvl 2.
+12:46 (02:15). Leshrac reached Lvl 2.
+12:58 (02:26). Puck reached Lvl 4.
+13:11 (02:40). Magnus reached Lvl 4.
+13:18 (02:47). Lone Druid reached Lvl 4.
+13:43 (03:12). Puck reached Lvl 5.
+13:43 (03:12). Gyrocopter reached Lvl 4.
+14:04 (03:33). Shadow Demon reached Lvl 2.
+14:13 (03:41). Lifestealer reached Lvl 4.
+14:21 (03:49). Magnus reached Lvl 5.
+14:28 (03:56). Ursa reached Lvl 3.
+14:38 (04:07). Lone Druid reached Lvl 5.
+14:53 (04:22). Gyrocopter reached Lvl 5.
+14:59 (04:27). Leshrac reached Lvl 3.
+15:09 (04:37). Keeper of the Light reached Lvl 4.
+15:09 (04:37). Nyx Assassin reached Lvl 3.
+15:19 (04:48). Lifestealer reached Lvl 5.
+15:44 (05:12). Puck reached Lvl 6.
+15:44 (05:13). Magnus reached Lvl 6.
+15:55 (05:23). Puck reached Lvl 7.
+16:01 (05:30). Lone Druid reached Lvl 6.
+16:32 (06:00). Keeper of the Light reached Lvl 5.
+16:36 (06:04). Ursa reached Lvl 4.
+16:57 (06:25). Puck reached Lvl 8.
+17:18 (06:46). Nyx Assassin reached Lvl 4.
+17:37 (07:05). Gyrocopter reached Lvl 6.
+17:47 (07:15). Lifestealer reached Lvl 6.
+17:58 (07:26). Gyrocopter reached Lvl 7.
+18:02 (07:31). Magnus reached Lvl 7.
+18:09 (07:38). Leshrac reached Lvl 4.
+18:10 (07:39). Nyx Assassin reached Lvl 5.
+18:11 (07:40). Shadow Demon reached Lvl 3.
+18:15 (07:43). Lone Druid reached Lvl 7.
+18:33 (08:01). Ursa reached Lvl 5.
+19:09 (08:37). Lifestealer reached Lvl 7.
+19:24 (08:53). Gyrocopter reached Lvl 8.
+19:25 (08:53). Puck reached Lvl 9.
+19:36 (09:04). Shadow Demon reached Lvl 4.
+19:46 (09:15). Nyx Assassin reached Lvl 6.
+20:06 (09:35). Magnus reached Lvl 8.
+20:18 (09:46). Ursa reached Lvl 6.
+20:25 (09:53). Lone Druid reached Lvl 8.
+20:26 (09:55). Lifestealer reached Lvl 8.
+20:34 (10:03). Nyx Assassin reached Lvl 7.
+20:36 (10:05). Leshrac reached Lvl 5.
+21:08 (10:37). Lifestealer reached Lvl 9.
+21:22 (10:51). Keeper of the Light reached Lvl 6.
+21:26 (10:55). Ursa reached Lvl 7.
+21:50 (11:18). Nyx Assassin reached Lvl 8.
+22:15 (11:44). Lifestealer reached Lvl 10.
+22:18 (11:46). Puck reached Lvl 10.
+22:19 (11:47). Puck reached Lvl 11.
+22:33 (12:02). Ursa reached Lvl 8.
+22:35 (12:04). Magnus reached Lvl 9.
+22:56 (12:25). Shadow Demon reached Lvl 5.
+23:59 (13:28). Gyrocopter reached Lvl 9.
+24:28 (13:57). Leshrac reached Lvl 6.
+24:30 (13:59). Lone Druid reached Lvl 9.
+24:40 (14:09). Magnus reached Lvl 10.
+24:40 (14:09). Keeper of the Light reached Lvl 7.
+24:49 (14:18). Lifestealer reached Lvl 11.
+25:33 (15:02). Shadow Demon reached Lvl 6.
+25:39 (15:07). Lone Druid reached Lvl 10.
+26:03 (15:32). Keeper of the Light reached Lvl 8.
+26:06 (15:34). Nyx Assassin reached Lvl 9.
+26:06 (15:34). Lifestealer reached Lvl 12.
+26:50 (16:19). Ursa reached Lvl 9.
+26:57 (16:26). Magnus reached Lvl 11.
+27:28 (16:56). Shadow Demon reached Lvl 7.
+27:44 (17:12). Puck reached Lvl 12.
+28:10 (17:38). Ursa reached Lvl 10.
+28:15 (17:43). Lone Druid reached Lvl 11.
+28:15 (17:43). Keeper of the Light reached Lvl 9.
+28:15 (17:43). Magnus reached Lvl 12.
+28:25 (17:54). Leshrac reached Lvl 7.
+28:35 (18:04). Gyrocopter reached Lvl 10.
+28:54 (18:23). Nyx Assassin reached Lvl 10.
+29:24 (18:53). Lifestealer reached Lvl 13.
+29:49 (19:17). Nyx Assassin reached Lvl 11.
+30:02 (19:30). Lone Druid reached Lvl 12.
+30:25 (19:53). Leshrac reached Lvl 8.
+31:02 (20:30). Keeper of the Light reached Lvl 10.
+31:04 (20:32). Gyrocopter reached Lvl 11.
+31:06 (20:34). Puck reached Lvl 13.
+31:09 (20:37). Nyx Assassin reached Lvl 12.
+31:21 (20:49). Lifestealer reached Lvl 14.
+31:21 (20:49). Lone Druid reached Lvl 13.
+32:32 (22:00). Ursa reached Lvl 11.
+32:44 (22:12). Keeper of the Light reached Lvl 11.
+32:50 (22:18). Magnus reached Lvl 13.
+32:56 (22:24). Shadow Demon reached Lvl 8.
+33:50 (22:59). Nyx Assassin reached Lvl 13.
+33:57 (23:05). Lifestealer reached Lvl 15.
+33:57 (23:06). Gyrocopter reached Lvl 12.
+34:11 (23:19). Lone Druid reached Lvl 14.
+35:50 (24:59). Nyx Assassin reached Lvl 14.
+
+Item Purchase Times: 
+
+09:08 (-1:-3). Lone Druid, acquired Item: Iron Branch
+08:51 (-1:-20). Shadow Demon, acquired Item: Iron Branch
+09:00 (-1:-10). Lifestealer, acquired Item: Iron Branch
+08:50 (-1:-20). Gyrocopter, acquired Item: Iron Branch
+08:56 (-1:-14). Keeper of the Light, acquired Item: Iron Branch
+14:07 (03:36). Puck, acquired Item: Boots of Speed
+08:44 (-1:-27). Puck, acquired Item: Mantle of Intelligence
+08:44 (-1:-26). Leshrac, acquired Item: Iron Branch
+08:44 (-1:-26). Leshrac, acquired Item: Iron Branch
+08:45 (-1:-26). Puck, acquired Item: Iron Branch
+08:45 (-1:-26). Puck, acquired Item: Iron Branch
+08:45 (-1:-25). Puck, acquired Item: Iron Branch
+08:47 (-1:-24). Ursa, acquired Item: Poor Man's Shield
+12:44 (02:12). Lifestealer, acquired Item: Boots of Speed
+08:48 (-1:-22). Ursa, acquired Item: Iron Branch
+09:08 (-1:-3). Lone Druid, acquired Item: Iron Branch
+08:50 (-1:-20). Shadow Demon, acquired Item: Iron Branch
+08:50 (-1:-20). Gyrocopter, acquired Item: Iron Branch
+08:50 (-1:-20). Gyrocopter, acquired Item: Iron Branch
+08:53 (-1:-18). Gyrocopter, acquired Item: Slippers of Agility
+08:56 (-1:-15). Shadow Demon, acquired Item: Iron Branch
+08:56 (-1:-14). Keeper of the Light, acquired Item: Iron Branch
+08:56 (-1:-14). Keeper of the Light, acquired Item: Iron Branch
+09:01 (-1:-10). Lifestealer, acquired Item: Iron Branch
+09:02 (-1:-9). Nyx Assassin, acquired Item: Iron Branch
+09:02 (-1:-9). Nyx Assassin, acquired Item: Iron Branch
+09:08 (-1:-2). Lone Druid, acquired Item: Iron Branch
+09:09 (-1:-1). Magnus, acquired Item: Iron Branch
+09:09 (-1:-1). Magnus, acquired Item: Iron Branch
+09:10 (-1:-1). Magnus, acquired Item: Iron Branch
+09:35 (00:-35). Lifestealer, acquired Item: Stout Shield
+13:13 (02:41). Lone Druid, acquired Item: Boots of Speed
+14:50 (04:18). Puck, acquired Item: Bottle
+13:33 (03:02). Magnus, acquired Item: Bottle
+13:14 (02:42). Ursa, acquired Item: Boots of Speed
+12:50 (02:18). Lifestealer, acquired Item: Magic Stick
+13:03 (02:32). Gyrocopter, acquired Item: Boots of Speed
+15:51 (05:20). Lone Druid, acquired Item: Boots of Speed
+15:26 (04:54). Nyx Assassin, acquired Item: Boots of Speed
+15:49 (05:17). Puck, acquired Item: Bottle
+15:07 (04:35). Magnus, acquired Item: Boots of Speed
+15:49 (05:17). Puck, acquired Item: Magic Wand
+15:32 (05:00). Keeper of the Light, acquired Item: Boots of Speed
+15:06 (04:35). Ursa, acquired Item: Blades of Attack
+16:52 (06:21). Shadow Demon, acquired Item: Boots of Speed
+16:24 (05:52). Gyrocopter, acquired Item: Ring of Protection
+16:16 (05:44). Gyrocopter, acquired Item: Wraith Band
+16:01 (05:29). Lifestealer, acquired Item: Phase Boots
+17:36 (07:05). Lone Druid, acquired Item: Ring of Protection
+17:26 (06:55). Lifestealer, acquired Item: Orb of Venom
+17:52 (07:21). Gyrocopter, acquired Item: Tranquil Boots
+17:59 (07:28). Puck, acquired Item: Bottle
+17:21 (06:49). Nyx Assassin, acquired Item: Blade Mail
+18:46 (08:14). Lifestealer, acquired Item: Magic Wand
+18:52 (08:20). Lifestealer, acquired Item: Gloves of Haste
+18:59 (08:28). Puck, acquired Item: Bottle
+18:01 (07:29). Ursa, acquired Item: Phase Boots
+18:47 (08:16). Nyx Assassin, acquired Item: Magic Stick
+19:54 (09:23). Puck, acquired Item: Bottle
+19:31 (09:00). Leshrac, acquired Item: Boots of Speed
+19:37 (09:05). Magnus, acquired Item: Arcane Boots
+19:24 (08:52). Ursa, acquired Item: Ring of Regeneration
+19:40 (09:09). Lone Druid, acquired Item: Tranquil Boots
+20:45 (10:13). Puck, acquired Item: Bottle
+20:57 (10:26). Gyrocopter, acquired Item: Ring of Aquila
+20:37 (10:05). Keeper of the Light, acquired Item: Headdress
+20:40 (10:08). Shadow Demon, acquired Item: Magic Wand
+20:59 (10:27). Gyrocopter, acquired Item: Bracer
+20:37 (10:06). Nyx Assassin, acquired Item: Arcane Boots
+22:05 (11:33). Nyx Assassin, acquired Item: Arcane Boots
+22:23 (11:51). Gyrocopter, acquired Item: Robe of Magi
+22:39 (12:08). Puck, acquired Item: Blink Dagger
+23:44 (13:13). Ursa, acquired Item: Mask of Death
+23:06 (12:35). Lifestealer, acquired Item: Bracer
+23:44 (13:13). Ursa, acquired Item: Ring of Basilius
+24:27 (13:56). Lifestealer, acquired Item: Drums
+25:29 (14:57). Magnus, acquired Item: Magic Wand
+25:59 (15:28). Shadow Demon, acquired Item: Gauntlet
+25:40 (15:08). Ursa, acquired Item: Vladmir's Offering
+25:30 (14:58). Magnus, acquired Item: Blink Dagger
+26:57 (16:25). Keeper of the Light, acquired Item: Mekansm
+26:07 (15:36). Magnus, acquired Item: Bottle
+27:40 (17:08). Shadow Demon, acquired Item: Gauntlet
+28:36 (18:05). Ursa, acquired Item: Robe of Magi
+28:36 (18:05). Ursa, acquired Item: Bracer
+29:25 (18:53). Lifestealer, acquired Item: Aegis
+29:55 (19:24). Nyx Assassin, acquired Item: Blink Dagger
+29:19 (18:47). Magnus, acquired Item: Ogre Club
+29:47 (19:15). Gyrocopter, acquired Item: Drums
+29:58 (19:26). Ursa, acquired Item: Drums
+30:05 (19:33). Lifestealer, acquired Item: Armlet
+31:51 (21:19). Nyx Assassin, acquired Item: Magic Wand
+33:15 (22:44). Puck, acquired Item: Power Treads
+33:08 (22:37). Keeper of the Light, acquired Item: Force Staff
+33:21 (22:49). Leshrac, acquired Item: Magic Wand
+34:21 (23:29). Shadow Demon, acquired Item: Bracer
+34:41 (23:49). Lifestealer, acquired Item: Heaven's Halberd
+
+Gold Per Player: 
+
+Gold overhead for Lone Druid
+09:27 (-1:-4) : 90
+11:25 (00:53) : 40
+11:38 (01:07) : 40
+11:40 (01:08) : 40
+11:49 (01:18) : 45
+11:59 (01:28) : 49
+12:01 (01:29) : 53
+12:27 (01:56) : 39
+12:33 (02:02) : 45
+12:49 (02:17) : 42
+13:00 (02:29) : 46
+13:18 (02:47) : 45
+13:22 (02:51) : 43
+13:26 (02:55) : 39
+14:04 (03:32) : 47
+15:03 (04:31) : 47
+15:18 (04:46) : 40
+15:22 (04:51) : 47
+15:25 (04:53) : 51
+15:26 (04:54) : 43
+15:28 (04:57) : 53
+16:01 (05:30) : 48
+16:06 (05:34) : 45
+16:26 (05:55) : 43
+16:27 (05:56) : 47
+16:31 (06:00) : 43
+16:55 (06:24) : 46
+17:17 (06:45) : 39
+18:18 (07:46) : 48
+18:42 (08:10) : 55
+18:56 (08:25) : 46
+19:11 (08:40) : 43
+19:35 (09:04) : 53
+19:48 (09:16) : 48
+20:00 (09:29) : 38
+20:03 (09:31) : 41
+20:09 (09:37) : 43
+20:11 (09:39) : 42
+21:21 (10:49) : 53
+21:22 (10:51) : 42
+21:58 (11:27) : 79
+22:05 (11:34) : 65
+22:11 (11:40) : 18
+22:14 (11:42) : 26
+22:17 (11:45) : 8
+22:19 (11:48) : 8
+22:22 (11:51) : 9
+22:35 (12:03) : 47
+22:47 (12:15) : 27
+22:48 (12:16) : 26
+23:47 (13:15) : 64
+23:47 (13:15) : 200
+24:30 (13:59) : 64
+24:30 (13:59) : 46
+24:40 (14:09) : 76
+25:02 (14:30) : 15
+25:02 (14:31) : 16
+25:07 (14:35) : 31
+25:10 (14:39) : 32
+25:16 (14:45) : 21
+25:18 (14:47) : 23
+25:20 (14:48) : 25
+25:33 (15:01) : 59
+25:37 (15:05) : 27
+25:39 (15:07) : 33
+25:56 (15:25) : 38
+26:16 (15:44) : 73
+26:18 (15:46) : 20
+26:28 (15:57) : 51
+26:34 (16:03) : 38
+26:39 (16:08) : 35
+26:50 (16:18) : 84
+26:53 (16:21) : 15
+26:55 (16:23) : 18
+27:07 (16:36) : 43
+27:08 (16:37) : 45
+27:12 (16:40) : 42
+27:43 (17:11) : 64
+27:43 (17:11) : 200
+27:44 (17:12) : 130
+28:15 (17:43) : 160
+28:20 (17:48) : 77
+28:23 (17:51) : 48
+28:25 (17:54) : 47
+28:35 (18:04) : 200
+29:24 (18:53) : 200
+29:43 (19:11) : 229
+29:51 (19:19) : 40
+30:02 (19:30) : 38
+30:07 (19:35) : 44
+30:08 (19:37) : 50
+30:12 (19:40) : 50
+30:14 (19:42) : 45
+30:20 (19:48) : 41
+30:45 (20:14) : 44
+31:03 (20:31) : 60
+31:11 (20:39) : 263
+31:21 (20:49) : 76
+31:23 (20:51) : 43
+31:29 (20:57) : 43
+31:47 (21:15) : 40
+31:51 (21:20) : 39
+31:53 (21:21) : 46
+32:08 (21:36) : 240
+32:20 (21:48) : 42
+32:36 (22:04) : 240
+32:56 (22:24) : 38
+32:58 (22:26) : 46
+33:02 (22:31) : 50
+33:12 (22:40) : 510
+33:14 (22:42) : 41
+33:16 (22:44) : 45
+33:57 (23:05) : 76
+34:04 (23:12) : 78
+34:15 (23:23) : 82
+34:23 (23:31) : 280
+34:35 (23:44) : 355
+34:54 (24:03) : 280
+35:12 (24:21) : 358
+35:27 (24:35) : 280
+35:42 (24:51) : 361
+Total gold for Lone Druid: 9113
+
+Gold overhead for Magnus
+11:34 (01:03) : 43
+11:41 (01:10) : 43
+12:05 (01:34) : 43
+12:40 (02:09) : 46
+12:40 (02:09) : 47
+12:45 (02:14) : 43
+13:04 (02:32) : 44
+13:11 (02:40) : 46
+13:14 (02:43) : 47
+13:27 (02:55) : 44
+13:37 (03:06) : 48
+14:03 (03:32) : 42
+14:04 (03:33) : 39
+14:30 (03:59) : 43
+15:24 (04:53) : 66
+15:40 (05:09) : 40
+15:44 (05:13) : 50
+16:29 (05:58) : 44
+16:59 (06:27) : 47
+17:08 (06:37) : 39
+17:08 (06:37) : 44
+17:11 (06:40) : 52
+17:25 (06:54) : 42
+17:56 (07:25) : 47
+17:59 (07:27) : 80
+18:02 (07:31) : 40
+18:05 (07:33) : 43
+18:05 (07:34) : 43
+18:56 (08:24) : 42
+18:56 (08:24) : 49
+19:01 (08:29) : 44
+19:04 (08:32) : 47
+19:25 (08:54) : 47
+19:58 (09:27) : 41
+20:06 (09:35) : 38
+20:06 (09:35) : 38
+20:25 (09:53) : 173
+20:26 (09:54) : 46
+20:30 (09:59) : 130
+20:34 (10:02) : 45
+20:36 (10:05) : 47
+21:27 (10:56) : 45
+21:30 (10:59) : 47
+21:32 (11:00) : 45
+21:36 (11:04) : 41
+21:48 (11:16) : 78
+22:07 (11:35) : 44
+22:07 (11:35) : 38
+22:07 (11:36) : 50
+22:10 (11:38) : 39
+22:34 (12:02) : 44
+22:35 (12:04) : 53
+22:38 (12:06) : 41
+22:39 (12:08) : 45
+22:54 (12:22) : 49
+22:58 (12:26) : 40
+22:58 (12:26) : 48
+22:58 (12:26) : 39
+23:36 (13:05) : 48
+23:47 (13:15) : 64
+23:47 (13:15) : 200
+23:50 (13:18) : 46
+23:50 (13:18) : 43
+24:22 (13:51) : 42
+24:30 (13:59) : 281
+24:30 (13:59) : 254
+24:40 (14:09) : 76
+24:49 (14:17) : 41
+25:40 (15:09) : 47
+25:40 (15:09) : 41
+25:42 (15:10) : 49
+25:49 (15:18) : 254
+26:54 (16:23) : 41
+26:56 (16:24) : 49
+26:57 (16:26) : 42
+27:05 (16:33) : 39
+27:20 (16:49) : 254
+27:43 (17:11) : 64
+27:43 (17:11) : 200
+27:44 (17:12) : 281
+28:15 (17:43) : 160
+28:22 (17:51) : 39
+28:24 (17:53) : 47
+28:35 (18:04) : 200
+29:24 (18:53) : 200
+29:59 (19:28) : 31
+29:59 (19:28) : 32
+30:03 (19:32) : 10
+30:06 (19:34) : 61
+30:06 (19:34) : 8
+31:03 (20:31) : 290
+32:08 (21:36) : 240
+32:13 (21:41) : 43
+32:36 (22:04) : 240
+33:12 (22:40) : 240
+33:15 (22:43) : 42
+33:15 (22:44) : 47
+33:57 (23:05) : 76
+34:04 (23:12) : 317
+34:15 (23:23) : 82
+34:23 (23:31) : 280
+34:24 (23:32) : 38
+34:26 (23:34) : 47
+Total gold for Magnus: 8094
+
+Gold overhead for Leshrac
+11:13 (00:41) : 51
+12:54 (02:23) : 43
+17:43 (07:11) : 48
+18:48 (08:16) : 26
+18:48 (08:17) : 21
+18:49 (08:18) : 24
+19:04 (08:33) : 45
+20:11 (09:39) : 46
+20:23 (09:52) : 43
+20:24 (09:53) : 39
+20:27 (09:56) : 48
+20:36 (10:05) : 46
+20:36 (10:05) : 47
+20:42 (10:11) : 39
+21:10 (10:39) : 38
+21:14 (10:42) : 47
+22:10 (11:38) : 71
+24:28 (13:56) : 43
+24:28 (13:57) : 38
+25:18 (14:46) : 50
+25:18 (14:47) : 44
+25:26 (14:54) : 42
+25:30 (14:59) : 48
+27:15 (16:44) : 44
+28:18 (17:47) : 38
+28:25 (17:54) : 46
+28:28 (17:56) : 43
+28:43 (18:12) : 40
+28:47 (18:15) : 44
+28:50 (18:18) : 45
+29:54 (19:23) : 47
+29:55 (19:24) : 51
+30:25 (19:53) : 47
+30:27 (19:55) : 42
+30:28 (19:56) : 46
+31:06 (20:34) : 160
+32:16 (21:44) : 46
+32:22 (21:50) : 45
+32:35 (22:04) : 48
+32:36 (22:04) : 44
+32:36 (22:04) : 48
+33:27 (22:55) : 47
+Total gold for Leshrac: 1958
+
+Gold overhead for Gyrocopter
+11:05 (00:34) : 39
+11:11 (00:40) : 38
+11:17 (00:46) : 38
+11:20 (00:49) : 49
+11:41 (01:10) : 47
+12:39 (02:08) : 47
+12:42 (02:11) : 42
+12:45 (02:14) : 45
+13:10 (02:39) : 38
+13:39 (03:08) : 42
+13:43 (03:12) : 38
+13:46 (03:14) : 50
+13:54 (03:22) : 44
+14:10 (03:39) : 40
+14:49 (04:18) : 41
+14:53 (04:22) : 67
+15:01 (04:29) : 51
+15:02 (04:30) : 40
+15:04 (04:32) : 48
+15:37 (05:05) : 40
+16:16 (05:45) : 26
+16:18 (05:47) : 26
+16:23 (05:52) : 26
+16:41 (06:10) : 46
+16:46 (06:15) : 46
+16:49 (06:17) : 47
+17:21 (06:50) : 43
+17:25 (06:53) : 47
+17:36 (07:04) : 48
+17:37 (07:05) : 254
+17:43 (07:12) : 45
+17:50 (07:18) : 67
+17:58 (07:26) : 48
+18:03 (07:32) : 44
+18:06 (07:35) : 45
+18:10 (07:39) : 46
+18:42 (08:11) : 48
+18:43 (08:12) : 48
+18:47 (08:16) : 52
+19:09 (08:38) : 24
+19:16 (08:45) : 44
+19:24 (08:53) : 59
+19:26 (08:55) : 55
+19:30 (08:59) : 35
+19:33 (09:02) : 44
+19:34 (09:03) : 71
+19:52 (09:20) : 47
+20:17 (09:46) : 40
+22:10 (11:38) : 47
+22:12 (11:41) : 38
+22:21 (11:50) : 46
+22:34 (12:02) : 44
+22:39 (12:07) : 40
+22:39 (12:08) : 47
+22:40 (12:08) : 39
+23:59 (13:28) : 43
+23:59 (13:28) : 38
+24:01 (13:30) : 41
+24:01 (13:30) : 49
+25:29 (14:57) : 46
+25:30 (14:59) : 43
+27:24 (16:53) : 160
+27:28 (16:56) : 133
+27:28 (16:56) : 76
+28:35 (18:04) : 46
+28:38 (18:07) : 47
+28:39 (18:08) : 49
+28:44 (18:12) : 70
+28:50 (18:18) : 44
+28:52 (18:20) : 38
+28:56 (18:24) : 42
+29:04 (18:32) : 45
+29:17 (18:45) : 38
+29:20 (18:49) : 51
+30:04 (19:32) : 7
+30:04 (19:33) : 8
+30:12 (19:40) : 16
+30:14 (19:43) : 29
+30:16 (19:45) : 97
+31:04 (20:32) : 81
+31:06 (20:34) : 308
+32:56 (22:24) : 46
+32:57 (22:25) : 42
+32:58 (22:26) : 44
+32:59 (22:27) : 39
+33:14 (22:43) : 45
+33:17 (22:45) : 44
+33:18 (22:47) : 43
+33:19 (22:47) : 39
+33:53 (23:02) : 43
+33:55 (23:03) : 48
+34:01 (23:09) : 46
+Total gold for Gyrocopter: 4780
+
+Gold overhead for Keeper of the Light
+12:10 (01:39) : 39
+12:21 (01:49) : 409
+12:31 (02:00) : 0
+14:25 (03:54) : 98
+15:09 (04:37) : 31
+15:09 (04:37) : 16
+15:09 (04:37) : 15
+15:09 (04:37) : 17
+15:57 (05:26) : 44
+16:26 (05:54) : 47
+16:26 (05:55) : 43
+17:59 (07:27) : 24
+17:59 (07:27) : 24
+17:59 (07:27) : 22
+18:40 (08:08) : 40
+18:40 (08:09) : 47
+18:42 (08:11) : 41
+19:43 (09:12) : 46
+21:43 (11:11) : 26
+22:36 (12:05) : 48
+22:37 (12:05) : 46
+22:37 (12:05) : 46
+22:58 (12:26) : 42
+23:03 (12:32) : 46
+23:47 (13:15) : 64
+23:47 (13:15) : 200
+24:18 (13:46) : 46
+24:31 (13:59) : 66
+24:40 (14:09) : 299
+25:06 (14:34) : 16
+25:06 (14:34) : 15
+25:19 (14:48) : 32
+25:24 (14:53) : 32
+25:38 (15:07) : 7
+25:39 (15:07) : 25
+25:39 (15:07) : 8
+25:39 (15:07) : 8
+25:39 (15:07) : 17
+26:03 (15:32) : 47
+26:03 (15:32) : 41
+26:03 (15:32) : 47
+26:38 (16:06) : 43
+26:38 (16:06) : 52
+27:04 (16:32) : 48
+27:33 (17:02) : 44
+27:33 (17:02) : 45
+27:34 (17:02) : 38
+27:43 (17:11) : 64
+27:43 (17:11) : 200
+27:44 (17:12) : 130
+27:46 (17:14) : 41
+28:15 (17:43) : 308
+28:35 (18:04) : 200
+29:09 (18:37) : 0
+29:24 (18:53) : 200
+29:24 (18:53) : 413
+30:03 (19:31) : 41
+30:03 (19:31) : 48
+30:03 (19:31) : 39
+30:03 (19:32) : 50
+30:35 (20:03) : 0
+30:52 (20:21) : 48
+31:03 (20:31) : 60
+31:04 (20:32) : 61
+31:21 (20:49) : 76
+32:08 (21:36) : 240
+32:15 (21:43) : 39
+32:15 (21:43) : 43
+32:15 (21:43) : 42
+32:15 (21:43) : 52
+32:36 (22:04) : 240
+33:12 (22:40) : 240
+33:56 (23:04) : 48
+33:57 (23:05) : 299
+34:04 (23:12) : 78
+34:23 (23:31) : 280
+34:25 (23:33) : 42
+34:32 (23:40) : 361
+34:54 (24:03) : 567
+35:13 (24:22) : 43
+35:27 (24:35) : 280
+Total gold for Keeper of the Light: 7370
+
+Gold overhead for Ursa
+11:14 (00:43) : 40
+11:31 (00:59) : 38
+11:33 (01:02) : 46
+12:40 (02:09) : 43
+12:44 (02:13) : 39
+12:46 (02:15) : 45
+12:52 (02:21) : 51
+12:55 (02:23) : 47
+12:58 (02:27) : 43
+13:01 (02:29) : 39
+14:04 (03:33) : 45
+14:08 (03:37) : 38
+14:21 (03:49) : 39
+14:40 (04:09) : 40
+14:51 (04:19) : 40
+14:57 (04:25) : 39
+15:30 (04:58) : 47
+16:28 (05:57) : 40
+16:32 (06:01) : 48
+16:36 (06:04) : 48
+17:35 (07:04) : 103
+17:41 (07:09) : 27
+17:44 (07:13) : 15
+17:56 (07:25) : 22
+18:03 (07:31) : 22
+18:13 (07:41) : 23
+18:33 (08:01) : 74
+18:39 (08:08) : 24
+18:59 (08:27) : 72
+19:04 (08:32) : 22
+19:59 (09:27) : 61
+20:04 (09:32) : 31
+20:09 (09:38) : 33
+20:18 (09:46) : 21
+20:21 (09:49) : 24
+20:24 (09:53) : 26
+20:33 (10:01) : 41
+20:37 (10:06) : 47
+20:42 (10:11) : 42
+20:50 (10:19) : 49
+20:55 (10:24) : 47
+21:00 (10:29) : 43
+21:02 (10:30) : 40
+21:05 (10:33) : 50
+21:21 (10:50) : 26
+21:26 (10:55) : 25
+21:31 (11:00) : 25
+21:45 (11:13) : 85
+21:51 (11:19) : 62
+22:14 (11:43) : 107
+22:19 (11:48) : 31
+22:22 (11:50) : 15
+22:33 (12:02) : 74
+22:50 (12:19) : 20
+23:03 (12:31) : 66
+23:05 (12:34) : 20
+23:26 (12:55) : 42
+25:12 (14:41) : 86
+25:20 (14:48) : 69
+25:28 (14:56) : 37
+25:32 (15:00) : 26
+25:35 (15:04) : 24
+25:57 (15:26) : 92
+26:04 (15:32) : 85
+26:15 (15:43) : 44
+26:27 (15:55) : 43
+26:37 (16:06) : 48
+26:50 (16:19) : 48
+26:57 (16:26) : 48
+27:10 (16:38) : 48
+27:14 (16:43) : 45
+27:24 (16:53) : 308
+27:28 (16:56) : 133
+27:28 (16:56) : 76
+28:10 (17:38) : 86
+28:17 (17:46) : 66
+28:46 (18:14) : 42
+28:51 (18:19) : 48
+28:52 (18:21) : 45
+28:58 (18:27) : 71
+29:06 (18:34) : 43
+29:07 (18:36) : 46
+29:09 (18:37) : 44
+29:13 (18:41) : 47
+29:15 (18:44) : 51
+29:24 (18:53) : 24
+29:28 (18:57) : 9
+29:29 (18:58) : 19
+30:31 (19:59) : 50
+Total gold for Ursa: 4363
+
+Gold overhead for Nyx Assassin
+12:21 (01:49) : 50
+13:02 (02:31) : 57
+13:12 (02:41) : 40
+13:30 (02:59) : 15
+15:04 (04:33) : 17
+17:00 (06:28) : 26
+17:18 (06:46) : 25
+17:33 (07:01) : 40
+18:10 (07:39) : 37
+18:15 (07:44) : 25
+19:00 (08:28) : 44
+19:11 (08:40) : 45
+19:15 (08:44) : 40
+19:20 (08:48) : 45
+19:32 (09:01) : 47
+19:40 (09:09) : 42
+19:46 (09:15) : 46
+19:50 (09:19) : 44
+20:25 (09:53) : 236
+20:30 (09:59) : 130
+21:05 (10:34) : 48
+21:08 (10:37) : 39
+21:16 (10:45) : 38
+21:49 (11:17) : 46
+21:50 (11:18) : 236
+22:27 (11:55) : 42
+22:31 (12:00) : 40
+22:32 (12:00) : 49
+22:52 (12:21) : 41
+22:55 (12:23) : 50
+23:47 (13:15) : 64
+23:47 (13:15) : 200
+23:50 (13:19) : 49
+24:30 (13:59) : 64
+24:30 (13:59) : 46
+24:43 (14:11) : 41
+26:10 (15:39) : 16
+27:05 (16:34) : 41
+27:09 (16:37) : 43
+27:43 (17:11) : 64
+27:43 (17:11) : 200
+28:35 (18:04) : 200
+28:54 (18:23) : 263
+29:05 (18:33) : 43
+29:08 (18:37) : 44
+29:11 (18:40) : 43
+29:15 (18:44) : 38
+29:17 (18:46) : 45
+29:22 (18:51) : 44
+29:24 (18:53) : 200
+29:29 (18:57) : 46
+29:31 (18:59) : 45
+29:39 (19:07) : 46
+29:46 (19:14) : 40
+29:49 (19:17) : 43
+31:03 (20:31) : 60
+31:09 (20:37) : 317
+31:21 (20:49) : 76
+32:08 (21:36) : 240
+32:09 (21:37) : 76
+32:16 (21:45) : 42
+32:17 (21:45) : 51
+32:36 (22:04) : 240
+32:47 (22:16) : 24
+32:50 (22:18) : 28
+32:52 (22:20) : 21
+33:12 (22:40) : 240
+33:50 (22:59) : 272
+34:04 (23:12) : 78
+34:15 (23:23) : 308
+34:23 (23:31) : 567
+34:44 (23:52) : 114
+34:54 (24:03) : 280
+35:27 (24:35) : 280
+35:31 (24:40) : 46
+35:50 (24:59) : 114
+Total gold for Nyx Assassin: 7122
+
+Gold overhead for Puck
+10:58 (00:26) : 46
+11:11 (00:40) : 43
+11:27 (00:56) : 46
+11:31 (00:59) : 42
+11:38 (01:07) : 51
+12:06 (01:35) : 44
+12:12 (01:41) : 43
+12:18 (01:47) : 47
+12:27 (01:56) : 43
+12:57 (02:26) : 47
+12:58 (02:26) : 46
+13:06 (02:34) : 39
+13:43 (03:12) : 236
+14:40 (04:09) : 47
+14:44 (04:12) : 42
+14:56 (04:24) : 50
+15:04 (04:32) : 40
+15:17 (04:46) : 43
+15:30 (04:59) : 42
+15:38 (05:06) : 42
+15:44 (05:12) : 43
+15:55 (05:23) : 254
+16:06 (05:35) : 46
+16:15 (05:44) : 48
+16:23 (05:52) : 100
+16:27 (05:55) : 45
+16:28 (05:57) : 46
+16:42 (06:10) : 51
+16:57 (06:25) : 39
+17:06 (06:35) : 51
+17:37 (07:05) : 197
+18:09 (07:38) : 47
+18:09 (07:38) : 47
+18:10 (07:38) : 52
+18:13 (07:41) : 43
+18:26 (07:54) : 47
+18:27 (07:55) : 46
+18:29 (07:57) : 44
+18:30 (07:59) : 46
+18:57 (08:25) : 47
+19:25 (08:53) : 43
+19:25 (08:54) : 44
+19:31 (09:00) : 41
+19:35 (09:03) : 41
+19:54 (09:22) : 43
+19:54 (09:23) : 52
+19:58 (09:26) : 46
+19:58 (09:26) : 39
+21:31 (11:00) : 41
+21:41 (11:09) : 38
+21:55 (11:23) : 44
+21:55 (11:24) : 50
+21:58 (11:26) : 48
+22:18 (11:46) : 42
+22:18 (11:46) : 43
+22:18 (11:46) : 38
+22:19 (11:47) : 340
+24:19 (13:47) : 48
+24:35 (14:04) : 100
+27:07 (16:36) : 0
+27:24 (16:53) : 160
+27:28 (16:56) : 133
+27:28 (16:56) : 76
+27:44 (17:12) : 281
+28:04 (17:32) : 0
+29:53 (19:21) : 38
+30:32 (20:00) : 43
+30:32 (20:00) : 39
+30:32 (20:00) : 47
+31:06 (20:34) : 160
+32:32 (22:00) : 48
+32:32 (22:00) : 50
+33:08 (22:36) : 43
+33:09 (22:37) : 45
+33:09 (22:37) : 46
+33:09 (22:37) : 43
+33:09 (22:37) : 39
+33:52 (23:00) : 0
+Total gold for Puck: 4890
+
+Gold overhead for Lifestealer
+09:52 (00:-39) : 250
+11:45 (01:13) : 42
+11:53 (01:21) : 42
+12:11 (01:40) : 45
+12:21 (01:49) : 50
+12:28 (01:57) : 46
+12:31 (02:00) : 40
+12:33 (02:02) : 40
+12:48 (02:17) : 30
+13:20 (02:49) : 42
+13:24 (02:53) : 39
+13:36 (03:04) : 45
+13:44 (03:13) : 39
+13:47 (03:16) : 51
+14:00 (03:29) : 46
+14:13 (03:41) : 38
+14:16 (03:45) : 48
+14:30 (03:59) : 30
+14:55 (04:24) : 41
+15:17 (04:46) : 46
+15:19 (04:48) : 41
+15:45 (05:14) : 68
+15:50 (05:19) : 44
+15:52 (05:20) : 40
+16:08 (05:37) : 43
+16:15 (05:44) : 41
+16:32 (06:00) : 41
+17:10 (06:39) : 38
+17:15 (06:43) : 38
+17:17 (06:46) : 49
+17:22 (06:50) : 38
+17:36 (07:04) : 47
+17:47 (07:15) : 45
+17:59 (07:27) : 44
+18:01 (07:30) : 46
+18:09 (07:37) : 48
+18:11 (07:40) : 73
+18:14 (07:43) : 41
+18:18 (07:47) : 46
+18:21 (07:50) : 51
+18:37 (08:05) : 47
+18:40 (08:08) : 44
+18:44 (08:12) : 42
+18:47 (08:15) : 51
+20:15 (09:43) : 46
+20:26 (09:55) : 272
+20:30 (09:59) : 281
+20:36 (10:05) : 44
+20:53 (10:21) : 45
+20:56 (10:25) : 50
+20:58 (10:26) : 45
+21:06 (10:34) : 50
+21:08 (10:37) : 44
+21:12 (10:41) : 45
+21:29 (10:58) : 76
+21:33 (11:02) : 40
+21:40 (11:09) : 42
+21:41 (11:10) : 50
+21:54 (11:22) : 46
+21:55 (11:24) : 45
+22:09 (11:37) : 44
+22:15 (11:44) : 245
+23:04 (12:33) : 125
+23:34 (13:03) : 42
+23:39 (13:07) : 46
+23:47 (13:15) : 64
+23:47 (13:15) : 200
+23:51 (13:20) : 44
+24:22 (13:50) : 47
+24:30 (13:59) : 64
+24:30 (13:59) : 46
+24:40 (14:09) : 76
+24:52 (14:20) : 44
+24:53 (14:22) : 41
+24:57 (14:25) : 45
+25:01 (14:30) : 74
+25:09 (14:37) : 41
+25:11 (14:39) : 45
+25:17 (14:45) : 43
+25:31 (14:59) : 30
+25:36 (15:04) : 28
+25:38 (15:06) : 17
+25:40 (15:08) : 17
+25:49 (15:18) : 197
+26:06 (15:34) : 103
+26:09 (15:37) : 33
+26:47 (16:16) : 72
+26:49 (16:18) : 23
+26:59 (16:27) : 39
+27:07 (16:36) : 24
+27:11 (16:39) : 26
+27:20 (16:49) : 197
+27:43 (17:11) : 64
+27:43 (17:11) : 200
+28:35 (18:04) : 454
+29:24 (18:53) : 200
+29:38 (19:06) : 41
+29:42 (19:10) : 40
+29:46 (19:14) : 45
+29:49 (19:17) : 45
+29:54 (19:23) : 43
+30:01 (19:30) : 53
+30:03 (19:32) : 44
+30:32 (20:00) : 87
+30:43 (20:11) : 62
+31:03 (20:31) : 60
+31:11 (20:39) : 209
+31:21 (20:49) : 299
+31:31 (21:00) : 39
+31:33 (21:01) : 43
+31:34 (21:03) : 46
+31:49 (21:17) : 43
+32:08 (21:36) : 512
+32:36 (22:04) : 510
+32:42 (22:10) : 48
+32:44 (22:12) : 48
+32:46 (22:14) : 42
+32:48 (22:16) : 46
+33:12 (22:40) : 240
+33:50 (22:59) : 221
+33:57 (23:05) : 76
+34:04 (23:12) : 78
+34:06 (23:14) : 39
+34:10 (23:18) : 48
+34:11 (23:19) : 46
+34:12 (23:20) : 41
+34:15 (23:23) : 82
+34:23 (23:31) : 280
+34:27 (23:35) : 44
+34:41 (23:49) : 254
+34:54 (24:03) : 280
+34:59 (24:08) : 118
+35:03 (24:12) : 355
+35:06 (24:15) : 42
+35:10 (24:19) : 39
+35:12 (24:21) : 45
+35:14 (24:23) : 43
+35:15 (24:24) : 69
+35:27 (24:35) : 566
+35:28 (24:37) : 45
+35:30 (24:39) : 44
+35:33 (24:41) : 40
+35:36 (24:45) : 360
+35:38 (24:47) : 40
+35:48 (24:57) : 111
+35:52 (25:01) : 111
+35:55 (25:04) : 41
+Total gold for Lifestealer: 12680
+
+Gold overhead for Shadow Demon
+18:11 (07:40) : 23
+18:20 (07:49) : 38
+19:11 (08:39) : 61
+19:25 (08:54) : 47
+19:28 (08:57) : 44
+19:36 (09:04) : 45
+19:43 (09:11) : 48
+19:47 (09:15) : 47
+21:37 (11:05) : 42
+22:40 (12:08) : 38
+22:44 (12:13) : 42
+25:20 (14:49) : 38
+25:27 (14:56) : 45
+25:33 (15:02) : 44
+28:35 (18:03) : 0
+32:13 (21:41) : 41
+32:21 (21:49) : 44
+32:35 (22:03) : 52
+32:35 (22:03) : 43
+32:35 (22:03) : 43
+Total gold for Shadow Demon: 825
+
+
+Rune Pickup Times: 
+
+13:20 (02:49) Double Damage Rune grabbed by Puck. Bottled: YES
+14:42 (04:10) Illusion Rune grabbed by Magnus. Bottled: YES
+16:37 (06:06) Haste Rune grabbed by Magnus. Bottled: YES
+18:31 (08:00) Illusion Rune grabbed by Magnus. Bottled: YES
+21:15 (10:44) Haste Rune grabbed by Magnus. Bottled: YES
+22:41 (12:09) Regen Rune grabbed by Ursa. Bottled: NO
+25:45 (15:13) Illusion Rune grabbed by Leshrac. Bottled: NO
+26:45 (16:13) Regen Rune grabbed by Magnus. Bottled: YES
+30:35 (20:03) Invisibility Rune grabbed by Leshrac. Bottled: NO
+
+Denies: 
+
+11:16 (00:45). Leshrac denies a Ranged Radiant Creep
+11:27 (00:55). Ursa denies a Melee Radiant Creep
+11:27 (00:56). Lone Druid denies a Melee Dire Creep
+11:36 (01:05). Puck denies a Melee Radiant Creep
+11:47 (01:16). Lone Druid denies a Ranged Dire Creep
+11:48 (01:17). Keeper of the Light denies a Melee Dire Creep
+11:55 (01:24). Puck denies a Melee Radiant Creep
+12:10 (01:39). Lone Druid denies a Melee Dire Creep
+12:13 (01:42). Lone Druid denies a Melee Dire Creep
+12:16 (01:44). Lone Druid denies a Ranged Dire Creep
+12:24 (01:53). Gyrocopter denies a Melee Radiant Creep
+12:26 (01:55). Leshrac denies a Ranged Radiant Creep
+12:29 (01:57). Magnus denies a Ranged Dire Creep
+12:29 (01:58). Lone Druid denies a Melee Dire Creep
+12:56 (02:25). Leshrac denies a Melee Radiant Creep
+13:03 (02:32). Lone Druid denies a Melee Dire Creep
+13:06 (02:34). Lone Druid denies a Melee Dire Creep
+13:06 (02:35). Lone Druid denies a Ranged Dire Creep
+13:28 (02:57). Magnus denies a Melee Dire Creep
+13:35 (03:04). Magnus denies a Melee Dire Creep
+13:50 (03:19). Lifestealer denies a Melee Dire Creep
+13:53 (03:21). Magnus denies a Ranged Dire Creep
+13:54 (03:23). Lifestealer denies a Melee Dire Creep
+14:01 (03:30). Magnus denies a Melee Dire Creep
+14:05 (03:34). Lifestealer denies a Ranged Dire Creep
+14:09 (03:37). Magnus denies a Melee Dire Creep
+14:11 (03:40). Lifestealer denies a Melee Dire Creep
+14:13 (03:42). Lone Druid denies a Melee Dire Creep
+14:15 (03:44). Magnus denies a Ranged Dire Creep
+14:20 (03:48). Gyrocopter denies a Melee Radiant Creep
+14:35 (04:04). Lone Druid denies a Melee Dire Creep
+14:38 (04:06). Shadow Demon denies a Melee Radiant Creep
+14:45 (04:14). Lone Druid denies a Ranged Dire Creep
+14:45 (04:14). Puck denies a Melee Radiant Creep
+14:46 (04:14). Shadow Demon denies a Melee Radiant Creep
+14:54 (04:23). Leshrac denies a Ranged Radiant Creep
+14:58 (04:26). Gyrocopter denies a Melee Radiant Creep
+15:00 (04:29). Magnus denies a Ranged Dire Creep
+15:02 (04:31). Puck denies a Melee Radiant Creep
+15:13 (04:42). Magnus denies a Melee Dire Creep
+15:15 (04:44). Keeper of the Light denies a Melee Dire Creep
+15:16 (04:44). Puck denies a Ranged Radiant Creep
+15:24 (04:52). Lifestealer denies a Dire's Siege Creep
+15:32 (05:01). Lone Druid denies a Melee Dire Creep
+15:35 (05:04). Lifestealer denies a Ranged Dire Creep
+15:36 (05:04). Puck denies a Melee Radiant Creep
+15:53 (05:22). Lone Druid denies a Ranged Dire Creep
+16:03 (05:32). Lone Druid denies a Melee Dire Creep
+16:06 (05:35). Lifestealer denies a Melee Dire Creep
+16:10 (05:39). Lone Druid denies a Melee Dire Creep
+16:12 (05:40). Lifestealer denies a Ranged Dire Creep
+16:15 (05:44). Lone Druid denies a Melee Dire Creep
+16:20 (05:48). Lone Druid denies a Ranged Dire Creep
+16:28 (05:57). Lone Druid denies a Melee Dire Creep
+16:31 (05:59). Puck denies a Ranged Radiant Creep
+16:34 (06:02). Puck denies a Melee Radiant Creep
+16:43 (06:11). Lifestealer denies a Melee Dire Creep
+16:44 (06:12). Gyrocopter denies a Melee Radiant Creep
+16:48 (06:17). Lifestealer denies a Melee Dire Creep
+16:52 (06:21). Lifestealer denies a Melee Dire Creep
+17:01 (06:29). Magnus denies a Melee Dire Creep
+17:11 (06:40). Lone Druid denies a Melee Dire Creep
+17:28 (06:56). Gyrocopter denies a Melee Radiant Creep
+17:36 (07:04). Leshrac denies a Melee Radiant Creep
+17:44 (07:13). Lifestealer denies a Melee Dire Creep
+17:45 (07:13). Gyrocopter denies a Ranged Radiant Creep
+17:51 (07:20). Lifestealer denies a Melee Dire Creep
+18:18 (07:47). Shadow Demon denies a Melee Radiant Creep
+18:28 (07:56). Lifestealer denies a Melee Dire Creep
+18:31 (08:00). Lifestealer denies a Ranged Dire Creep
+18:33 (08:01). Lifestealer denies a Melee Dire Creep
+18:38 (08:07). Gyrocopter denies a Ranged Radiant Creep
+18:59 (08:28). Magnus denies a Ranged Dire Creep
+19:27 (08:56). Puck denies a Ranged Radiant Creep
+19:43 (09:11). Nyx Assassin denies a Melee Dire Creep
+20:00 (09:29). Puck denies a Ranged Radiant Creep
+20:35 (10:03). Ursa denies a Melee Radiant Creep
+20:40 (10:08). Ursa denies a Melee Radiant Creep
+21:09 (10:37). Ursa denies a Melee Radiant Creep
+21:34 (11:02). Magnus denies a Ranged Dire Creep
+21:38 (11:06). Lifestealer denies a Melee Dire Creep
+22:02 (11:30). Gyrocopter denies a Melee Radiant Creep
+22:04 (11:32). Gyrocopter denies a Radiant's Siege Creep
+22:05 (11:33). Lifestealer denies a Ranged Dire Creep
+22:14 (11:42). Gyrocopter denies a Melee Radiant Creep
+22:59 (12:27). Nyx Assassin denies a Melee Dire Creep
+23:02 (12:30). Shadow Demon denies a Ranged Radiant Creep
+24:22 (13:50). Lifestealer denies a Melee Dire Creep
+25:23 (14:51). Shadow Demon denies a Melee Radiant Creep
+26:59 (16:28). Ursa denies a Melee Radiant Creep
+28:25 (17:54). Lifestealer denies a Bear (Lv4)" ;
+29:00 (18:28). Gyrocopter denies a Melee Radiant Creep
+29:43 (19:12). Lifestealer denies a Ranged Dire Creep
+
+Creep Kills: 
+
+10:58 (00:26). Puck kills a Melee Dire Creep
+11:05 (00:34). Gyrocopter kills a Melee Dire Creep
+11:11 (00:40). Puck kills a Ranged Dire Creep
+11:11 (00:40). Gyrocopter kills a Melee Dire Creep
+11:13 (00:41). Leshrac kills a Ranged Dire Creep
+11:14 (00:43). Ursa kills a Melee Dire Creep
+11:17 (00:46). Gyrocopter kills a Melee Dire Creep
+11:20 (00:49). Gyrocopter kills a Ranged Dire Creep
+11:25 (00:53). Lone Druid kills a Melee Radiant Creep
+11:27 (00:56). Puck kills a Melee Dire Creep
+11:31 (00:59). Ursa kills a Melee Dire Creep
+11:31 (00:59). Puck kills a Melee Dire Creep
+11:33 (01:02). Ursa kills a Melee Dire Creep
+11:34 (01:03). Magnus kills a Melee Radiant Creep
+11:38 (01:07). Puck kills a Ranged Dire Creep
+11:38 (01:07). Lone Druid kills a Melee Radiant Creep
+11:40 (01:08). Lone Druid kills a Melee Radiant Creep
+11:41 (01:10). Magnus kills a Ranged Radiant Creep
+11:41 (01:10). Gyrocopter kills a Melee Dire Creep
+11:45 (01:13). Lifestealer kills a Melee Radiant Creep
+11:49 (01:18). Lone Druid kills a Melee Radiant Creep
+11:53 (01:21). Lifestealer kills a Melee Radiant Creep
+11:59 (01:28). Lone Druid kills a Ranged Radiant Creep
+12:01 (01:29). Lone Druid kills a Ranged Radiant Creep
+12:05 (01:34). Magnus kills a Melee Radiant Creep
+12:06 (01:35). Puck kills a Melee Dire Creep
+12:10 (01:39). Keeper of the Light kills a Melee Radiant Creep
+12:11 (01:40). Lifestealer kills a Melee Radiant Creep
+12:12 (01:41). Puck kills a Melee Dire Creep
+12:18 (01:47). Puck kills a Ranged Dire Creep
+12:27 (01:56). Lone Druid kills a Melee Radiant Creep
+12:27 (01:56). Puck kills a Melee Dire Creep
+12:28 (01:57). Lifestealer kills a Melee Radiant Creep
+12:31 (02:00). Lifestealer kills a Melee Radiant Creep
+12:31 (02:00). Keeper of the Light kills a Sentry Ward
+12:33 (02:02). Lone Druid kills a Ranged Radiant Creep
+12:33 (02:02). Lifestealer kills a Melee Radiant Creep
+12:39 (02:08). Gyrocopter kills a Melee Dire Creep
+12:40 (02:09). Ursa kills a Melee Dire Creep
+12:40 (02:09). Magnus kills a Melee Radiant Creep
+12:40 (02:09). Magnus kills a Melee Radiant Creep
+12:42 (02:11). Gyrocopter kills a Melee Dire Creep
+12:44 (02:13). Ursa kills a Melee Dire Creep
+12:45 (02:14). Gyrocopter kills a Ranged Dire Creep
+12:45 (02:14). Magnus kills a Ranged Radiant Creep
+12:46 (02:15). Ursa kills a Melee Dire Creep
+12:49 (02:17). Lone Druid kills a Melee Radiant Creep
+12:52 (02:21). Ursa kills a Ranged Dire Creep
+12:54 (02:23). Leshrac kills a Melee Dire Creep
+12:55 (02:23). Ursa kills a Ranged Dire Creep
+12:57 (02:26). Puck kills a Melee Dire Creep
+12:58 (02:26). Puck kills a Ranged Dire Creep
+12:58 (02:27). Ursa kills a Melee Dire Creep
+13:00 (02:29). Lone Druid kills a Melee Radiant Creep
+13:01 (02:29). Ursa kills a Melee Dire Creep
+13:02 (02:31). Nyx Assassin kills a Ogre Magi (Neutral)
+13:04 (02:32). Magnus kills a Melee Radiant Creep
+13:06 (02:34). Puck kills a Melee Dire Creep
+13:10 (02:39). Gyrocopter kills a Melee Dire Creep
+13:11 (02:40). Magnus kills a Melee Radiant Creep
+13:12 (02:41). Nyx Assassin kills a Ogre Mauler
+13:14 (02:43). Magnus kills a Melee Radiant Creep
+13:18 (02:47). Lone Druid kills a Melee Radiant Creep
+13:20 (02:49). Lifestealer kills a Melee Radiant Creep
+13:22 (02:51). Lone Druid kills a Melee Radiant Creep
+13:24 (02:53). Lifestealer kills a Melee Radiant Creep
+13:26 (02:55). Lone Druid kills a Melee Radiant Creep
+13:27 (02:55). Magnus kills a Melee Radiant Creep
+13:30 (02:59). Nyx Assassin kills a Satyr Trickster
+13:36 (03:04). Lifestealer kills a Melee Radiant Creep
+13:37 (03:06). Magnus kills a Melee Radiant Creep
+13:39 (03:08). Gyrocopter kills a Melee Dire Creep
+13:43 (03:12). Gyrocopter kills a Melee Dire Creep
+13:44 (03:13). Lifestealer kills a Melee Radiant Creep
+13:46 (03:14). Gyrocopter kills a Ranged Dire Creep
+13:47 (03:16). Lifestealer kills a Ranged Radiant Creep
+13:54 (03:22). Gyrocopter kills a Ranged Dire Creep
+14:00 (03:29). Lifestealer kills a Melee Radiant Creep
+14:03 (03:32). Magnus kills a Melee Radiant Creep
+14:04 (03:32). Lone Druid kills a Melee Radiant Creep
+14:04 (03:33). Ursa kills a Melee Dire Creep
+14:04 (03:33). Magnus kills a Melee Radiant Creep
+14:08 (03:37). Ursa kills a Melee Dire Creep
+14:10 (03:39). Gyrocopter kills a Melee Dire Creep
+14:13 (03:41). Lifestealer kills a Melee Radiant Creep
+14:16 (03:45). Lifestealer kills a Melee Radiant Creep
+14:21 (03:49). Ursa kills a Melee Dire Creep
+14:25 (03:54). Keeper of the Light kills a Satyr Hellcaller
+14:30 (03:59). Lifestealer kills a Satyr Soulstealer
+14:30 (03:59). Magnus kills a Melee Radiant Creep
+14:40 (04:09). Ursa kills a Melee Dire Creep
+14:40 (04:09). Puck kills a Melee Dire Creep
+14:44 (04:12). Puck kills a Melee Dire Creep
+14:49 (04:18). Gyrocopter kills a Melee Dire Creep
+14:51 (04:19). Ursa kills a Melee Dire Creep
+14:53 (04:22). Gyrocopter kills a Dire's Siege Creep
+14:55 (04:24). Lifestealer kills a Melee Radiant Creep
+14:56 (04:24). Puck kills a Ranged Dire Creep
+14:57 (04:25). Ursa kills a Melee Dire Creep
+15:01 (04:29). Gyrocopter kills a Ranged Dire Creep
+15:02 (04:30). Gyrocopter kills a Melee Dire Creep
+15:03 (04:31). Lone Druid kills a Melee Radiant Creep
+15:04 (04:32). Puck kills a Melee Dire Creep
+15:04 (04:32). Gyrocopter kills a Melee Dire Creep
+15:04 (04:33). Nyx Assassin kills a Satyr Trickster
+15:09 (04:37). Keeper of the Light kills a Satyr Soulstealer
+15:09 (04:37). Keeper of the Light kills a Satyr Trickster
+15:09 (04:37). Keeper of the Light kills a Satyr Trickster
+15:09 (04:37). Keeper of the Light kills a Satyr Trickster
+15:17 (04:46). Puck kills a Melee Dire Creep
+15:17 (04:46). Lifestealer kills a Ranged Radiant Creep
+15:18 (04:46). Lone Druid kills a Melee Radiant Creep
+15:19 (04:48). Lifestealer kills a Melee Radiant Creep
+15:22 (04:51). Lone Druid kills a Melee Radiant Creep
+15:24 (04:53). Magnus kills a Radiant's Siege Creep
+15:25 (04:53). Lone Druid kills a Ranged Radiant Creep
+15:26 (04:54). Lone Druid kills a Melee Radiant Creep
+15:28 (04:57). Lone Druid kills a Ranged Radiant Creep
+15:30 (04:58). Ursa kills a Melee Dire Creep
+15:30 (04:59). Puck kills a Melee Dire Creep
+15:37 (05:05). Gyrocopter kills a Melee Dire Creep
+15:38 (05:06). Puck kills a Melee Dire Creep
+15:40 (05:09). Magnus kills a Melee Radiant Creep
+15:44 (05:12). Puck kills a Melee Dire Creep
+15:44 (05:13). Magnus kills a Ranged Radiant Creep
+15:45 (05:14). Lifestealer kills a Radiant's Siege Creep
+15:50 (05:19). Lifestealer kills a Melee Radiant Creep
+15:52 (05:20). Lifestealer kills a Melee Radiant Creep
+15:57 (05:26). Keeper of the Light kills a Ranged Radiant Creep
+16:01 (05:30). Lone Druid kills a Melee Radiant Creep
+16:06 (05:34). Lone Druid kills a Ranged Radiant Creep
+16:06 (05:35). Puck kills a Melee Dire Creep
+16:08 (05:37). Lifestealer kills a Melee Radiant Creep
+16:15 (05:44). Puck kills a Melee Dire Creep
+16:15 (05:44). Lifestealer kills a Melee Radiant Creep
+16:26 (05:54). Keeper of the Light kills a Melee Radiant Creep
+16:26 (05:55). Lone Druid kills a Melee Radiant Creep
+16:26 (05:55). Keeper of the Light kills a Ranged Radiant Creep
+16:27 (05:55). Puck kills a Melee Dire Creep
+16:27 (05:56). Lone Druid kills a Melee Radiant Creep
+16:28 (05:57). Puck kills a Ranged Dire Creep
+16:28 (05:57). Ursa kills a Melee Dire Creep
+16:29 (05:58). Magnus kills a Melee Radiant Creep
+16:31 (06:00). Lone Druid kills a Melee Radiant Creep
+16:32 (06:00). Lifestealer kills a Melee Radiant Creep
+16:32 (06:01). Ursa kills a Melee Dire Creep
+16:36 (06:04). Ursa kills a Ranged Dire Creep
+16:41 (06:10). Gyrocopter kills a Melee Dire Creep
+16:42 (06:10). Puck kills a Ranged Dire Creep
+16:46 (06:15). Gyrocopter kills a Melee Dire Creep
+16:49 (06:17). Gyrocopter kills a Ranged Dire Creep
+16:55 (06:24). Lone Druid kills a Melee Radiant Creep
+16:57 (06:25). Puck kills a Melee Dire Creep
+16:59 (06:27). Magnus kills a Melee Radiant Creep
+17:00 (06:28). Nyx Assassin kills a Giant Wolf
+17:06 (06:35). Puck kills a Ranged Dire Creep
+17:08 (06:37). Magnus kills a Melee Radiant Creep
+17:08 (06:37). Magnus kills a Melee Radiant Creep
+17:10 (06:39). Lifestealer kills a Melee Radiant Creep
+17:11 (06:40). Magnus kills a Ranged Radiant Creep
+17:15 (06:43). Lifestealer kills a Melee Radiant Creep
+17:17 (06:45). Lone Druid kills a Melee Radiant Creep
+17:17 (06:46). Lifestealer kills a Ranged Radiant Creep
+17:18 (06:46). Nyx Assassin kills a Giant Wolf
+17:21 (06:50). Gyrocopter kills a Melee Dire Creep
+17:22 (06:50). Lifestealer kills a Melee Radiant Creep
+17:25 (06:53). Gyrocopter kills a Ranged Dire Creep
+17:25 (06:54). Magnus kills a Melee Radiant Creep
+17:33 (07:01). Nyx Assassin kills a Alpha Wolf
+17:35 (07:04). Ursa kills a Satyr Hellcaller
+17:36 (07:04). Gyrocopter kills a Ranged Dire Creep
+17:36 (07:04). Lifestealer kills a Melee Radiant Creep
+17:41 (07:09). Ursa kills a Satyr Soulstealer
+17:43 (07:11). Leshrac kills a Melee Dire Creep
+17:43 (07:12). Gyrocopter kills a Melee Dire Creep
+17:44 (07:13). Ursa kills a Satyr Trickster
+17:47 (07:15). Lifestealer kills a Melee Radiant Creep
+17:50 (07:18). Gyrocopter kills a Dire's Siege Creep
+17:56 (07:25). Magnus kills a Melee Radiant Creep
+17:56 (07:25). Ursa kills a Forest Troll Berserker
+17:58 (07:26). Gyrocopter kills a Melee Dire Creep
+17:59 (07:27). Keeper of the Light kills a Kobold Taskmaster
+17:59 (07:27). Lifestealer kills a Melee Radiant Creep
+17:59 (07:27). Keeper of the Light kills a Forest Troll Berserker
+17:59 (07:27). Keeper of the Light kills a Forest Troll Berserker
+17:59 (07:27). Magnus kills a Radiant's Siege Creep
+18:01 (07:30). Lifestealer kills a Ranged Radiant Creep
+18:02 (07:31). Magnus kills a Melee Radiant Creep
+18:03 (07:31). Ursa kills a Forest Troll Berserker
+18:03 (07:32). Gyrocopter kills a Melee Dire Creep
+18:05 (07:33). Magnus kills a Melee Radiant Creep
+18:05 (07:34). Magnus kills a Ranged Radiant Creep
+18:06 (07:35). Gyrocopter kills a Melee Dire Creep
+18:09 (07:37). Lifestealer kills a Melee Radiant Creep
+18:09 (07:38). Puck kills a Melee Dire Creep
+18:09 (07:38). Puck kills a Melee Dire Creep
+18:10 (07:38). Puck kills a Ranged Dire Creep
+18:10 (07:39). Nyx Assassin kills a Alpha Wolf
+18:10 (07:39). Gyrocopter kills a Ranged Dire Creep
+18:11 (07:40). Lifestealer kills a Radiant's Siege Creep
+18:11 (07:40). Shadow Demon kills a Giant Wolf
+18:13 (07:41). Puck kills a Melee Dire Creep
+18:13 (07:41). Ursa kills a Troll High Priest
+18:14 (07:43). Lifestealer kills a Melee Radiant Creep
+18:15 (07:44). Nyx Assassin kills a Giant Wolf
+18:18 (07:46). Lone Druid kills a Ranged Radiant Creep
+18:18 (07:47). Lifestealer kills a Melee Radiant Creep
+18:20 (07:49). Shadow Demon kills a Alpha Wolf
+18:21 (07:50). Lifestealer kills a Ranged Radiant Creep
+18:26 (07:54). Puck kills a Melee Dire Creep
+18:27 (07:55). Puck kills a Ranged Dire Creep
+18:29 (07:57). Puck kills a Melee Dire Creep
+18:30 (07:59). Puck kills a Melee Dire Creep
+18:33 (08:01). Ursa kills a Centaur Khan
+18:37 (08:05). Lifestealer kills a Melee Radiant Creep
+18:39 (08:08). Ursa kills a Centaur Outrunner
+18:40 (08:08). Keeper of the Light kills a Melee Radiant Creep
+18:40 (08:08). Lifestealer kills a Melee Radiant Creep
+18:40 (08:09). Keeper of the Light kills a Ranged Radiant Creep
+18:42 (08:10). Lone Druid kills a Black Drake
+18:42 (08:11). Gyrocopter kills a Melee Dire Creep
+18:42 (08:11). Keeper of the Light kills a Melee Radiant Creep
+18:43 (08:12). Gyrocopter kills a Melee Dire Creep
+18:44 (08:12). Lifestealer kills a Melee Radiant Creep
+18:47 (08:15). Lifestealer kills a Ranged Radiant Creep
+18:47 (08:16). Gyrocopter kills a Ranged Dire Creep
+18:48 (08:16). Leshrac kills a Forest Troll Berserker
+18:48 (08:17). Leshrac kills a Troll High Priest
+18:49 (08:18). Leshrac kills a Forest Troll Berserker
+18:56 (08:24). Magnus kills a Melee Radiant Creep
+18:56 (08:24). Magnus kills a Ranged Radiant Creep
+18:56 (08:25). Lone Druid kills a Black Drake
+18:57 (08:25). Puck kills a Melee Dire Creep
+18:59 (08:27). Ursa kills a Centaur Khan
+19:00 (08:28). Nyx Assassin kills a Melee Radiant Creep
+19:01 (08:29). Magnus kills a Melee Radiant Creep
+19:04 (08:32). Ursa kills a Centaur Outrunner
+19:04 (08:32). Magnus kills a Melee Radiant Creep
+19:04 (08:33). Leshrac kills a Melee Dire Creep
+19:09 (08:38). Gyrocopter kills a Centaur Outrunner
+19:11 (08:39). Shadow Demon kills a Ogre Magi (Neutral)
+19:11 (08:40). Nyx Assassin kills a Melee Radiant Creep
+19:11 (08:40). Lone Druid kills a Ranged Radiant Creep
+19:15 (08:44). Nyx Assassin kills a Melee Radiant Creep
+19:16 (08:45). Gyrocopter kills a Ogre Magi (Neutral)
+19:20 (08:48). Nyx Assassin kills a Ranged Radiant Creep
+19:24 (08:53). Gyrocopter kills a Mud Golem
+19:25 (08:53). Puck kills a Melee Dire Creep
+19:25 (08:54). Puck kills a Ranged Dire Creep
+19:25 (08:54). Shadow Demon kills a Melee Dire Creep
+19:25 (08:54). Magnus kills a Melee Radiant Creep
+19:26 (08:55). Gyrocopter kills a Mud Golem
+19:28 (08:57). Shadow Demon kills a Ranged Dire Creep
+19:30 (08:59). Gyrocopter kills a Ogre Mauler
+19:31 (09:00). Puck kills a Melee Dire Creep
+19:32 (09:01). Nyx Assassin kills a Melee Radiant Creep
+19:33 (09:02). Gyrocopter kills a Ogre Mauler
+19:34 (09:03). Gyrocopter kills a Centaur Khan
+19:35 (09:03). Puck kills a Melee Dire Creep
+19:35 (09:04). Lone Druid kills a Ranged Radiant Creep
+19:36 (09:04). Shadow Demon kills a Melee Dire Creep
+19:40 (09:09). Nyx Assassin kills a Melee Radiant Creep
+19:43 (09:11). Shadow Demon kills a Melee Dire Creep
+19:43 (09:12). Keeper of the Light kills a Melee Radiant Creep
+19:46 (09:15). Nyx Assassin kills a Melee Radiant Creep
+19:47 (09:15). Shadow Demon kills a Melee Dire Creep
+19:48 (09:16). Lone Druid kills a Melee Radiant Creep
+19:50 (09:19). Nyx Assassin kills a Ranged Radiant Creep
+19:52 (09:20). Gyrocopter kills a Ranged Dire Creep
+19:54 (09:22). Puck kills a Melee Dire Creep
+19:54 (09:23). Puck kills a Ranged Dire Creep
+19:58 (09:26). Puck kills a Melee Dire Creep
+19:58 (09:26). Puck kills a Melee Dire Creep
+19:58 (09:27). Magnus kills a Melee Radiant Creep
+19:59 (09:27). Ursa kills a Dark Troll Warlord
+20:00 (09:29). Lone Druid kills a Melee Radiant Creep
+20:03 (09:31). Lone Druid kills a Melee Radiant Creep
+20:04 (09:32). Ursa kills a Dark Troll
+20:06 (09:35). Magnus kills a Melee Radiant Creep
+20:06 (09:35). Magnus kills a Melee Radiant Creep
+20:09 (09:37). Lone Druid kills a Ranged Radiant Creep
+20:09 (09:38). Ursa kills a Dark Troll
+20:11 (09:39). Lone Druid kills a Melee Radiant Creep
+20:11 (09:39). Leshrac kills a Melee Dire Creep
+20:15 (09:43). Lifestealer kills a Ranged Radiant Creep
+20:17 (09:46). Gyrocopter kills a Melee Dire Creep
+20:18 (09:46). Ursa kills a Gnoll Assassin
+20:21 (09:49). Ursa kills a Gnoll Assassin
+20:23 (09:52). Leshrac kills a Melee Dire Creep
+20:24 (09:53). Leshrac kills a Melee Dire Creep
+20:24 (09:53). Ursa kills a Gnoll Assassin
+20:26 (09:54). Magnus kills a Melee Radiant Creep
+20:27 (09:56). Leshrac kills a Ranged Dire Creep
+20:33 (10:01). Ursa kills a Melee Dire Creep
+20:34 (10:02). Magnus kills a Melee Radiant Creep
+20:36 (10:05). Lifestealer kills a Melee Radiant Creep
+20:36 (10:05). Magnus kills a Ranged Radiant Creep
+20:36 (10:05). Leshrac kills a Melee Dire Creep
+20:36 (10:05). Leshrac kills a Ranged Dire Creep
+20:37 (10:06). Ursa kills a Melee Dire Creep
+20:42 (10:11). Leshrac kills a Melee Dire Creep
+20:42 (10:11). Ursa kills a Melee Dire Creep
+20:50 (10:19). Ursa kills a Ranged Dire Creep
+20:53 (10:21). Lifestealer kills a Melee Radiant Creep
+20:55 (10:24). Ursa kills a Melee Dire Creep
+20:56 (10:25). Lifestealer kills a Ranged Radiant Creep
+20:58 (10:26). Lifestealer kills a Melee Radiant Creep
+21:00 (10:29). Ursa kills a Melee Dire Creep
+21:02 (10:30). Ursa kills a Melee Dire Creep
+21:05 (10:33). Ursa kills a Ranged Dire Creep
+21:05 (10:34). Nyx Assassin kills a Melee Radiant Creep
+21:06 (10:34). Lifestealer kills a Ranged Radiant Creep
+21:08 (10:37). Lifestealer kills a Melee Radiant Creep
+21:08 (10:37). Nyx Assassin kills a Melee Radiant Creep
+21:10 (10:39). Leshrac kills a Melee Dire Creep
+21:12 (10:41). Lifestealer kills a Melee Radiant Creep
+21:14 (10:42). Leshrac kills a Melee Dire Creep
+21:16 (10:45). Nyx Assassin kills a Melee Radiant Creep
+21:21 (10:49). Lone Druid kills a Ranged Radiant Creep
+21:21 (10:50). Ursa kills a Forest Troll Berserker
+21:22 (10:51). Lone Druid kills a Melee Radiant Creep
+21:26 (10:55). Ursa kills a Forest Troll Berserker
+21:27 (10:56). Magnus kills a Melee Radiant Creep
+21:29 (10:58). Lifestealer kills a Radiant's Siege Creep
+21:30 (10:59). Magnus kills a Ranged Radiant Creep
+21:31 (11:00). Puck kills a Melee Dire Creep
+21:31 (11:00). Ursa kills a Troll High Priest
+21:32 (11:00). Magnus kills a Melee Radiant Creep
+21:33 (11:02). Lifestealer kills a Melee Radiant Creep
+21:36 (11:04). Magnus kills a Melee Radiant Creep
+21:37 (11:05). Shadow Demon kills a Melee Dire Creep
+21:40 (11:09). Lifestealer kills a Melee Radiant Creep
+21:41 (11:09). Puck kills a Melee Dire Creep
+21:41 (11:10). Lifestealer kills a Ranged Radiant Creep
+21:45 (11:13). Ursa kills a Furbolg Ursa Warrior
+21:48 (11:16). Magnus kills a Radiant's Siege Creep
+21:49 (11:17). Nyx Assassin kills a Ranged Radiant Creep
+21:51 (11:19). Ursa kills a Furbolg Champion
+21:54 (11:22). Lifestealer kills a Ranged Radiant Creep
+21:55 (11:23). Puck kills a Melee Dire Creep
+21:55 (11:24). Puck kills a Ranged Dire Creep
+21:55 (11:24). Lifestealer kills a Melee Radiant Creep
+21:58 (11:26). Puck kills a Melee Dire Creep
+21:58 (11:27). Lone Druid kills a Furbolg Ursa Warrior
+22:05 (11:34). Lone Druid kills a Furbolg Champion
+22:07 (11:35). Magnus kills a Melee Radiant Creep
+22:07 (11:35). Magnus kills a Melee Radiant Creep
+22:07 (11:36). Magnus kills a Ranged Radiant Creep
+22:09 (11:37). Lifestealer kills a Melee Radiant Creep
+22:10 (11:38). Leshrac kills a Dire's Siege Creep
+22:10 (11:38). Magnus kills a Melee Radiant Creep
+22:10 (11:38). Gyrocopter kills a Melee Dire Creep
+22:11 (11:40). Lone Druid kills a Kobold Tunneler
+22:12 (11:41). Gyrocopter kills a Melee Dire Creep
+22:14 (11:42). Lone Druid kills a Kobold Taskmaster
+22:14 (11:43). Ursa kills a Satyr Hellcaller
+22:17 (11:45). Lone Druid kills a Kobold
+22:18 (11:46). Puck kills a Melee Dire Creep
+22:18 (11:46). Puck kills a Melee Dire Creep
+22:18 (11:46). Puck kills a Melee Dire Creep
+22:19 (11:48). Ursa kills a Satyr Soulstealer
+22:19 (11:48). Lone Druid kills a Kobold
+22:21 (11:50). Gyrocopter kills a Ranged Dire Creep
+22:22 (11:50). Ursa kills a Satyr Trickster
+22:22 (11:51). Lone Druid kills a Kobold
+22:27 (11:55). Nyx Assassin kills a Melee Radiant Creep
+22:31 (12:00). Nyx Assassin kills a Melee Radiant Creep
+22:32 (12:00). Nyx Assassin kills a Ranged Radiant Creep
+22:33 (12:02). Ursa kills a Centaur Khan
+22:34 (12:02). Magnus kills a Melee Radiant Creep
+22:34 (12:02). Gyrocopter kills a Melee Dire Creep
+22:35 (12:03). Lone Druid kills a Ogre Magi (Neutral)
+22:35 (12:04). Magnus kills a Ranged Radiant Creep
+22:36 (12:05). Keeper of the Light kills a Melee Radiant Creep
+22:37 (12:05). Keeper of the Light kills a Melee Radiant Creep
+22:37 (12:05). Keeper of the Light kills a Ranged Radiant Creep
+22:38 (12:06). Magnus kills a Melee Radiant Creep
+22:39 (12:07). Gyrocopter kills a Melee Dire Creep
+22:39 (12:08). Magnus kills a Melee Radiant Creep
+22:39 (12:08). Gyrocopter kills a Ranged Dire Creep
+22:40 (12:08). Gyrocopter kills a Melee Dire Creep
+22:40 (12:08). Shadow Demon kills a Melee Dire Creep
+22:44 (12:13). Shadow Demon kills a Melee Dire Creep
+22:47 (12:15). Lone Druid kills a Ogre Mauler
+22:48 (12:16). Lone Druid kills a Ogre Mauler
+22:50 (12:19). Ursa kills a Centaur Outrunner
+22:52 (12:21). Nyx Assassin kills a Melee Radiant Creep
+22:54 (12:22). Magnus kills a Ranged Radiant Creep
+22:55 (12:23). Nyx Assassin kills a Ranged Radiant Creep
+22:58 (12:26). Magnus kills a Melee Radiant Creep
+22:58 (12:26). Magnus kills a Melee Radiant Creep
+22:58 (12:26). Keeper of the Light kills a Melee Radiant Creep
+22:58 (12:26). Magnus kills a Melee Radiant Creep
+23:03 (12:31). Ursa kills a Centaur Khan
+23:03 (12:32). Keeper of the Light kills a Melee Radiant Creep
+23:05 (12:34). Ursa kills a Centaur Outrunner
+23:26 (12:55). Ursa kills a Melee Dire Creep
+23:34 (13:03). Lifestealer kills a Melee Radiant Creep
+23:36 (13:05). Magnus kills a Melee Radiant Creep
+23:39 (13:07). Lifestealer kills a Ranged Radiant Creep
+23:50 (13:18). Magnus kills a Melee Radiant Creep
+23:50 (13:18). Magnus kills a Melee Radiant Creep
+23:50 (13:19). Nyx Assassin kills a Ranged Radiant Creep
+23:51 (13:20). Lifestealer kills a Melee Radiant Creep
+23:59 (13:28). Gyrocopter kills a Melee Dire Creep
+23:59 (13:28). Gyrocopter kills a Melee Dire Creep
+24:01 (13:30). Gyrocopter kills a Melee Dire Creep
+24:01 (13:30). Gyrocopter kills a Ranged Dire Creep
+24:18 (13:46). Keeper of the Light kills a Melee Radiant Creep
+24:19 (13:47). Puck kills a Ranged Dire Creep
+24:22 (13:50). Lifestealer kills a Ranged Radiant Creep
+24:22 (13:51). Magnus kills a Melee Radiant Creep
+24:28 (13:56). Leshrac kills a Melee Dire Creep
+24:28 (13:57). Leshrac kills a Melee Dire Creep
+24:31 (13:59). Keeper of the Light kills a Radiant's Siege Creep
+24:35 (14:04). Puck kills a Bear (Lv4)" ;
+24:43 (14:11). Nyx Assassin kills a Melee Radiant Creep
+24:49 (14:17). Magnus kills a Melee Radiant Creep
+24:52 (14:20). Lifestealer kills a Melee Radiant Creep
+24:53 (14:22). Lifestealer kills a Melee Radiant Creep
+24:57 (14:25). Lifestealer kills a Ranged Radiant Creep
+25:01 (14:30). Lifestealer kills a Radiant's Siege Creep
+25:02 (14:30). Lone Druid kills a Satyr Trickster
+25:02 (14:31). Lone Druid kills a Satyr Trickster
+25:06 (14:34). Keeper of the Light kills a Satyr Trickster
+25:06 (14:34). Keeper of the Light kills a Satyr Trickster
+25:07 (14:35). Lone Druid kills a Satyr Soulstealer
+25:09 (14:37). Lifestealer kills a Melee Radiant Creep
+25:10 (14:39). Lone Druid kills a Satyr Soulstealer
+25:11 (14:39). Lifestealer kills a Ranged Radiant Creep
+25:12 (14:41). Ursa kills a Furbolg Ursa Warrior
+25:16 (14:45). Lone Druid kills a Troll High Priest
+25:17 (14:45). Lifestealer kills a Melee Radiant Creep
+25:18 (14:46). Leshrac kills a Ranged Dire Creep
+25:18 (14:47). Lone Druid kills a Forest Troll Berserker
+25:18 (14:47). Leshrac kills a Ranged Dire Creep
+25:19 (14:48). Keeper of the Light kills a Satyr Soulstealer
+25:20 (14:48). Ursa kills a Furbolg Champion
+25:20 (14:48). Lone Druid kills a Forest Troll Berserker
+25:20 (14:49). Shadow Demon kills a Melee Dire Creep
+25:24 (14:53). Keeper of the Light kills a Satyr Soulstealer
+25:26 (14:54). Leshrac kills a Melee Dire Creep
+25:27 (14:56). Shadow Demon kills a Melee Dire Creep
+25:28 (14:56). Ursa kills a Harpy Storm
+25:29 (14:57). Gyrocopter kills a Melee Dire Creep
+25:30 (14:59). Leshrac kills a Ranged Dire Creep
+25:30 (14:59). Gyrocopter kills a Melee Dire Creep
+25:31 (14:59). Lifestealer kills a Satyr Soulstealer
+25:32 (15:00). Ursa kills a Harpy Scout
+25:33 (15:01). Lone Druid kills a Dark Troll Warlord
+25:33 (15:02). Shadow Demon kills a Melee Dire Creep
+25:35 (15:04). Ursa kills a Harpy Scout
+25:36 (15:04). Lifestealer kills a Satyr Soulstealer
+25:37 (15:05). Lone Druid kills a Dark Troll
+25:38 (15:06). Lifestealer kills a Satyr Trickster
+25:38 (15:07). Keeper of the Light kills a Kobold
+25:39 (15:07). Keeper of the Light kills a Kobold Taskmaster
+25:39 (15:07). Lone Druid kills a Dark Troll
+25:39 (15:07). Keeper of the Light kills a Kobold
+25:39 (15:07). Keeper of the Light kills a Kobold
+25:39 (15:07). Keeper of the Light kills a Kobold Tunneler
+25:40 (15:08). Lifestealer kills a Satyr Trickster
+25:40 (15:09). Magnus kills a Melee Radiant Creep
+25:40 (15:09). Magnus kills a Melee Radiant Creep
+25:42 (15:10). Magnus kills a Ranged Radiant Creep
+25:56 (15:25). Lone Druid kills a Melee Radiant Creep
+25:57 (15:26). Ursa kills a Big Thunder Lizzard
+26:03 (15:32). Keeper of the Light kills a Melee Radiant Creep
+26:03 (15:32). Keeper of the Light kills a Melee Radiant Creep
+26:03 (15:32). Keeper of the Light kills a Ranged Radiant Creep
+26:04 (15:32). Ursa kills a Small Thunder Lizzard
+26:06 (15:34). Lifestealer kills a Satyr Hellcaller
+26:09 (15:37). Lifestealer kills a Satyr Soulstealer
+26:10 (15:39). Nyx Assassin kills a Satyr Trickster
+26:15 (15:43). Ursa kills a Melee Dire Creep
+26:16 (15:44). Lone Druid kills a Centaur Khan
+26:18 (15:46). Lone Druid kills a Centaur Outrunner
+26:27 (15:55). Ursa kills a Melee Dire Creep
+26:28 (15:57). Lone Druid kills a Ogre Magi (Neutral)
+26:34 (16:03). Lone Druid kills a Ogre Mauler
+26:37 (16:06). Ursa kills a Melee Dire Creep
+26:38 (16:06). Keeper of the Light kills a Melee Radiant Creep
+26:38 (16:06). Keeper of the Light kills a Ranged Radiant Creep
+26:39 (16:08). Lone Druid kills a Ogre Mauler
+26:47 (16:16). Lifestealer kills a Centaur Khan
+26:49 (16:18). Lifestealer kills a Centaur Outrunner
+26:50 (16:18). Lone Druid kills a Enraged Wildkin
+26:50 (16:19). Ursa kills a Ranged Dire Creep
+26:53 (16:21). Lone Druid kills a Wildkin
+26:54 (16:23). Magnus kills a Melee Radiant Creep
+26:55 (16:23). Lone Druid kills a Wildkin
+26:56 (16:24). Magnus kills a Ranged Radiant Creep
+26:57 (16:26). Ursa kills a Melee Dire Creep
+26:57 (16:26). Magnus kills a Melee Radiant Creep
+26:59 (16:27). Lifestealer kills a Alpha Wolf
+27:04 (16:32). Keeper of the Light kills a Ranged Radiant Creep
+27:05 (16:33). Magnus kills a Melee Radiant Creep
+27:05 (16:34). Nyx Assassin kills a Melee Radiant Creep
+27:07 (16:36). Puck kills a Observer Ward
+27:07 (16:36). Lifestealer kills a Giant Wolf
+27:07 (16:36). Lone Druid kills a Melee Radiant Creep
+27:08 (16:37). Lone Druid kills a Ranged Radiant Creep
+27:09 (16:37). Nyx Assassin kills a Ranged Radiant Creep
+27:10 (16:38). Ursa kills a Melee Dire Creep
+27:11 (16:39). Lifestealer kills a Giant Wolf
+27:12 (16:40). Lone Druid kills a Melee Radiant Creep
+27:14 (16:43). Ursa kills a Ranged Dire Creep
+27:15 (16:44). Leshrac kills a Melee Dire Creep
+27:33 (17:02). Keeper of the Light kills a Melee Radiant Creep
+27:33 (17:02). Keeper of the Light kills a Ranged Radiant Creep
+27:34 (17:02). Keeper of the Light kills a Melee Radiant Creep
+27:46 (17:14). Keeper of the Light kills a Melee Radiant Creep
+28:04 (17:32). Puck kills a Sentry Ward
+28:10 (17:38). Ursa kills a Furbolg Ursa Warrior
+28:17 (17:46). Ursa kills a Furbolg Champion
+28:18 (17:47). Leshrac kills a Melee Dire Creep
+28:20 (17:48). Lone Druid kills a Radiant's Siege Creep
+28:22 (17:51). Magnus kills a Melee Radiant Creep
+28:23 (17:51). Lone Druid kills a Ranged Radiant Creep
+28:24 (17:53). Magnus kills a Melee Radiant Creep
+28:25 (17:54). Leshrac kills a Ranged Dire Creep
+28:25 (17:54). Lone Druid kills a Melee Radiant Creep
+28:28 (17:56). Leshrac kills a Melee Dire Creep
+28:35 (18:03). Shadow Demon kills a Observer Ward
+28:35 (18:04). Lifestealer kills a Radiant Mid Tier 1 Tower
+28:35 (18:04). Gyrocopter kills a Melee Dire Creep
+28:38 (18:07). Gyrocopter kills a Ranged Dire Creep
+28:39 (18:08). Gyrocopter kills a Ranged Dire Creep
+28:43 (18:12). Leshrac kills a Melee Dire Creep
+28:44 (18:12). Gyrocopter kills a Dire's Siege Creep
+28:46 (18:14). Ursa kills a Melee Dire Creep
+28:47 (18:15). Leshrac kills a Melee Dire Creep
+28:50 (18:18). Leshrac kills a Ranged Dire Creep
+28:50 (18:18). Gyrocopter kills a Melee Dire Creep
+28:51 (18:19). Ursa kills a Ranged Dire Creep
+28:52 (18:20). Gyrocopter kills a Melee Dire Creep
+28:52 (18:21). Ursa kills a Ranged Dire Creep
+28:56 (18:24). Gyrocopter kills a Melee Dire Creep
+28:58 (18:27). Ursa kills a Dire's Siege Creep
+29:04 (18:32). Gyrocopter kills a Ranged Dire Creep
+29:05 (18:33). Nyx Assassin kills a Melee Radiant Creep
+29:06 (18:34). Ursa kills a Melee Dire Creep
+29:07 (18:36). Ursa kills a Melee Dire Creep
+29:08 (18:37). Nyx Assassin kills a Melee Radiant Creep
+29:09 (18:37). Ursa kills a Melee Dire Creep
+29:09 (18:37). Keeper of the Light kills a Sentry Ward
+29:11 (18:40). Nyx Assassin kills a Melee Radiant Creep
+29:13 (18:41). Ursa kills a Melee Dire Creep
+29:15 (18:44). Ursa kills a Ranged Dire Creep
+29:15 (18:44). Nyx Assassin kills a Melee Radiant Creep
+29:17 (18:45). Gyrocopter kills a Melee Dire Creep
+29:17 (18:46). Nyx Assassin kills a Melee Radiant Creep
+29:20 (18:49). Gyrocopter kills a Ranged Dire Creep
+29:22 (18:51). Nyx Assassin kills a Melee Radiant Creep
+29:24 (18:53). Keeper of the Light kills a Roshan
+29:24 (18:53). Ursa kills a Kobold Taskmaster
+29:28 (18:57). Ursa kills a Kobold
+29:29 (18:57). Nyx Assassin kills a Ranged Radiant Creep
+29:29 (18:58). Ursa kills a Kobold Tunneler
+29:31 (18:59). Nyx Assassin kills a Ranged Radiant Creep
+29:38 (19:06). Lifestealer kills a Melee Radiant Creep
+29:39 (19:07). Nyx Assassin kills a Melee Radiant Creep
+29:42 (19:10). Lifestealer kills a Melee Radiant Creep
+29:43 (19:11). Lone Druid kills a Black Dragon
+29:46 (19:14). Lifestealer kills a Melee Radiant Creep
+29:46 (19:14). Nyx Assassin kills a Melee Radiant Creep
+29:49 (19:17). Lifestealer kills a Melee Radiant Creep
+29:49 (19:17). Nyx Assassin kills a Ranged Radiant Creep
+29:51 (19:19). Lone Druid kills a Melee Radiant Creep
+29:53 (19:21). Puck kills a Melee Dire Creep
+29:54 (19:23). Lifestealer kills a Ranged Radiant Creep
+29:54 (19:23). Leshrac kills a Melee Dire Creep
+29:55 (19:24). Leshrac kills a Ranged Dire Creep
+29:59 (19:28). Magnus kills a Dark Troll
+29:59 (19:28). Magnus kills a Dark Troll
+30:01 (19:30). Lifestealer kills a Ranged Radiant Creep
+30:02 (19:30). Lone Druid kills a Melee Radiant Creep
+30:03 (19:31). Keeper of the Light kills a Melee Radiant Creep
+30:03 (19:31). Keeper of the Light kills a Melee Radiant Creep
+30:03 (19:31). Keeper of the Light kills a Melee Radiant Creep
+30:03 (19:32). Keeper of the Light kills a Ranged Radiant Creep
+30:03 (19:32). Magnus kills a Skeleton Warrior
+30:03 (19:32). Lifestealer kills a Melee Radiant Creep
+30:04 (19:32). Gyrocopter kills a Kobold
+30:04 (19:33). Gyrocopter kills a Kobold
+30:06 (19:34). Magnus kills a Dark Troll Warlord
+30:06 (19:34). Magnus kills a Skeleton Warrior
+30:07 (19:35). Lone Druid kills a Melee Radiant Creep
+30:08 (19:37). Lone Druid kills a Ranged Radiant Creep
+30:12 (19:40). Lone Druid kills a Ranged Radiant Creep
+30:12 (19:40). Gyrocopter kills a Satyr Trickster
+30:14 (19:42). Lone Druid kills a Melee Radiant Creep
+30:14 (19:43). Gyrocopter kills a Satyr Soulstealer
+30:16 (19:45). Gyrocopter kills a Satyr Hellcaller
+30:20 (19:48). Lone Druid kills a Melee Radiant Creep
+30:25 (19:53). Leshrac kills a Melee Dire Creep
+30:27 (19:55). Leshrac kills a Melee Dire Creep
+30:28 (19:56). Leshrac kills a Melee Dire Creep
+30:31 (19:59). Ursa kills a Ranged Dire Creep
+30:32 (20:00). Puck kills a Melee Dire Creep
+30:32 (20:00). Lifestealer kills a Furbolg Ursa Warrior
+30:32 (20:00). Puck kills a Melee Dire Creep
+30:32 (20:00). Puck kills a Melee Dire Creep
+30:35 (20:03). Keeper of the Light kills a Observer Ward
+30:43 (20:11). Lifestealer kills a Furbolg Champion
+30:45 (20:14). Lone Druid kills a Melee Radiant Creep
+30:52 (20:21). Keeper of the Light kills a Ranged Radiant Creep
+31:04 (20:32). Gyrocopter kills a Furbolg Ursa Warrior
+31:04 (20:32). Keeper of the Light kills a Furbolg Champion
+31:23 (20:51). Lone Druid kills a Ranged Radiant Creep
+31:29 (20:57). Lone Druid kills a Ranged Radiant Creep
+31:31 (21:00). Lifestealer kills a Melee Radiant Creep
+31:33 (21:01). Lifestealer kills a Melee Radiant Creep
+31:34 (21:03). Lifestealer kills a Melee Radiant Creep
+31:47 (21:15). Lone Druid kills a Melee Radiant Creep
+31:49 (21:17). Lifestealer kills a Melee Radiant Creep
+31:51 (21:20). Lone Druid kills a Melee Radiant Creep
+31:53 (21:21). Lone Druid kills a Ranged Radiant Creep
+32:08 (21:36). Lifestealer kills a Radiant Top Tier 2 Tower
+32:09 (21:37). Nyx Assassin kills a Radiant's Siege Creep
+32:13 (21:41). Shadow Demon kills a Melee Dire Creep
+32:13 (21:41). Magnus kills a Melee Radiant Creep
+32:15 (21:43). Keeper of the Light kills a Melee Radiant Creep
+32:15 (21:43). Keeper of the Light kills a Melee Radiant Creep
+32:15 (21:43). Keeper of the Light kills a Melee Radiant Creep
+32:15 (21:43). Keeper of the Light kills a Ranged Radiant Creep
+32:16 (21:44). Leshrac kills a Melee Dire Creep
+32:16 (21:45). Nyx Assassin kills a Melee Radiant Creep
+32:17 (21:45). Nyx Assassin kills a Ranged Radiant Creep
+32:20 (21:48). Lone Druid kills a Melee Radiant Creep
+32:21 (21:49). Shadow Demon kills a Ranged Dire Creep
+32:22 (21:50). Leshrac kills a Ranged Dire Creep
+32:32 (22:00). Puck kills a Melee Dire Creep
+32:32 (22:00). Puck kills a Ranged Dire Creep
+32:35 (22:03). Shadow Demon kills a Ranged Dire Creep
+32:35 (22:03). Shadow Demon kills a Ranged Dire Creep
+32:35 (22:03). Shadow Demon kills a Ranged Dire Creep
+32:35 (22:04). Leshrac kills a Melee Dire Creep
+32:36 (22:04). Leshrac kills a Melee Dire Creep
+32:36 (22:04). Lifestealer kills a Radiant Mid Tier 2 Tower
+32:36 (22:04). Leshrac kills a Melee Dire Creep
+32:42 (22:10). Lifestealer kills a Melee Radiant Creep
+32:44 (22:12). Lifestealer kills a Melee Radiant Creep
+32:46 (22:14). Lifestealer kills a Melee Radiant Creep
+32:47 (22:16). Nyx Assassin kills a Gnoll Assassin
+32:48 (22:16). Lifestealer kills a Melee Radiant Creep
+32:50 (22:18). Nyx Assassin kills a Gnoll Assassin
+32:52 (22:20). Nyx Assassin kills a Gnoll Assassin
+32:56 (22:24). Gyrocopter kills a Ranged Dire Creep
+32:56 (22:24). Lone Druid kills a Melee Radiant Creep
+32:57 (22:25). Gyrocopter kills a Melee Dire Creep
+32:58 (22:26). Gyrocopter kills a Melee Dire Creep
+32:58 (22:26). Lone Druid kills a Melee Radiant Creep
+32:59 (22:27). Gyrocopter kills a Melee Dire Creep
+33:02 (22:31). Lone Druid kills a Ranged Radiant Creep
+33:08 (22:36). Puck kills a Melee Dire Creep
+33:09 (22:37). Puck kills a Ranged Dire Creep
+33:09 (22:37). Puck kills a Melee Dire Creep
+33:09 (22:37). Puck kills a Melee Dire Creep
+33:09 (22:37). Puck kills a Melee Dire Creep
+33:12 (22:40). Lone Druid kills a Radiant Bottom Tier 2 Tower
+33:14 (22:42). Lone Druid kills a Melee Radiant Creep
+33:14 (22:43). Gyrocopter kills a Melee Dire Creep
+33:15 (22:43). Magnus kills a Melee Radiant Creep
+33:15 (22:44). Magnus kills a Ranged Radiant Creep
+33:16 (22:44). Lone Druid kills a Melee Radiant Creep
+33:17 (22:45). Gyrocopter kills a Ranged Dire Creep
+33:18 (22:47). Gyrocopter kills a Melee Dire Creep
+33:19 (22:47). Gyrocopter kills a Melee Dire Creep
+33:27 (22:55). Leshrac kills a Melee Dire Creep
+33:52 (23:00). Puck kills a Observer Ward
+33:53 (23:02). Gyrocopter kills a Melee Dire Creep
+33:55 (23:03). Gyrocopter kills a Ranged Dire Creep
+33:56 (23:04). Keeper of the Light kills a Ranged Radiant Creep
+34:01 (23:09). Gyrocopter kills a Melee Dire Creep
+34:06 (23:14). Lifestealer kills a Melee Radiant Creep
+34:10 (23:18). Lifestealer kills a Melee Radiant Creep
+34:11 (23:19). Lifestealer kills a Melee Radiant Creep
+34:12 (23:20). Lifestealer kills a Melee Radiant Creep
+34:23 (23:31). Nyx Assassin kills a Radiant Bottom Tier 3 Tower
+34:24 (23:32). Magnus kills a Melee Radiant Creep
+34:25 (23:33). Keeper of the Light kills a Melee Radiant Creep
+34:26 (23:34). Magnus kills a Melee Radiant Creep
+34:27 (23:35). Lifestealer kills a Melee Radiant Creep
+34:32 (23:40). Keeper of the Light kills a Radiant Bottom Melee Barracks
+34:35 (23:44). Lone Druid kills a Radiant Bottom Ranged Barracks
+34:44 (23:52). Nyx Assassin kills a Radiant Building
+34:54 (24:03). Keeper of the Light kills a Radiant Mid Tier 3 Tower
+34:59 (24:08). Lifestealer kills a Radiant Building
+35:03 (24:12). Lifestealer kills a Radiant Mid Melee Barracks
+35:06 (24:15). Lifestealer kills a Melee Radiant Creep
+35:10 (24:19). Lifestealer kills a Melee Radiant Creep
+35:12 (24:21). Lifestealer kills a Melee Radiant Creep
+35:12 (24:21). Lone Druid kills a Radiant Mid Ranged Barracks
+35:13 (24:22). Keeper of the Light kills a Melee Radiant Creep
+35:14 (24:23). Lifestealer kills a Ranged Radiant Creep
+35:15 (24:24). Lifestealer kills a Radiant's Siege Creep
+35:27 (24:35). Lifestealer kills a Radiant Top Tier 3 Tower
+35:28 (24:37). Lifestealer kills a Melee Radiant Creep
+35:30 (24:39). Lifestealer kills a Melee Radiant Creep
+35:31 (24:40). Nyx Assassin kills a Ranged Radiant Creep
+35:33 (24:41). Lifestealer kills a Melee Radiant Creep
+35:36 (24:45). Lifestealer kills a Radiant Top Melee Barracks
+35:38 (24:47). Lifestealer kills a Melee Radiant Creep
+35:42 (24:51). Lone Druid kills a Radiant Top Ranged Barracks
+35:48 (24:57). Lifestealer kills a Radiant Building
+35:50 (24:59). Nyx Assassin kills a Radiant Building
+35:52 (25:01). Lifestealer kills a Radiant Building
+35:55 (25:04). Lifestealer kills a Melee Radiant Creep
+
+Hero Kills: 
+
+12:21 (01:49). 
+ Death: Shadow Demon. 
+ Killed By: Keeper of the Light 
+ Assists: Nyx Assassin, Lifestealer
+13:43 (03:12). 
+ Death: Lone Druid. 
+ Killed By: Puck 
+ Assists:None.
+15:55 (05:23). 
+ Death: Magnus. 
+ Killed By: Puck 
+ Assists:None.
+17:37 (07:05). 
+ Death: Lone Druid. 
+ Killed By: Gyrocopter 
+ Assists: Puck
+20:25 (09:53). 
+ Death: Shadow Demon. 
+ Killed By: Nyx Assassin 
+ Assists: Lifestealer
+20:26 (09:55). 
+ Death: Gyrocopter. 
+ Killed By: Lifestealer 
+ Assists: Lone Druid
+20:30 (09:59). 
+ Death: Puck. 
+ Killed By: Lifestealer 
+ Assists: Magnus, Lone Druid, Nyx Assassin
+21:50 (11:18). 
+ Death: Shadow Demon. 
+ Killed By: Nyx Assassin 
+ Assists:None.
+22:15 (11:44). 
+ Death: Leshrac. 
+ Killed By: Lifestealer 
+ Assists:None.
+22:19 (11:47). 
+ Death: Lifestealer. 
+ Killed By: Puck 
+ Assists:None.
+24:30 (13:59). 
+ Death: Gyrocopter. 
+ Killed By: Magnus 
+ Assists: Nyx Assassin, Lifestealer
+24:30 (13:59). 
+ Death: Leshrac. 
+ Killed By: Magnus 
+ Assists:None.
+24:40 (14:09). 
+ Death: Puck. 
+ Killed By: Keeper of the Light 
+ Assists: Lone Druid, Nyx Assassin, Lifestealer
+25:49 (15:18). 
+ Death: Leshrac. 
+ Killed By: Magnus 
+ Assists: Lifestealer
+27:20 (16:49). 
+ Death: Leshrac. 
+ Killed By: Magnus 
+ Assists: Lifestealer
+27:24 (16:53). 
+ Death: Lifestealer. 
+ Killed By: Ursa 
+ Assists:None.
+27:28 (16:56). 
+ Death: Magnus. 
+ Killed By: Radiant Bottom Tier 1 Tower 
+ Assists: Puck, Gyrocopter, Ursa
+27:44 (17:12). 
+ Death: Gyrocopter. 
+ Killed By: Magnus 
+ Assists: Keeper of the Light, Lone Druid
+27:44 (17:12). 
+ Death: Nyx Assassin. 
+ Killed By: Puck 
+ Assists: Gyrocopter, Ursa
+28:15 (17:43). 
+ Death: Puck. 
+ Killed By: Keeper of the Light 
+ Assists: Magnus, Lone Druid
+28:54 (18:23). 
+ Death: Leshrac. 
+ Killed By: Nyx Assassin 
+ Assists:None.
+31:03 (20:31). 
+ Death: Ursa. 
+ Killed By: Magnus 
+ Assists: Lone Druid, Lifestealer
+31:06 (20:34). 
+ Death: Magnus. 
+ Killed By: Gyrocopter 
+ Assists: Leshrac, Shadow Demon, Puck, Ursa
+31:09 (20:37). 
+ Death: Puck. 
+ Killed By: Nyx Assassin 
+ Assists: Keeper of the Light
+31:11 (20:39). 
+ Death: Shadow Demon. 
+ Killed By: Lone Druid 
+ Assists: Magnus, Nyx Assassin
+31:21 (20:49). 
+ Death: Gyrocopter. 
+ Killed By: Lifestealer 
+ Assists: Keeper of the Light, Lone Druid, Nyx Assassin
+33:50 (22:59). 
+ Death: Leshrac. 
+ Killed By: Nyx Assassin 
+ Assists: Lifestealer
+33:57 (23:05). 
+ Death: Ursa. 
+ Killed By: Keeper of the Light 
+ Assists: Magnus, Lone Druid, Nyx Assassin, Lifestealer
+34:04 (23:12). 
+ Death: Puck. 
+ Killed By: Magnus 
+ Assists: Keeper of the Light, Lone Druid, Nyx Assassin, Lifestealer
+34:15 (23:23). 
+ Death: Gyrocopter. 
+ Killed By: Nyx Assassin 
+ Assists: Magnus, Lone Druid, Lifestealer
+
+Roshan Kills:
+
+29:24 (18:53). Dire team. Grabber: npc_dota_hero_life_stealer
+
+Tower Kills: 
+
+23:47 (13:15). npc_dota_goodguys_tower1_unknown dies. Killer: Creeps
+27:43 (17:11). npc_dota_goodguys_tower1_unknown dies. Killer: Creeps
+28:35 (18:04). Radiant Mid Tier 1 Tower dies. Killer: Lifestealer.
+32:08 (21:36). Radiant Top Tier 2 Tower dies. Killer: Lifestealer.
+32:36 (22:04). Radiant Mid Tier 2 Tower dies. Killer: Lifestealer.
+33:12 (22:40). Radiant Bottom Tier 2 Tower dies. Killer: Lone Druid.
+34:23 (23:31). Radiant Bottom Tier 3 Tower dies. Killer: Nyx Assassin.
+34:32 (23:40). Radiant Bottom Melee Barracks dies. Killer: Keeper of the Light.
+34:35 (23:44). Radiant Bottom Ranged Barracks dies. Killer: Lone Druid.
+34:54 (24:03). Radiant Mid Tier 3 Tower dies. Killer: Keeper of the Light.
+35:03 (24:12). Radiant Mid Melee Barracks dies. Killer: Lifestealer.
+35:12 (24:21). Radiant Mid Ranged Barracks dies. Killer: Lone Druid.
+35:27 (24:35). Radiant Top Tier 3 Tower dies. Killer: Lifestealer.
+35:36 (24:45). Radiant Top Melee Barracks dies. Killer: Lifestealer.
+35:42 (24:51). Radiant Top Ranged Barracks dies. Killer: Lone Druid.
+
+Players Info:
+
+Empire.twiSta: Leshrac. KDA: 0/6/1 CS: 41/5. Weighted Kills: 0.20 Solo potential: 0.20
+Empire.Mitch: Shadow Demon. KDA: 0/4/1 CS: 20/5. Weighted Kills: 0.20 Solo potential: 0.20
+Empire.Scandal: Puck. KDA: 4/5/3 CS: 68/10. Weighted Kills: 4.37 Solo potential: 0.62
+Empire.blowyourbrain: Gyrocopter. KDA: 2/5/2 CS: 84/11. Weighted Kills: 1.37 Solo potential: 0.34
+Empire.LighT: Ursa. KDA: 1/2/3 CS: 86/5. Weighted Kills: 1.87 Solo potential: 0.47
+DD GoblaK: Keeper of the Light. KDA: 4/0/4 CS: 61/2. Weighted Kills: 2.40 Solo potential: 0.30
+dd Funzii: Magnus. KDA: 7/3/5 CS: 80/12. Weighted Kills: 4.57 Solo potential: 0.38
+dd Sockshka       BVB: Lone Druid. KDA: 1/2/10 CS: 98/20. Weighted Kills: 3.23 Solo potential: 0.29
+dd 7ckngMad^_-: Nyx Assassin. KDA: 6/1/8 CS: 52/2. Weighted Kills: 5.90 Solo potential: 0.42
+dd Silent <3 Mila: Lifestealer. KDA: 4/2/11 CS: 119/21. Weighted Kills: 5.90 Solo potential: 0.39
+
+Glyph Usage:
+
+20:51 (10:19). Glyph used by Dire.
+30:38 (20:06). Glyph used by Radiant.
+31:59 (21:27). Glyph used by Dire.
+
+Buybacks:
+
+27:32 (17:00). Magnus bought back.
+
+Pauses:
+
+33:27 (22:36). Dire paused for 00:19
+
+Chat:
+
+00:11 (-10:-19) GD Studio Commentry: someone said wait?
+00:13 (-10:-18) GD Studio Commentry: whats wrong
+00:16 (-10:-15) Empire.twiSta: we didnt
+09:15 (-1:-16) Empire.twiSta: gggl
+09:19 (-1:-11) dd Sockshka       BVB: glgl
+09:27 (-1:-3) Empire.Scandal: gl
+09:32 (00:-59) dd 7ckngMad^_-: gl hf
+20:49 (10:17) dd 7ckngMad^_-: lux server?
+20:52 (10:21) dd 7ckngMad^_-: or stcklm
+20:56 (10:25) Draskyl: Lux
+20:59 (10:28) dd 7ckngMad^_-: ok ty
+33:28 (22:36) dd Funzii: sec
+33:41 (22:36) dd Funzii: rdy ?
+33:43 (22:36) Empire.twiSta: g
+33:43 (22:36) Empire.Scandal: g
+34:19 (23:28) Empire.Scandal: gg wp gl
+34:21 (23:30) dd 7ckngMad^_-: Gg
+34:22 (23:30) Empire.twiSta: ggwp
+34:22 (23:31) dd Funzii: gg
+34:24 (23:32) DD GoblaK: gg wp
+34:25 (23:33) Empire.Mitch: GG gl
+34:25 (23:33) dd Sockshka       BVB: gg wp
