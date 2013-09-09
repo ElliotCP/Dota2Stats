@@ -18,8 +18,7 @@
 				login-page="/main/home" 
 				authentication-failure-url="/main/home?error=true" 
 				default-target-url="/main/common"/>
-		
-		<!-- TODO logout -->	
+			
 		<security:logout 
 				invalidate-session="true" 
 				logout-success-url="/main/home" 
