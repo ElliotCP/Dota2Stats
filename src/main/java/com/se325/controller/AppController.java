@@ -42,10 +42,14 @@ public class AppController{
 	}
 	
 	@RequestMapping(value = "/common", method = RequestMethod.GET)
-	public String printLoggedIn(ModelMap model) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
+	public String printLoggedIn(ModelMap model, HttpServletRequest request) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		
 		username64Bit = this.get64BitId(auth.getName());//gets the 64 bit user name
 		username = this.getSteamUsername(username64Bit);//gets your display name for steam
+		
+		request.setAttribute("username", username);
+		
 		model.addAttribute("message", "Hello! "+username+" You Have Logged In choose file to upload");
 		return "loggedIn_home";
 	}
