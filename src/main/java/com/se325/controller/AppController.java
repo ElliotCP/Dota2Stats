@@ -1,21 +1,14 @@
 package com.se325.controller;
 
-import java.io.File;
 import java.io.IOException;
-import java.io.StringWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.servlet.http.HttpServletRequest;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerConfigurationException;
-import javax.xml.transform.TransformerException;
-import javax.xml.transform.TransformerFactory;
-import javax.xml.transform.TransformerFactoryConfigurationError;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.transform.stream.StreamResult;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -24,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.w3c.dom.Document;
-import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -44,7 +36,7 @@ public class AppController{
 	
 	@RequestMapping(value = "/UploadReplay", method = RequestMethod.POST)
 	public String upload(HttpServletRequest request) {
-		request.setAttribute("username", username);
+		request.setAttribute("username64Bit", username64Bit);
 //		model.addAttribute("message", "Hello! This is Spring MVC Web Controller.");
 		return "uploadFile";
 	}
@@ -72,6 +64,9 @@ public class AppController{
 	
 	
 	private String get64BitId(String claimedId){		
+		
+		//getting only the 64bit number from the returned claimed ID from steam
+		//claimedId is in the format: http://steamcommunity.com/openid/id/<steamid>
 		return claimedId.substring(claimedId.indexOf("/id/")+4);
 	}
 	
