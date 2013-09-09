@@ -22,8 +22,8 @@
 		<!-- TODO logout -->	
 		<security:logout 
 				invalidate-session="true" 
-				logout-success-url="/user/login" 
-				logout-url="/user/logout"/>
+				logout-success-url="/main/home" 
+				logout-url="/main/logout"/>
 	
 	</security:http>
 	

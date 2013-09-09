@@ -42,6 +42,13 @@ public class AppController{
 	}
 	
 	
+	@RequestMapping(value = "/logout", method = RequestMethod.GET)
+ 	public String logout(HttpServletRequest request) {
+		request.getSession(false).invalidate();
+		return "home";
+	}
+	
+	
 	private String get64BitId(String claimedId){		
 		return claimedId.substring(claimedId.indexOf("/id/")+4);
 	}
