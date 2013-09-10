@@ -84,10 +84,10 @@ public class AppController{
 
 			try{ 
 				// Parse the request to get file items.
-				List fileItems = upload.parseRequest(request);
+				List<?> fileItems = upload.parseRequest(request);
 
 				// Process the uploaded file items
-				Iterator i = fileItems.iterator();
+				Iterator<?> i = fileItems.iterator();
 
 				while ( i.hasNext () ){
 					FileItem fi = (FileItem)i.next();
