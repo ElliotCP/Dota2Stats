@@ -8,21 +8,20 @@
 			http://www.springframework.org/schema/security/spring-security-3.0.xsd">
 	
 	<!-- This is where we configure Spring-Security  -->
-	<security:http auto-config="true" use-expressions="true" access-denied-page="/main/denied" >
+	<security:http auto-config="true" use-expressions="true" access-denied-page="/denied" >
 	
-		<!-- <security:intercept-url pattern="/user/login" access="permitAll"/> -->
-		<security:intercept-url pattern="/main/common" access="hasRole('ROLE_USER')"/>
+		<security:intercept-url pattern="/user/home" access="hasRole('ROLE_USER')"/>
 		
 		<!-- Adding the openid-login tag activates Spring Security's support for OpenID  -->
 		<security:openid-login
-				login-page="/main/home" 
-				authentication-failure-url="/main/home?error=true" 
-				default-target-url="/main/common"/>
+				login-page="/" 
+				authentication-failure-url="/home?error=true" 
+				default-target-url="/user/home"/>
 			
 		<security:logout 
 				invalidate-session="true" 
-				logout-success-url="/main/home" 
-				logout-url="/main/logout"/>
+				logout-success-url="/" 
+				logout-url="/logout"/>
 	
 	</security:http>
 	

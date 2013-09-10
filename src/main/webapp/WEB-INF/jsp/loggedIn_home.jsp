@@ -20,7 +20,7 @@
 					<ul class="nav pull-right">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">About us</a></li>
-						<li><a href="/main/logout" > Logout (<%=(request.getAttribute("username")) %>)</a></li>
+						<li><a href="/logout" > Logout (<%=(request.getAttribute("username")) %>)</a></li>
 					</ul>
 				</div>	
 			</div>
@@ -28,7 +28,7 @@
 	</div>
 	<div>
 		<p>${message}</p>	
-		<form action="common?upload=true" method="post" enctype="multipart/form-data">
+		<form action="home?upload=true" method="post" enctype="multipart/form-data">
 			<input type="file" name="file"/>
 			<br/>
 			<input type="submit" value="Upload File" />

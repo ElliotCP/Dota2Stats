@@ -27,18 +27,13 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 @Controller
+@RequestMapping("/user")
 public class AppController{
 
 	private static String username64Bit;
 	private static String username;
 
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
-		model.addAttribute("message", "Hello! This is home page please log in to proceed.");
-		return "home";
-	}
-
-	@RequestMapping(value = "/common", method = {RequestMethod.GET, RequestMethod.POST})
+	@RequestMapping(value = "/home", method = {RequestMethod.GET, RequestMethod.POST})
 	public String printLoggedIn(@RequestParam(value = "upload", required = false) boolean upload,
 			ModelMap model, HttpServletRequest request) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
 		
@@ -49,26 +44,13 @@ public class AppController{
 
 		request.setAttribute("username", username);
 
-		if(upload){//request parameter upload is set i.e. url is .../common?upload=true , then upload file
-			model.addAttribute("message", this.uploadFile(request));
+		if(upload){//request parameter upload is set i.e. url is .../home?upload=true , then upload file
+			model.addAttribute("message", this.uploadFile(request));//method returns a string of the file uploaded
 		}else{
-			model.addAttribute("message", "Hello! "+username+upload+" You Have Logged In choose file to upload");
+			model.addAttribute("message", "Hello! "+username+" You Have Logged In choose file to upload");
 		}
 		return "loggedIn_home";
 	}
-
-	@RequestMapping(value = "/denied", method = RequestMethod.GET)
-	public String getDeniedPage() {
-		return "denied";
-	}
-
-
-	@RequestMapping(value = "/logout", method = RequestMethod.GET)
-	public String logout(HttpServletRequest request) {
-		request.getSession(false).invalidate();
-		return "home";
-	}
-
 
 	private String get64BitId(String claimedId){		
 		//getting only the 64bit number from the returned claimed ID from steam
