@@ -73,6 +73,54 @@ def generatePlayerLevelGraph(playerLevelOverTime) :
 
 	im.save("playerLevelGraph.png")
 
+def generatePlayerKillsGraph(playerKillsOverTime) :	
+	imageWidth = 800.0
+	imageHeight = 500.0
+	im = Image.new("RGB", (800, 500), "white")
+	draw = ImageDraw.Draw(im)
+	maxTime = float(playerKillsOverTime[-1][0])
+	numberOfKills = float(len(playerKillsOverTime))
+	#draw.line((0, imageHeight, float(playerKillsOverTime[0][0])/maxTime*imageWidth, imageHeight-1.0/numberOfKills*imageHeight), fill=(0,0,0))
+	for i in range(len(playerKillsOverTime)-1) :
+		draw.line((float(playerKillsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/numberOfKills*imageHeight, float(playerKillsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(i+1)/numberOfKills*imageHeight), fill=(0,0,0))
+		draw.text((float(playerKillsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-30.0), playerKillsOverTime[i+1][1].title(), fill=(255,0,0))
+
+	del draw
+
+	im.save("playerKillsGraph.png")
+
+def generatePlayerDeathsGraph(playerDeathsOverTime) :
+	imageWidth = 800.0
+	imageHeight = 500.0
+	im = Image.new("RGB", (800, 500), "white")
+	draw = ImageDraw.Draw(im)
+	maxTime = float(playerDeathsOverTime[-1][0])
+	numberOfDeaths = float(len(playerDeathsOverTime))
+	#draw.line((0, imageHeight, float(playerDeathsOverTime[0][0])/maxTime*imageWidth, imageHeight-1.0/numberOfDeaths*imageHeight), fill=(0,0,0))
+	for i in range(len(playerDeathsOverTime)-1) :
+		draw.line((float(playerDeathsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/numberOfDeaths*imageHeight, float(playerDeathsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(i+1)/numberOfDeaths*imageHeight), fill=(0,0,0))
+		draw.text((float(playerDeathsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-30.0), playerDeathsOverTime[i+1][1].title(), fill=(255,0,0))
+
+	del draw
+
+	im.save("playerDeathsGraph.png")
+
+def generatePlayerAssistsGraph(playerAssistsOverTime) :
+	imageWidth = 800.0
+	imageHeight = 500.0
+	im = Image.new("RGB", (800, 500), "white")
+	draw = ImageDraw.Draw(im)
+	maxTime = float(playerAssistsOverTime[-1][0])
+	numberOfAssists = float(len(playerAssistsOverTime))
+	#draw.line((0, imageHeight, float(playerAssistsOverTime[0][0])/maxTime*imageWidth, imageHeight-1.0/numberOfAssists*imageHeight), fill=(0,0,0))
+	for i in range(len(playerAssistsOverTime)-1) :
+		draw.line((float(playerAssistsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/numberOfAssists*imageHeight, float(playerAssistsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(i+1)/numberOfAssists*imageHeight), fill=(0,0,0))
+		draw.text((float(playerAssistsOverTime[i+1][0])/maxTime*imageWidth, imageHeight-30.0), playerAssistsOverTime[i+1][1].title(), fill=(255,0,0))
+
+	del draw
+
+	im.save("playerAssistsGraph.png")
+
 def generatePlayerGoldGraph(playerTotalGoldOverTime) :
 	imageWidth = 800.0
 	imageHeight = 500.0
@@ -100,7 +148,7 @@ def generatePlayerGPMGraph(playerGPMOverTime) :
 		if playerGPMOverTime[i][1] > maxGPM :
 			maxGPM = float(playerGPMOverTime[i][1])
 
-	draw.line((0, imageHeight, float(playerGPMOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerGPMOverTime[0][1])/maxGPM*imageHeight), fill=(0,0,0))
+	#draw.line((0, imageHeight, float(playerGPMOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerGPMOverTime[0][1])/maxGPM*imageHeight), fill=(0,0,0))
 	for i in range(len(playerGPMOverTime)-1) :
 		draw.line((float(playerGPMOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerGPMOverTime[i][1])/maxGPM*imageHeight, float(playerGPMOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(playerGPMOverTime[i+1][1])/maxGPM*imageHeight), fill=(0,0,0))
 		#draw.text((playerGPMOverTime[i+1][0]/10, playerGPMOverTime[i+1][1]*10), str(playerGPMOverTime[i+1][1]).title(), fill=(255,0,0))
@@ -121,10 +169,16 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
 			maxDamage = float(playerDamageDealtOverTime[i][2])
 	if maxDamage == 0 :
 		pass
-	draw.line((0, imageHeight, float(playerDamageDealtOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[0][2])/maxDamage*imageHeight), fill=(0,0,0))
-	for i in range(len(playerDamageDealtOverTime)-1) :
-		draw.line((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight, float(playerDamageDealtOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i+1][2])/maxDamage*imageHeight), fill=(0,0,0))
+	#draw.line((0, imageHeight, float(playerDamageDealtOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[0][2])/maxDamage*imageHeight), fill=(0,0,0))
+	#for i in range(len(playerDamageDealtOverTime)-1) :
+		#draw.line((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight, float(playerDamageDealtOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i+1][2])/maxDamage*imageHeight), fill=(0,0,0))
 		#draw.text((playerDamageDealtOverTime[i+1][0]/10, playerDamageDealtOverTime[i+1][1]*10), str(playerDamageDealtOverTime[i+1][1]).title(), fill=(255,0,0))
+	for i in range(len(playerDamageDealtOverTime)) :
+		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight-1), fill=(0,0,0))
+		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight+1), fill=(0,0,0))
 
 	del draw
 
@@ -140,16 +194,28 @@ def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 	for i in range(len(playerDamageDealtOverTime)) :
 		if playerDamageDealtOverTime[i][2] > maxDamage and dealtTo in playerDamageDealtOverTime[i][1] :
 			maxDamage = float(playerDamageDealtOverTime[i][2])
-
-	draw.line((0, imageHeight, float(playerDamageDealtOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[0][2])/maxDamage*imageHeight), fill=(0,0,0))
-	for i in range(len(playerDamageDealtOverTime)-1) :
+	if maxDamage == 0 :
+		pass
+	#draw.line((0, imageHeight, float(playerDamageDealtOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[0][2])/maxDamage*imageHeight), fill=(0,0,0))
+	for i in range(len(playerDamageDealtOverTime)) :
 		if dealtTo in playerDamageDealtOverTime[i][1] :
-			draw.line((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight, float(playerDamageDealtOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i+1][2])/maxDamage*imageHeight), fill=(0,0,0))
-		#draw.text((playerDamageDealtOverTime[i+1][0]/10, playerDamageDealtOverTime[i+1][1]*10), str(playerDamageDealtOverTime[i+1][1]).title(), fill=(255,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight-1), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight+1), fill=(0,0,0))
+
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight-1), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight+1), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight-1), fill=(0,0,0))
+			draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight+1), fill=(0,0,0))
+
 
 	del draw
 
 	im.save("playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
+
+
 
 
 
@@ -375,6 +441,15 @@ if __name__ == '__main__' :
 	#-----------------------------------------------------------
 
 	# Multiprocessing (is this done properly?)
+	playerKillProcess = Process(target=generatePlayerKillsGraph, args=(playerKillsOverTime,))
+	playerKillProcess.start()
+	playerKillProcess.join()
+	playerDeathProcess = Process(target=generatePlayerDeathsGraph, args=(playerDeathsOverTime,))
+	playerDeathProcess.start()
+	playerDeathProcess.join()
+	playerAssistProcess = Process(target=generatePlayerAssistsGraph, args=(playerAssistsOverTime,))
+	playerAssistProcess.start()
+	playerAssistProcess.join()
 	playerLevelProcess = Process(target=generatePlayerLevelGraph, args=(playerLevelOverTime,))
 	playerLevelProcess.start()
 	playerLevelProcess.join()
