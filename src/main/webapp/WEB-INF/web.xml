@@ -27,7 +27,7 @@
 	<!-- Servlet will be responsible for serving all requests. -->
 	<servlet-mapping>
 		<servlet-name>dispatcher</servlet-name>
-		<url-pattern>/main/*</url-pattern>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 	<!-- Spring configuration file to load into the DispatcherServlet. -->
@@ -37,12 +37,6 @@
 		    /WEB-INF/dispatcher-servlet.xml
 		   	/WEB-INF/dispatcher-security.xml
 		</param-value>
-	</context-param>
-
-	<context-param>
-		<description>Location to store uploaded file</description>
-		<param-name>file-upload</param-name>
-		<param-value>uploads\</param-value>
 	</context-param>
 
 	<listener>
