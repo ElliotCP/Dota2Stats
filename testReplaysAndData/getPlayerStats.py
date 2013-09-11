@@ -34,6 +34,7 @@ playerBuildingKillsOverTime = []
 playerDamageDealtOverTime = []
 playerDamageTakenOverTime = []
 playerBuybackOverTime = []
+playerRunePickupsOverTime = []
 
 playerTotalCS = 0
 playerTotalDenies = 0
@@ -58,9 +59,11 @@ def closeJSON() :
 	json_data.close()
 
 def generatePlayerLevelGraph(playerLevelOverTime) :
+	if len(playerLevelOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerLevelOverTime[-1][0])
 	maxLevel = float(playerLevelOverTime[-1][1])
@@ -74,9 +77,11 @@ def generatePlayerLevelGraph(playerLevelOverTime) :
 	im.save("playerLevelGraph.png")
 
 def generatePlayerKillsGraph(playerKillsOverTime) :	
+	if len(playerKillsOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerKillsOverTime[-1][0])
 	numberOfKills = float(len(playerKillsOverTime))
@@ -90,9 +95,11 @@ def generatePlayerKillsGraph(playerKillsOverTime) :
 	im.save("playerKillsGraph.png")
 
 def generatePlayerDeathsGraph(playerDeathsOverTime) :
+	if len(playerDeathsOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerDeathsOverTime[-1][0])
 	numberOfDeaths = float(len(playerDeathsOverTime))
@@ -106,9 +113,11 @@ def generatePlayerDeathsGraph(playerDeathsOverTime) :
 	im.save("playerDeathsGraph.png")
 
 def generatePlayerAssistsGraph(playerAssistsOverTime) :
+	if len(playerAssistsOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerAssistsOverTime[-1][0])
 	numberOfAssists = float(len(playerAssistsOverTime))
@@ -122,9 +131,11 @@ def generatePlayerAssistsGraph(playerAssistsOverTime) :
 	im.save("playerAssistsGraph.png")
 
 def generatePlayerGoldGraph(playerTotalGoldOverTime) :
+	if len(playerTotalGoldOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime =  float(playerTotalGoldOverTime[-1][0])
 	maxGold = float(playerTotalGoldOverTime[-1][1])
@@ -138,9 +149,11 @@ def generatePlayerGoldGraph(playerTotalGoldOverTime) :
 	im.save("playerGoldGraph.png")
 
 def generatePlayerGPMGraph(playerGPMOverTime) :
+	if len(playerGPMOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerGPMOverTime[-1][0])
 	maxGPM = 0
@@ -158,9 +171,11 @@ def generatePlayerGPMGraph(playerGPMOverTime) :
 	im.save("playerGPMGraph.png")
 
 def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
+	if len(playerDamageDealtOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerDamageDealtOverTime[-1][0])
 	maxDamage = 0
@@ -169,10 +184,6 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
 			maxDamage = float(playerDamageDealtOverTime[i][2])
 	if maxDamage == 0 :
 		pass
-	#draw.line((0, imageHeight, float(playerDamageDealtOverTime[0][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[0][2])/maxDamage*imageHeight), fill=(0,0,0))
-	#for i in range(len(playerDamageDealtOverTime)-1) :
-		#draw.line((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight, float(playerDamageDealtOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i+1][2])/maxDamage*imageHeight), fill=(0,0,0))
-		#draw.text((playerDamageDealtOverTime[i+1][0]/10, playerDamageDealtOverTime[i+1][1]*10), str(playerDamageDealtOverTime[i+1][1]).title(), fill=(255,0,0))
 	for i in range(len(playerDamageDealtOverTime)) :
 		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
 		draw.point((float(playerDamageDealtOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageDealtOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
@@ -185,9 +196,11 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
 	im.save("playerDamageDealtGraph.png")
 
 def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
+	if len(playerDamageDealtOverTime) < 1:
+		return
 	imageWidth = 800.0
 	imageHeight = 500.0
-	im = Image.new("RGB", (800, 500), "white")
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
 	draw = ImageDraw.Draw(im)
 	maxTime = float(playerDamageDealtOverTime[-1][0])
 	maxDamage = 0
@@ -215,6 +228,79 @@ def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 
 	im.save("playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
 
+def generatePlayerItemProgressionGraphAndFile(playerItemProgressionOverTime) :
+	if len(playerItemProgressionOverTime) < 1:
+		return
+	imageWidth = 800.0
+	imageHeight = 500.0
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
+	draw = ImageDraw.Draw(im)
+	maxTime = float(playerItemProgressionOverTime[-1][0])
+	itemsBought = float(len(playerItemProgressionOverTime))
+	
+	draw.line((0,imageHeight,(float(playerItemProgressionOverTime[0][0])/maxTime*imageWidth, imageHeight-float(0.0)/itemsBought*imageHeight)), fill=(0,0,0))
+	for i in range(len(playerItemProgressionOverTime)-1) :
+		draw.line((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/itemsBought*imageHeight, (float(playerItemProgressionOverTime[i+1][0])/maxTime*imageWidth, imageHeight-float(i+1)/itemsBought*imageHeight)), fill=(0,0,0))
+		draw.point((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/itemsBought*imageHeight), fill=(0,0,0))
+		draw.point((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/itemsBought*imageHeight), fill=(0,0,0))
+		draw.point((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/itemsBought*imageHeight), fill=(0,0,0))
+		draw.point((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/itemsBought*imageHeight-1), fill=(0,0,0))
+		draw.point((float(playerItemProgressionOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/itemsBought*imageHeight+1), fill=(0,0,0))
+
+	del draw
+
+	im.save("playerItemProgressionGraph.png")
+
+
+def generatePlayerRunePickupGraph(playerRunePickupsOverTime) :
+	if len(playerRunePickupsOverTime) < 1:
+		return
+	imageWidth = 800.0
+	imageHeight = 500.0
+	im = Image.new("RGB", (int(imageWidth), int(imageHeight)), "white")
+	draw = ImageDraw.Draw(im)
+	print len(playerRunePickupsOverTime)
+	maxTime = float(playerRunePickupsOverTime[-1][0])
+	totalRunes = float(len(playerRunePickupsOverTime))
+	
+	for i in range(len(playerRunePickupsOverTime)-1) :
+		if playerRunePickupsOverTime[i][1] == "regen" :
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight-1), fill=(0,255,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight+1), fill=(0,255,0))
+		if playerRunePickupsOverTime[i][1] == "double damage" :
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight-1), fill=(0,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight+1), fill=(0,0,255))
+		if playerRunePickupsOverTime[i][1] == "illusion" :
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/totalRunes*imageHeight), fill=(0,255,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight-1), fill=(0,255,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight+1), fill=(0,255,255))
+		if playerRunePickupsOverTime[i][1] == "invisibility" :
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight-1), fill=(255,0,255))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight+1), fill=(255,0,255))
+		if playerRunePickupsOverTime[i][1] == "haste" :
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(i)/totalRunes*imageHeight), fill=(255,0,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight-1), fill=(255,0,0))
+			draw.point((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight-float(i)/totalRunes*imageHeight+1), fill=(255,0,0))
+
+		if playerRunePickupsOverTime[1][2] == 1 :
+			draw.text((float(playerRunePickupsOverTime[i][0])/maxTime*imageWidth, imageHeight), playerRunePickupsOverTime[i][1].title(), fill=(0,0,0))
+
+	del draw
+
+	im.save("playerItemProgressionGraph.png")
 
 
 
@@ -379,7 +465,7 @@ if __name__ == '__main__' :
 
 	runes = loadJSON("runes")
 
-	for field in runes["runes"] :
+	for field in runes["runes"] :		
 		if field["hero"] == playerObserved["hero"] :
 			time = field["time"]
 
@@ -395,7 +481,7 @@ if __name__ == '__main__' :
 				rune = "invisibility"
 
 			bottle = field["bottle"]
-			playerBuildingKillsOverTime.append((time, rune, bottle))
+			playerRunePickupsOverTime.append((time, rune, bottle))
 
 	closeJSON()
 
@@ -440,28 +526,43 @@ if __name__ == '__main__' :
 
 	#-----------------------------------------------------------
 
+
 	# Multiprocessing (is this done properly?)
 	playerKillProcess = Process(target=generatePlayerKillsGraph, args=(playerKillsOverTime,))
 	playerKillProcess.start()
 	playerKillProcess.join()
+
 	playerDeathProcess = Process(target=generatePlayerDeathsGraph, args=(playerDeathsOverTime,))
 	playerDeathProcess.start()
 	playerDeathProcess.join()
+
 	playerAssistProcess = Process(target=generatePlayerAssistsGraph, args=(playerAssistsOverTime,))
 	playerAssistProcess.start()
 	playerAssistProcess.join()
+
 	playerLevelProcess = Process(target=generatePlayerLevelGraph, args=(playerLevelOverTime,))
 	playerLevelProcess.start()
 	playerLevelProcess.join()
+
+	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraphAndFile, args=(playerItemProgressionOverTime,))
+	playerItemProgressionProcess.start()
+	playerItemProgressionProcess.join()
+
 	playerGoldProcess = Process(target=generatePlayerGoldGraph, args=(playerTotalGoldOverTime,))
 	playerGoldProcess.start()
 	playerGoldProcess.join()
+
 	playerGPMProcess = Process(target=generatePlayerGPMGraph, args=(playerGPMOverTime,))
 	playerGPMProcess.start()
 	playerGPMProcess.join()
+
 	playerDamageDealtProcess = Process(target=generatePlayerDamageDealtGraph, args=(playerDamageDealtOverTime,))
 	playerDamageDealtProcess.start()
 	playerDamageDealtProcess.join()
+
+	playerRunePickupProcess = Process(target=generatePlayerRunePickupGraph, args=(playerRunePickupsOverTime,))
+	playerRunePickupProcess.start()
+	playerRunePickupProcess.join()
 
 	for i in range(len(playerList)) :
 		playerDamageDealtSpecificProcess = Process(target=generatePlayerDamageDealtSpecificGraph, args=(playerDamageDealtOverTime, playerList[i][1]))
