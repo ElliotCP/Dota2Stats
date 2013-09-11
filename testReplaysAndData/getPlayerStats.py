@@ -228,7 +228,7 @@ def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 
 	im.save("playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
 
-def generatePlayerItemProgressionGraphAndFile(playerItemProgressionOverTime) :
+def generatePlayerItemProgressionGraph(playerItemProgressionOverTime) :
 	if len(playerItemProgressionOverTime) < 1:
 		return
 	imageWidth = 800.0
@@ -544,7 +544,7 @@ if __name__ == '__main__' :
 	playerLevelProcess.start()
 	playerLevelProcess.join()
 
-	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraphAndFile, args=(playerItemProgressionOverTime,))
+	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraph, args=(playerItemProgressionOverTime,))
 	playerItemProgressionProcess.start()
 	playerItemProgressionProcess.join()
 
