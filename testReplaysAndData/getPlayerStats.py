@@ -3,6 +3,7 @@ import os
 import json 
 import Image
 import ImageDraw
+import datetime
 from multiprocessing import Process
 
 global json_data
@@ -12,8 +13,15 @@ global replayNumber
 
 #---------------------------
 # SHOULDN'T BE HARDCODED
-chosenPlayer = "dd Funzii"
-replayNumber = "194861937"
+
+if len(sys.argv) < 2 :
+	print "Usage: python getPlayerStats.py playerSteamID replayNumber "
+	exit()
+
+playerSteamID = sys.argv[1]
+replayNumber = sys.argv[2]
+#chosenPlayer = "dd Funzii"
+#replayNumber = "194861937"
 #---------------------------
 
 # Initialise globals
@@ -52,6 +60,9 @@ playerMaxLevel = 0
 playerTotalDamageDealt = 0
 playerTotalDamageTaken = 0
 playerTotalDivines = 0
+
+def initialiseLogs() :
+	f = open("logs/" + str(datetime.datetime.now()), "w")
 
 def loadJSON(jsonName) :
 	json_data=open("json/" + replayNumber + "/" + jsonName + ".json")
@@ -307,8 +318,10 @@ if __name__ == '__main__' :
 	for field in players["players"] :
 		playerName = field["player"]
 		hero = field["hero"]
-		if playerName == chosenPlayer :
+		steamid = field["steamid"]
+		if steamid == long(playerSteamID) :
 			chosenHero = hero
+			chosenPlayer = playerName
 		if i < 5 :			
 			friendlyHeroList.append((hero))
 		else :
