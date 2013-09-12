@@ -19,7 +19,10 @@
 	<!-- Flip the switch to enable annotation processing -->
 	<mvc:annotation-driven />
 
-
+	<mvc:resources mapping="/css/**" location="/css/"/>
+	<mvc:resources mapping="/img/**" location="/img/"/>
+	<mvc:resources mapping="/js/**" location="/js/"/>
+ 
 	<!-- View resolver used to identify/locate View components. -->
 	<bean id="jspViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"

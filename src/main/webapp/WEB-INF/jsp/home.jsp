@@ -27,7 +27,7 @@
 								<c:url var="openIDLoginUrl" value="/j_spring_openid_security_check" />
 								<form action="${openIDLoginUrl}" method="post">
 									<input name="openid_identifier" type="hidden" value="http://steamcommunity.com/openid"/>
-									<input type="image" src="/resouces/steamlogo.png">  
+									<input type="image" src="/img/steamlogo.png">  
 								</form>
 								<!-- --------------------------------------------------------------------- -->
 							</li>

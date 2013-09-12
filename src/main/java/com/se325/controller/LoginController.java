@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class LoginController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+	public String displayHomepage(ModelMap model) {
 		model.addAttribute("message", "Hello! This is home page please log in to proceed.");
 		return "home";
 	}
