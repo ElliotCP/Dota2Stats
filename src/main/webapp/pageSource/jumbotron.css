@@ -1,0 +1,21 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.navbar-nav > li > a {
+	padding-bottom: 25px;
+}
+
+.drs {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.col-lg-4 p, h2 {
+	text-align: center;
+}
