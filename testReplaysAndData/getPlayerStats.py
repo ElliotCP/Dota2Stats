@@ -24,6 +24,10 @@ replayNumber = sys.argv[2]
 #replayNumber = "194861937"
 #---------------------------
 
+# Initialise logs
+f = open("logs/" + replayNumber + ".log", "w+")
+f.write("Logging for " + str(datetime.datetime.now()))
+
 # Initialise globals
 json_data=open("json/" + replayNumber + "/" + "players" + ".json")
 
@@ -61,8 +65,8 @@ playerTotalDamageDealt = 0
 playerTotalDamageTaken = 0
 playerTotalDivines = 0
 
-def initialiseLogs() :
-	f = open("logs/" + str(datetime.datetime.now()), "w")
+def log(input) :
+	f.write(input + "\n")
 
 def loadJSON(jsonName) :
 	json_data=open("json/" + replayNumber + "/" + jsonName + ".json")
