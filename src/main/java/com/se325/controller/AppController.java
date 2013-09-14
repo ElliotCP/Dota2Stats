@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -34,6 +35,19 @@ public class AppController{
 
 	private static String username64Bit;
 	private static String username;
+	
+	private final List<String> genImageNames = Arrays.asList(
+			"playerRunePickupsGraph",
+			"playerLevelGraph",
+			"playerKillsGraph",
+			"playerItemProgressionGraph",
+			"playerGPMGraph",
+			"playerGoldGraph",
+			"playerDeathsGraph",
+			
+			"playerDamageDealtGraph",
+			"playerAssistsGraph"			
+		);//"playerDamageDealtTo",
 	//	private static List<String> uploadedFileList = new ArrayList<String>();
 	private static HashMap<String, String> uploadedFileList = new HashMap<String, String>();
 
@@ -50,8 +64,6 @@ public class AppController{
 
 		if(upload){//request parameter upload is set i.e. url is .../home?upload=true , then upload file
 			model.addAttribute("message", this.uploadFile(request));//method returns a string of the file uploaded
-			//model.addAttribute("uploaded_file_list", uploadedFileList);
-
 		}else{
 			model.addAttribute("message", "Hello! "+username+" You Have Logged In choose file to upload");
 		}
@@ -60,7 +72,7 @@ public class AppController{
 	}
 
 	@RequestMapping(value = "/stats", method = RequestMethod.GET)
-	public String getStats(@RequestParam(value = "replayId", required = true) String replayId, ModelMap model) throws IOException{
+	public String getStats(@RequestParam(value = "replayId", required = true) String replayId,  HttpServletRequest request, ModelMap model) throws IOException{
 		
 		String currentDir = System.getProperty("user.dir");//directory we are in
 		String replayParserLoc = currentDir+"/testReplaysAndData/DotaParser.exe";
@@ -70,12 +82,17 @@ public class AppController{
 			replayLoc = replayLoc.replaceAll("/", "\\\\");
 		}
 		
-		//TODO add for linux also
-		Process p = Runtime.getRuntime().exec(replayParserLoc+" "+replayLoc);
+		
+		Runtime.getRuntime().exec(replayParserLoc+" "+replayLoc);
+		
+		//I just have my absolute path here for testing this - jano
+		Runtime.getRuntime().exec("C:\\Python27\\python getPlayerStats.py "+username64Bit+" "+replayId);
 
-
-		model.addAttribute("message", replayLoc);
-		return "loggedIn_home";
+		model.addAttribute("message", "C:\\Python27\\python getPlayerStats.py "+username64Bit+" "+replayId.replace(".dem", ""));
+		
+		request.setAttribute("genImageNames", genImageNames);
+		
+		return "stats";
 	}
 
 	private String get64BitSteamId(String claimedId){		
@@ -121,6 +138,10 @@ public class AppController{
 					if ( !fi.isFormField () ){
 						fileName = fi.getName();               
 
+						if(!fileName.substring(fileName.lastIndexOf(".")).toLowerCase().equals(".dem")){
+							return "File not uploaded please upload a .DEM file";
+						}
+						
 						//checking if path exists
 						File checkPath = new File(filePath);
 						if(!checkPath.exists()){
