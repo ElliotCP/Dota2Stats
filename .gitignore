@@ -6,6 +6,7 @@
 *.dem
 *.pyc
 *.log
+*.xcf
 
 # eclipse specific git ignore
 *.pydevproject

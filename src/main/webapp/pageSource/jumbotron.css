@@ -19,3 +19,10 @@ body {
 .col-lg-4 p, h2 {
 	text-align: center;
 }
+
+.col-lg-4 img {
+	text-align: center;
+	margin-left: 30%;
+	width: 140px;
+	height: 140px;
+}
