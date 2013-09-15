@@ -29,12 +29,16 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import org.hibernate.Session;
+import com.se325.common.User;
+import com.se325.persistence.HibernateUtil;
+
 @Controller
 @RequestMapping("/user")
 public class AppController{
 
-	private static String username64Bit;
-	private static String username;
+	private static String steamId64;
+	private static String profileName;
 	
 	private final List<String> genImageNames = Arrays.asList(
 			"playerRunePickupsGraph",
@@ -57,17 +61,31 @@ public class AppController{
 
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
-		username64Bit = this.get64BitSteamId(auth.getName());//gets the 64 bit user name
-		username = this.getSteamUsername(username64Bit);//gets your display name for steam
+		steamId64 = this.get64BitSteamId(auth.getName());//gets the 64 bit user name
+		profileName = this.getSteamUsername(steamId64);//gets your display name for steam
 
-		request.setAttribute("username", username);
+		request.setAttribute("username", profileName);
 
 		if(upload){//request parameter upload is set i.e. url is .../home?upload=true , then upload file
 			model.addAttribute("message", this.uploadFile(request));//method returns a string of the file uploaded
 		}else{
-			model.addAttribute("message", "Hello! "+username+" You Have Logged In choose file to upload");
+			model.addAttribute("message", "Hello! " + profileName + " You Have Logged In choose file to upload");
 		}
 		request.setAttribute("uploadedFileList", uploadedFileList);
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		session.beginTransaction();
+		User user = new User();
+//		user.setSteamId("STEAM_0:1:39130190");
+		user.setSteamId(""); //TODO fill this in
+		user.setSteamId64(Long.parseLong(steamId64));
+		user.setSteamProfileName(profileName);
+		user.setRank(10);
+//		user.setSteamName("xiii_dragon");
+		user.setSteamName(""); //TODO fill this in
+		session.save(user);
+		session.getTransaction().commit();
+		
 		return "loggedIn_home";
 	}
 
@@ -86,9 +104,9 @@ public class AppController{
 		Runtime.getRuntime().exec(replayParserLoc+" "+replayLoc);
 		
 		//I just have my absolute path here for testing this - jano
-		Runtime.getRuntime().exec("C:\\Python27\\python getPlayerStats.py "+username64Bit+" "+replayId);
+		Runtime.getRuntime().exec("C:\\Python27\\python getPlayerStats.py "+steamId64+" "+replayId);
 
-		model.addAttribute("message", "C:\\Python27\\python getPlayerStats.py "+username64Bit+" "+replayId.replace(".dem", ""));
+		model.addAttribute("message", "C:\\Python27\\python getPlayerStats.py "+steamId64+" "+replayId.replace(".dem", ""));
 		
 		request.setAttribute("genImageNames", genImageNames);
 		
@@ -101,11 +119,11 @@ public class AppController{
 		return claimedId.substring(claimedId.indexOf("/id/")+4);
 	}
 
-	private String getSteamUsername(String username) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
+	private String getSteamUsername(String steamId64) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
 		//getting xml of your steam profile which contains display name
 		DocumentBuilderFactory fac = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fac.newDocumentBuilder();
-		Document document = builder.parse(new URL("http://steamcommunity.com/profiles/"+username+"/?xml=1").openStream());
+		Document document = builder.parse(new URL("http://steamcommunity.com/profiles/"+steamId64+"/?xml=1").openStream());
 
 		//extracting the "<steamID>" tag which contains display name
 		NodeList rootElement = document.getElementsByTagName("steamID");
@@ -116,7 +134,7 @@ public class AppController{
 	private String uploadFile(HttpServletRequest request){
 
 		File file;
-		String filePath = "uploads/."+username64Bit+"/";
+		String filePath = "uploads/."+steamId64+"/";
 		String fileName = "";
 
 		if (ServletFileUpload.isMultipartContent(request)) {

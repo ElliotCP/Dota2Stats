@@ -41,6 +41,7 @@
 	     <!--  username lists -->
 	    <security:user name="http://steamcommunity.com/openid/id/76561198002812842" password="" authorities="ROLE_USER" />
 	    <!-- ADD YOUR USERNAMES BLOW IN FORMAT: http://steamcommunity.com/openid/id/<64-bit-steamid> -->
+        <security:user name="http://steamcommunity.com/openid/id/76561198038526109" password="" authorities="ROLE_USER" />
 	    
 	 </security:user-service>
 	
