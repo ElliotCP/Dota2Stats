@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -31,6 +30,7 @@ import org.xml.sax.SAXException;
 
 import org.hibernate.Session;
 import com.se325.common.User;
+import com.se325.common.Replay;
 import com.se325.persistence.HibernateUtil;
 
 @Controller
@@ -94,7 +94,7 @@ public class AppController{
 		
 		String currentDir = System.getProperty("user.dir");//directory we are in
 		String replayParserLoc = currentDir+"/testReplaysAndData/DotaParser.exe";
-		String replayLoc = currentDir+"/"+uploadedFileList.get(replayId)+replayId;
+		String replayLoc = currentDir+"/"+uploadedFileList.get(replayId)+replayId;//TODO get from db
 		
 		if(System.getProperty("os.name").toLowerCase().contains("windows")){//Replacing front slash with back slash for windows os directories
 			replayLoc = replayLoc.replaceAll("/", "\\\\");
@@ -178,6 +178,23 @@ public class AppController{
 		}
 
 		uploadedFileList.put(fileName, filePath);
+		
+		int matchId = Integer.parseInt(fileName.substring(0, fileName.indexOf(".")));
+		
+		Session session = HibernateUtil.getSessionFactory().openSession();
+		session.beginTransaction();
+		
+		Replay replay = new Replay();
+		replay.setGraphOnePath("");//TODO
+		replay.setGraphTwoPath("");//TODO
+		replay.setMatchId(matchId);
+		replay.setReplayPath(filePath+fileName);
+		replay.setUploader(Long.parseLong(steamId64));
+		
+		session.save(replay);
+		session.getTransaction().commit();
+		
+		
 
 		return "file uploaded to"+filePath+fileName;
 	}
