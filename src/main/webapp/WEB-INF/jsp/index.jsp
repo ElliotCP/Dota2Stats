@@ -18,7 +18,7 @@
 	<link href="../dist/css/bootstrap.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="jumbotron.css" rel="stylesheet">
+	<link href="../assets/css/jumbotron.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!--[if lt IE 9]>
@@ -49,6 +49,7 @@
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
+					<c:url var="openIDLoginUrl" value="/j_spring_openid_security_check" />
 					<form class="navbar-form navbar-right" action="${openIDLoginUrl}" method="post">
 						<input name="openid_identifier" type="hidden" value="http://steamcommunity.com/openid"/>
 						<input type="image" src="/img/steamlogo.png">  

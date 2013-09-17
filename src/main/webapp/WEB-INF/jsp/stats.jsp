@@ -30,21 +30,9 @@
 			<p>${message}</p>	
 		</div>
 		<div>
-			<form action="home?upload=true" method="POST" enctype="multipart/form-data">
-				<input type="file" name="file"/>
-				<br/>
-				<input type="submit" value="Upload File" />
-			</form>
-		</div>
-		<div>
 			<ul>
-				<c:forEach items="${uploadedFileList}" var="i">
-					<li>
-						<a href="/user/stats?replayId=${i.key}">${i.key}</a>
-						<form action="delete?replayName=${i.key}" method="POST">
-							<input type="submit" value="delete" />
-						</form>
-					</li>
+				<c:forEach items="${genImageNames}" var="i">
+					<li><img src="/img/steamlogo.png"></li><!--change from picture of steam logo to actual graph-->
 				</c:forEach>
 			</ul>
 		</div>

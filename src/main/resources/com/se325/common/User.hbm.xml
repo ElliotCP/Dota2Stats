@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 16/09/2013 3:07:41 AM by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.se325.common.User" table="user" catalog="se325_test">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="steamId" type="string">
+            <column name="steam_id" length="18" not-null="true" />
+        </property>
+        <property name="steamId64" type="long">
+            <column name="steam_id_64" not-null="true" />
+        </property>
+        <property name="steamName" type="string">
+            <column name="steam_name" length="32" not-null="true" />
+        </property>
+        <property name="steamProfileName" type="string">
+            <column name="steam_profile_name" length="32" not-null="true" />
+        </property>
+        <property name="rank" type="int">
+            <column name="rank" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
