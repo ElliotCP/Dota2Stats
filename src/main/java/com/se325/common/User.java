@@ -14,18 +14,20 @@ public class User implements java.io.Serializable {
     private long steamId64;
     private String steamName;
     private String steamProfileName;
-    private int rank;
+    private int role;
+    private String password;
 
     public User() {
     }
 
     public User(String steamId, long steamId64, String steamName,
-            String steamProfileName, int rank) {
+            String steamProfileName, int role, String password) {
         this.steamId = steamId;
         this.steamId64 = steamId64;
         this.steamName = steamName;
         this.steamProfileName = steamProfileName;
-        this.rank = rank;
+        this.role = role;
+        this.password = password;
     }
 
     public Integer getId() {
@@ -68,12 +70,20 @@ public class User implements java.io.Serializable {
         this.steamProfileName = steamProfileName;
     }
 
-    public int getRank() {
-        return this.rank;
+    public int getRole() {
+        return this.role;
     }
 
-    public void setRank(int rank) {
-        this.rank = rank;
+    public void setRole(int role) {
+        this.role = role;
+    }
+    
+    public String getPassword() {
+        return this.password;
     }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    
 }

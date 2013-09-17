@@ -88,9 +88,10 @@ public class AppController{
 		user.setSteamId(steamId);
 		user.setSteamId64(Long.parseLong(steamId64));
 		user.setSteamProfileName(profileName);
-		user.setRank(10);
+		user.setRole(10);
 //		user.setSteamName("xiii_dragon");
 		user.setSteamName(""); //TODO fill this in
+		user.setPassword("");
 		session.save(user);
 		session.getTransaction().commit();
 		

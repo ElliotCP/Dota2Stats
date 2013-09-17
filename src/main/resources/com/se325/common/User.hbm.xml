@@ -20,8 +20,11 @@
         <property name="steamProfileName" type="string">
             <column name="steam_profile_name" length="32" not-null="true" />
         </property>
-        <property name="rank" type="int">
-            <column name="rank" not-null="true" />
+        <property name="role" type="int">
+            <column name="role" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="1" not-null="true" />
         </property>
     </class>
 </hibernate-mapping>
