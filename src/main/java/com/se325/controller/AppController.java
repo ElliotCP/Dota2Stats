@@ -44,6 +44,7 @@ public class AppController{
 
 	private static String steamId64;
 	private static String profileName;
+	private static String steamId;
 	
 	private final List<String> genImageNames = Arrays.asList(
 			"playerRunePickupsGraph",
@@ -67,6 +68,7 @@ public class AppController{
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
 		steamId64 = this.get64BitSteamId(auth.getName());//gets the 64 bit user name
+		steamId = this.convertSteamID64ToSteamID(steamId64);
 		profileName = this.getSteamUsername(steamId64);//gets your display name for steam
 
 		request.setAttribute("username", profileName);
@@ -83,8 +85,7 @@ public class AppController{
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		User user = new User();
-//		user.setSteamId("STEAM_0:1:39130190");
-		user.setSteamId(""); //TODO fill this in
+		user.setSteamId(steamId);
 		user.setSteamId64(Long.parseLong(steamId64));
 		user.setSteamProfileName(profileName);
 		user.setRank(10);
@@ -171,12 +172,24 @@ public class AppController{
 		//getting xml of your steam profile which contains display name
 		DocumentBuilderFactory fac = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fac.newDocumentBuilder();
-		Document document = builder.parse(new URL("http://steamcommunity.com/profiles/"+steamId64+"/?xml=1").openStream());
+		Document document = builder.parse(new URL("http://steamcommunity.com/profiles/" + steamId64 + "/?xml=1").openStream());
 
 		//extracting the "<steamID>" tag which contains display name
 		NodeList rootElement = document.getElementsByTagName("steamID");
 
 		return rootElement.item(0).getTextContent();
+	}
+	
+	private String convertSteamID64ToSteamID(String steamId64) {
+	    // from https://developer.valvesoftware.com/wiki/SteamID
+	    Long steamID64 = Long.parseLong(steamId64); //convert steamId64 to long for use in calculations
+	    Long steamY = steamID64 - 76561197960265728L; //76561197960265728 is 110000100000000 in hex
+	    int steamX = 0;
+        if(steamY % 2 == 1) {
+            steamX = 1;
+        }
+        steamY = (steamY - steamX) / 2;
+	    return "STEAM_0:" + steamX + ":" + steamY; //formatting
 	}
 
 	private String uploadFile(HttpServletRequest request){
