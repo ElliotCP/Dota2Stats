@@ -6,7 +6,7 @@ import ImageDraw
 import datetime
 from multiprocessing import Process
 from flask import Flask, request, session, g, redirect, url_for, \
-     abort, render_template, flash
+     abort, render_template, flash, send_file
 
 
 
@@ -52,7 +52,7 @@ def generatePlayerLevelGraph(playerLevelOverTime, playerSteamID, replayNumber) :
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerLevelGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerLevelGraph.png".lower())
 
 def generatePlayerKillsGraph(playerKillsOverTime, playerSteamID, replayNumber) :	
 	if len(playerKillsOverTime) < 1:
@@ -70,7 +70,7 @@ def generatePlayerKillsGraph(playerKillsOverTime, playerSteamID, replayNumber) :
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerKillsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerKillsGraph.png".lower())
 
 def generatePlayerDeathsGraph(playerDeathsOverTime, playerSteamID, replayNumber) :
 	if len(playerDeathsOverTime) < 1:
@@ -88,7 +88,7 @@ def generatePlayerDeathsGraph(playerDeathsOverTime, playerSteamID, replayNumber)
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDeathsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDeathsGraph.png".lower())
 
 def generatePlayerAssistsGraph(playerAssistsOverTime, playerSteamID, replayNumber) :
 	if len(playerAssistsOverTime) < 1:
@@ -106,7 +106,7 @@ def generatePlayerAssistsGraph(playerAssistsOverTime, playerSteamID, replayNumbe
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerAssistsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerAssistsGraph.png".lower())
 
 def generatePlayerGoldGraph(playerTotalGoldOverTime, playerSteamID, replayNumber) :
 	if len(playerTotalGoldOverTime) < 1:
@@ -123,7 +123,7 @@ def generatePlayerGoldGraph(playerTotalGoldOverTime, playerSteamID, replayNumber
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGoldGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGoldGraph.png".lower())
 
 def generatePlayerGPMGraph(playerGPMOverTime, playerSteamID, replayNumber) :
 	if len(playerGPMOverTime) < 1:
@@ -144,7 +144,7 @@ def generatePlayerGPMGraph(playerGPMOverTime, playerSteamID, replayNumber) :
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGPMGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGPMGraph.png".lower())
 
 def generatePlayerDamageDealtGraph(playerDamageDealtOverTime, playerSteamID, replayNumber) :
 	if len(playerDamageDealtOverTime) < 1:
@@ -169,7 +169,7 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime, playerSteamID, rep
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtGraph.png".lower())
 
 def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 	if len(playerDamageDealtOverTime) < 1:
@@ -202,7 +202,7 @@ def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png".lower())
 
 def generatePlayerItemProgressionGraph(playerItemProgressionOverTime, playerSteamID, replayNumber) :
 	if len(playerItemProgressionOverTime) < 1:
@@ -225,7 +225,7 @@ def generatePlayerItemProgressionGraph(playerItemProgressionOverTime, playerStea
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerItemProgressionGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerItemProgressionGraph.png".lower())
 
 
 def generatePlayerRunePickupGraph(playerRunePickupsOverTime, playerSteamID, replayNumber) :
@@ -265,7 +265,7 @@ def generatePlayerRunePickupGraph(playerRunePickupsOverTime, playerSteamID, repl
 
 	del draw
 
-	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerRunePickupsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerRunePickupsGraph.png".lower())
 
 
 
@@ -284,7 +284,10 @@ def parseAndRunProcesses() :
 	except Exception :
 		return "wrong"
 
-	if not os.path.exists(os.getcwd() + "/" + playerSteamID + "/" + replayNumber) :
+	if request.args['imagename'] :
+		return send_file(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber + "/" + request.args['imagename'].lower())
+
+	if not os.path.exists(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber) :
 		os.makedirs(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber)
 
 	
