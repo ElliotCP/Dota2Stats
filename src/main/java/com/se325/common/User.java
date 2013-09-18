@@ -16,18 +16,20 @@ public class User implements java.io.Serializable {
     private String steamProfileName;
     private int role;
     private String password;
+    private String openIdReturnUrl;
 
     public User() {
     }
 
     public User(String steamId, long steamId64, String steamName,
-            String steamProfileName, int role, String password) {
+            String steamProfileName, int role, String password, String openIdReturnUrl) {
         this.steamId = steamId;
         this.steamId64 = steamId64;
         this.steamName = steamName;
         this.steamProfileName = steamProfileName;
         this.role = role;
         this.password = password;
+        this.openIdReturnUrl = openIdReturnUrl;
     }
 
     public Integer getId() {
@@ -85,5 +87,15 @@ public class User implements java.io.Serializable {
     public void setPassword(String password) {
         this.password = password;
     }
+    
+    public String getOpenIdReturnUrl() {
+        return this.openIdReturnUrl;
+    }
+
+    public void setOpenIdReturnUrl(String openIdReturnUrl) {
+        this.openIdReturnUrl = openIdReturnUrl;
+    }
+    
+    
     
 }

@@ -67,9 +67,9 @@ public class AppController{
 
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
-		steamId64 = this.get64BitSteamId(auth.getName());//gets the 64 bit user name
-		steamId = this.convertSteamID64ToSteamID(steamId64);
-		profileName = this.getSteamUsername(steamId64);//gets your display name for steam
+		steamId64 = AppController.get64BitSteamId(auth.getName());//gets the 64 bit user name
+		steamId = AppController.convertSteamID64ToSteamID(steamId64);
+		profileName = AppController.getSteamUsername(steamId64);//gets your display name for steam
 
 		request.setAttribute("username", profileName);
 
@@ -81,19 +81,6 @@ public class AppController{
 		
 		getUploadedFiles();//get uploaded files
 		request.setAttribute("uploadedFileList", uploadedFileList);
-		
-		Session session = HibernateUtil.getSessionFactory().openSession();
-		session.beginTransaction();
-		User user = new User();
-		user.setSteamId(steamId);
-		user.setSteamId64(Long.parseLong(steamId64));
-		user.setSteamProfileName(profileName);
-		user.setRole(10);
-//		user.setSteamName("xiii_dragon");
-		user.setSteamName(""); //TODO fill this in
-		user.setPassword("");
-		session.save(user);
-		session.getTransaction().commit();
 		
 		return "loggedIn_home";
 	}
@@ -163,13 +150,13 @@ public class AppController{
 	
 	}
 
-	private String get64BitSteamId(String claimedId){		
+	public static String get64BitSteamId(String claimedId){		
 		//getting only the 64bit number from the returned claimed ID from steam
 		//claimedId is in the format: http://steamcommunity.com/openid/id/<steamid>
 		return claimedId.substring(claimedId.indexOf("/id/")+4);
 	}
 
-	private String getSteamUsername(String steamId64) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
+	public static String getSteamUsername(String steamId64) throws ParserConfigurationException, MalformedURLException, SAXException, IOException{
 		//getting xml of your steam profile which contains display name
 		DocumentBuilderFactory fac = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = fac.newDocumentBuilder();
@@ -181,7 +168,7 @@ public class AppController{
 		return rootElement.item(0).getTextContent();
 	}
 	
-	private String convertSteamID64ToSteamID(String steamId64) {
+	public static String convertSteamID64ToSteamID(String steamId64) {
 	    // from https://developer.valvesoftware.com/wiki/SteamID
 	    Long steamID64 = Long.parseLong(steamId64); //convert steamId64 to long for use in calculations
 	    Long steamY = steamID64 - 76561197960265728L; //76561197960265728 is 110000100000000 in hex

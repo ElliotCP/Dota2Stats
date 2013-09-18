@@ -26,5 +26,8 @@
         <property name="password" type="string">
             <column name="password" length="1" not-null="true" />
         </property>
+                <property name="openIdReturnUrl" type="string">
+            <column name="openId_return_url" length="1" not-null="true" />
+        </property>
     </class>
 </hibernate-mapping>
