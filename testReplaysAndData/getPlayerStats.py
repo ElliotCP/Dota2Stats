@@ -5,65 +5,26 @@ import Image
 import ImageDraw
 import datetime
 from multiprocessing import Process
+from flask import Flask, request, session, g, redirect, url_for, \
+     abort, render_template, flash
+
+
+
 
 global json_data
 # to be set
 global chosenPlayer
 global replayNumber
+global playerSteamID
 
-#---------------------------
-# SHOULDN'T BE HARDCODED
+DEBUG = 'true'
+SECRET_KEY = 'yolo'
+USERNAME = 'admin'
+PASSWORD = 'default'
 
-if len(sys.argv) < 2 :
-	print "Usage: python getPlayerStats.py playerSteamID replayNumber "
-	exit()
+app = Flask(__name__)
+app.config.from_object(__name__)
 
-playerSteamID = sys.argv[1]
-replayNumber = sys.argv[2]
-#chosenPlayer = "dd Funzii"
-#replayNumber = "194861937"
-#---------------------------
-
-# Initialise logs
-f = open("logs/" + replayNumber + ".log", "w+")
-f.write("Logging for " + str(datetime.datetime.now()))
-
-# Initialise globals
-json_data=open("json/" + replayNumber + "/" + "players" + ".json")
-
-playerList = []
-friendlyHeroList = []
-enemyHeroList = []
-playerGoldOverTime = []
-playerTotalGoldOverTime = []
-playerGPMOverTime = []
-playerXPOverTime = []
-playerLevelOverTime = []
-playerCSOverTime = []
-playerItemProgressionOverTime = []
-playerKillsOverTime = []
-playerAssistsOverTime = []
-playerDeathsOverTime = []
-playerBuildingKillsOverTime = []
-playerDamageDealtOverTime = []
-playerDamageTakenOverTime = []
-playerBuybackOverTime = []
-playerRunePickupsOverTime = []
-
-playerTotalCS = 0
-playerTotalDenies = 0
-playerTotalNeuts = 0
-playerTotalEnemyRangeCreep = 0
-playerTotalEnemyMeleeCreep = 0
-playerTotalDenyMeleeCreep = 0
-playerTotalDenyRangeCreep = 0
-playerTotalDenyNeuts = 0
-playerTotalGold = 0
-playerTotalXP = 0
-playerMaxLevel = 0
-playerTotalDamageDealt = 0
-playerTotalDamageTaken = 0
-playerTotalDivines = 0
 
 def log(input) :
 	f.write(input + "\n")
@@ -75,7 +36,7 @@ def loadJSON(jsonName) :
 def closeJSON() :
 	json_data.close()
 
-def generatePlayerLevelGraph(playerLevelOverTime) :
+def generatePlayerLevelGraph(playerLevelOverTime, playerSteamID, replayNumber) :
 	if len(playerLevelOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -91,9 +52,9 @@ def generatePlayerLevelGraph(playerLevelOverTime) :
 
 	del draw
 
-	im.save("playerLevelGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerLevelGraph.png")
 
-def generatePlayerKillsGraph(playerKillsOverTime) :	
+def generatePlayerKillsGraph(playerKillsOverTime, playerSteamID, replayNumber) :	
 	if len(playerKillsOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -109,9 +70,9 @@ def generatePlayerKillsGraph(playerKillsOverTime) :
 
 	del draw
 
-	im.save("playerKillsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerKillsGraph.png")
 
-def generatePlayerDeathsGraph(playerDeathsOverTime) :
+def generatePlayerDeathsGraph(playerDeathsOverTime, playerSteamID, replayNumber) :
 	if len(playerDeathsOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -127,9 +88,9 @@ def generatePlayerDeathsGraph(playerDeathsOverTime) :
 
 	del draw
 
-	im.save("playerDeathsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDeathsGraph.png")
 
-def generatePlayerAssistsGraph(playerAssistsOverTime) :
+def generatePlayerAssistsGraph(playerAssistsOverTime, playerSteamID, replayNumber) :
 	if len(playerAssistsOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -145,9 +106,9 @@ def generatePlayerAssistsGraph(playerAssistsOverTime) :
 
 	del draw
 
-	im.save("playerAssistsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerAssistsGraph.png")
 
-def generatePlayerGoldGraph(playerTotalGoldOverTime) :
+def generatePlayerGoldGraph(playerTotalGoldOverTime, playerSteamID, replayNumber) :
 	if len(playerTotalGoldOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -162,9 +123,9 @@ def generatePlayerGoldGraph(playerTotalGoldOverTime) :
 
 	del draw
 
-	im.save("playerGoldGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGoldGraph.png")
 
-def generatePlayerGPMGraph(playerGPMOverTime) :
+def generatePlayerGPMGraph(playerGPMOverTime, playerSteamID, replayNumber) :
 	if len(playerGPMOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -183,9 +144,9 @@ def generatePlayerGPMGraph(playerGPMOverTime) :
 
 	del draw
 
-	im.save("playerGPMGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerGPMGraph.png")
 
-def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
+def generatePlayerDamageDealtGraph(playerDamageDealtOverTime, playerSteamID, replayNumber) :
 	if len(playerDamageDealtOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -208,7 +169,7 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime) :
 
 	del draw
 
-	im.save("playerDamageDealtGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtGraph.png")
 
 def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 	if len(playerDamageDealtOverTime) < 1:
@@ -241,9 +202,9 @@ def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 
 	del draw
 
-	im.save("playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtTo" + dealtTo.replace("npc_dota_hero_","").replace("_", " ").title().replace(" ", "") + "Graph.png")
 
-def generatePlayerItemProgressionGraph(playerItemProgressionOverTime) :
+def generatePlayerItemProgressionGraph(playerItemProgressionOverTime, playerSteamID, replayNumber) :
 	if len(playerItemProgressionOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -264,10 +225,10 @@ def generatePlayerItemProgressionGraph(playerItemProgressionOverTime) :
 
 	del draw
 
-	im.save("playerItemProgressionGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerItemProgressionGraph.png")
 
 
-def generatePlayerRunePickupGraph(playerRunePickupsOverTime) :
+def generatePlayerRunePickupGraph(playerRunePickupsOverTime, playerSteamID, replayNumber) :
 	if len(playerRunePickupsOverTime) < 1:
 		return
 	imageWidth = 800.0-30.0
@@ -304,17 +265,71 @@ def generatePlayerRunePickupGraph(playerRunePickupsOverTime) :
 
 	del draw
 
-	im.save("playerRunePickupsGraph.png")
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerRunePickupsGraph.png")
 
 
 
 
-#def loadData() :
+@app.route('/index')
+@app.route('/')
+def parseAndRunProcesses() :
+	global json_data
+	global chosenPlayer
+	global playerSteamID
+	global replayNumber
+	print "swag"
+	try :
+		playerSteamID = request.args['steamid']
+		replayNumber = request.args['matchid']
+	except Exception :
+		return "wrong"
+
+	if not os.path.exists(os.getcwd() + "/" + playerSteamID + "/" + replayNumber) :
+		os.makedirs(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber)
 
 	
-if __name__ == '__main__' :
-	players = loadJSON("players")
+	# Initialise logs
+	# f = open("logs/" + replayNumber + ".log", "w+")
+	# f.write("Logging for " + str(datetime.datetime.now()))
+	
+	# Initialise globals
+	json_data=open("json/" + replayNumber + "/players.json")
 
+	playerList = []
+	friendlyHeroList = []
+	enemyHeroList = []
+	playerGoldOverTime = []
+	playerTotalGoldOverTime = []
+	playerGPMOverTime = []
+	playerXPOverTime = []
+	playerLevelOverTime = []
+	playerCSOverTime = []
+	playerItemProgressionOverTime = []
+	playerKillsOverTime = []
+	playerAssistsOverTime = []
+	playerDeathsOverTime = []
+	playerBuildingKillsOverTime = []
+	playerDamageDealtOverTime = []
+	playerDamageTakenOverTime = []
+	playerBuybackOverTime = []
+	playerRunePickupsOverTime = []
+
+	playerTotalCS = 0
+	playerTotalDenies = 0
+	playerTotalNeuts = 0
+	playerTotalEnemyRangeCreep = 0
+	playerTotalEnemyMeleeCreep = 0
+	playerTotalDenyMeleeCreep = 0
+	playerTotalDenyRangeCreep = 0
+	playerTotalDenyNeuts = 0
+	playerTotalGold = 0
+	playerTotalXP = 0
+	playerMaxLevel = 0
+	playerTotalDamageDealt = 0
+	playerTotalDamageTaken = 0
+	playerTotalDivines = 0
+
+	players = loadJSON("players")
 
 	#-----------------------------------------------------------
 	# LOAD PLAYER DATA
@@ -538,56 +553,61 @@ if __name__ == '__main__' :
 
 	#-----------------------------------------------------------
 
+	print "Finished parsing"
+
 
 	# Multiprocessing (is this done properly?)
-	playerKillProcess = Process(target=generatePlayerKillsGraph, args=(playerKillsOverTime,))
+	playerKillProcess = Process(target=generatePlayerKillsGraph, args=(playerKillsOverTime, playerSteamID, replayNumber))
 	playerKillProcess.start()
 	playerKillProcess.join()
 
-	playerDeathProcess = Process(target=generatePlayerDeathsGraph, args=(playerDeathsOverTime,))
+	playerDeathProcess = Process(target=generatePlayerDeathsGraph, args=(playerDeathsOverTime, playerSteamID, replayNumber))
 	playerDeathProcess.start()
 	playerDeathProcess.join()
 
-	playerAssistProcess = Process(target=generatePlayerAssistsGraph, args=(playerAssistsOverTime,))
+	playerAssistProcess = Process(target=generatePlayerAssistsGraph, args=(playerAssistsOverTime, playerSteamID, replayNumber))
 	playerAssistProcess.start()
 	playerAssistProcess.join()
 
-	playerLevelProcess = Process(target=generatePlayerLevelGraph, args=(playerLevelOverTime,))
+	playerLevelProcess = Process(target=generatePlayerLevelGraph, args=(playerLevelOverTime, playerSteamID, replayNumber))
 	playerLevelProcess.start()
 	playerLevelProcess.join()
 
-	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraph, args=(playerItemProgressionOverTime,))
+	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraph, args=(playerItemProgressionOverTime, playerSteamID, replayNumber))
 	playerItemProgressionProcess.start()
 	playerItemProgressionProcess.join()
 
-	playerGoldProcess = Process(target=generatePlayerGoldGraph, args=(playerTotalGoldOverTime,))
+	playerGoldProcess = Process(target=generatePlayerGoldGraph, args=(playerTotalGoldOverTime, playerSteamID, replayNumber))
 	playerGoldProcess.start()
 	playerGoldProcess.join()
 
-	playerGPMProcess = Process(target=generatePlayerGPMGraph, args=(playerGPMOverTime,))
+	playerGPMProcess = Process(target=generatePlayerGPMGraph, args=(playerGPMOverTime, playerSteamID, replayNumber))
 	playerGPMProcess.start()
 	playerGPMProcess.join()
 
-	playerDamageDealtProcess = Process(target=generatePlayerDamageDealtGraph, args=(playerDamageDealtOverTime,))
+	playerDamageDealtProcess = Process(target=generatePlayerDamageDealtGraph, args=(playerDamageDealtOverTime, playerSteamID, replayNumber))
 	playerDamageDealtProcess.start()
 	playerDamageDealtProcess.join()
 
-	playerRunePickupProcess = Process(target=generatePlayerRunePickupGraph, args=(playerRunePickupsOverTime,))
+	playerRunePickupProcess = Process(target=generatePlayerRunePickupGraph, args=(playerRunePickupsOverTime, playerSteamID, replayNumber))
 	playerRunePickupProcess.start()
 	playerRunePickupProcess.join()
 
-	if not playerObserved["hero"] in friendlyHeroList :
-		for i in range(0,5)  :
-			if not playerObserved["hero"] in playerList[i][1] :
-				playerDamageDealtSpecificProcess = Process(target=generatePlayerDamageDealtSpecificGraph, args=(playerDamageDealtOverTime, playerList[i][1]))
-				playerDamageDealtSpecificProcess.start()
-				playerDamageDealtSpecificProcess.join()
-	else :
-		for i in range(5,10)  :
-			if not playerObserved["hero"] in playerList[i][1] :
-				playerDamageDealtSpecificProcess = Process(target=generatePlayerDamageDealtSpecificGraph, args=(playerDamageDealtOverTime, playerList[i][1]))
-				playerDamageDealtSpecificProcess.start()
-				playerDamageDealtSpecificProcess.join()
+	# if not playerObserved["hero"] in friendlyHeroList :
+	# 	for i in range(0,5)  :
+	# 		if not playerObserved["hero"] in playerList[i][1] :
+	# 			playerDamageDealtSpecificProcess = Process(target=generatePlayerDamageDealtSpecificGraph, args=(playerDamageDealtOverTime, playerList[i][1]))
+	# 			playerDamageDealtSpecificProcess.start()
+	# 			playerDamageDealtSpecificProcess.join()
+	# else :
+	# 	for i in range(5,10)  :
+	# 		if not playerObserved["hero"] in playerList[i][1] :
+	# 			playerDamageDealtSpecificProcess = Process(target=generatePlayerDamageDealtSpecificGraph, args=(playerDamageDealtOverTime, playerList[i][1]))
+	# 			playerDamageDealtSpecificProcess.start()
+	# 			playerDamageDealtSpecificProcess.join()
+
+	print "Finished creating graphs for player " + str(chosenPlayer) + " for game " + str(replayNumber)
+	return "OK"
 
 # Print statements for debugging
 # print "Player " + playerObserved["name"] + " earned " + str(playerTotalGold) + " gold during the match."
@@ -603,6 +623,13 @@ if __name__ == '__main__' :
 # print "Buildings killed: "  + str(len(playerBuildingKillsOverTime))
 # print "Damage dealt: " + str(playerTotalDamageDealt)
 # print "Damage taken: " + str(playerTotalDamageTaken)
+
+
+	
+if __name__ == '__main__' :
+	app.run(host="0.0.0.0", port=5000)
+
+
 
 
 
