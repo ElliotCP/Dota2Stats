@@ -56,11 +56,11 @@ public class CustomUserDetailsService implements UserDetailsService {
 
 		com.se325.common.User user = null;
 		
-		List results = checkUserExists(openIdReturnUrl);
+		List<?> results = checkUserExists(openIdReturnUrl);
 		
 		if ( !results.isEmpty() ) {
 			
-			for ( Iterator iterator = results.iterator(); iterator.hasNext(); ) {
+			for ( Iterator<?> iterator = results.iterator(); iterator.hasNext(); ) {
 				user = (com.se325.common.User) iterator.next(); 
 			}
 
@@ -84,7 +84,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 				);
 	}
 	
-	private List checkUserExists(String openIdReturnUrl){
+	private List<?> checkUserExists(String openIdReturnUrl){
 		
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
@@ -95,7 +95,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 		SQLQuery query = session.createSQLQuery(queryString);
 		query.addEntity(User.class);
 		query.setParameter("openId_return_url", openIdReturnUrl);
-		List results = query.list();
+		List<?> results = query.list();
 		session.getTransaction().commit();
 		
 		return results;

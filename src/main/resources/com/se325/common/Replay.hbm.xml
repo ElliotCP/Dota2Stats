@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 16/09/2013 3:07:41 AM by Hibernate Tools 4.0.0 -->
+<!-- Generated 19/09/2013 3:18:22 AM by Hibernate Tools 4.0.0 -->
 <hibernate-mapping>
     <class name="com.se325.common.Replay" table="replay" catalog="se325_test">
         <id name="id" type="java.lang.Integer">
@@ -12,16 +12,10 @@
             <column name="match_id" not-null="true" />
         </property>
         <property name="replayPath" type="string">
-            <column name="replay_path" length="45" not-null="true" />
+            <column name="replay_path" length="100" not-null="true" />
         </property>
         <property name="uploader" type="long">
             <column name="uploader" not-null="true" />
-        </property>
-        <property name="graphOnePath" type="string">
-            <column name="graph_one_path" length="45" not-null="true" />
-        </property>
-        <property name="graphTwoPath" type="string">
-            <column name="graph_two_path" length="45" not-null="true" />
         </property>
     </class>
 </hibernate-mapping>
