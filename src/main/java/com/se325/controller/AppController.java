@@ -234,8 +234,6 @@ public class AppController{
 		session.beginTransaction();
 		
 		Replay replay = new Replay();
-		replay.setGraphOnePath("");//TODO
-		replay.setGraphTwoPath("");//TODO
 		replay.setMatchId(matchId);
 		replay.setReplayPath(filePath+fileName);
 		replay.setUploader(Long.parseLong(steamId64));
@@ -260,12 +258,10 @@ public class AppController{
 		SQLQuery query = session.createSQLQuery(queryString);
 		query.setParameter("uploader", Long.parseLong(steamId64));
 		query.setResultTransformer(Criteria.ALIAS_TO_ENTITY_MAP);
-		List results = query.list();
-
+		List<?> results = query.list();
 		
-        for(Object object : results)
-        {
-           Map row = (Map)object;
+        for(Object object : results) {
+           Map<?, ?> row = (Map<?, ?>)object;
            uploadedFileList.put(row.get("match_id").toString()+".dem", row.get("replay_path").toString());
         }
         
