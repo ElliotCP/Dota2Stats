@@ -50,16 +50,20 @@
 
 		<div class="container" style="margin-top:50px;text-align:center;">
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col">
 					<form action="home?upload=true" method="POST" enctype="multipart/form-data">
-						<input type="file" name="file"/>
+						<p>Enter replay number: </p><input type="text" name="file"/>
 						<br/>
-						<input type="submit" value="Upload File" />
+						<input type="submit" value="Get stats" />
 					</form>
 				</div>
 			</div>
+
+			<br>
+			<br>
+			<br>
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col">
 					<ul>
 						<c:forEach items="${uploadedFileList}" var="i">
 							<li>
