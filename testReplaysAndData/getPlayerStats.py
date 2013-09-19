@@ -317,7 +317,7 @@ def parseAndRunProcesses() :
 		os.makedirs(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber)
 
 	try :
-		os.system("DotaParser.exe " + replayNumber + ".dem")
+		os.system("wine ./DotaParser.exe " + replayNumber + ".dem")
 	except Exception :
 		return "BADPARSING"
 	# Initialise logs
@@ -691,7 +691,7 @@ def parseAndRunProcesses() :
 
 	
 if __name__ == '__main__' :
-	app.run(port=5000)
+	app.run(host="0.0.0.0", port=5000)
 
 
 
