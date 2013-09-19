@@ -171,6 +171,31 @@ def generatePlayerDamageDealtGraph(playerDamageDealtOverTime, playerSteamID, rep
 
 	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageDealtGraph.png".lower())
 
+def generatePlayerDamageTakenGraph(playerDamageTakenOverTime, playerSteamID, replayNumber) :
+	if len(playerDamageTakenOverTime) < 1:
+		return
+	imageWidth = 800.0-30.0
+	imageHeight = 500.0-30.0
+	im = Image.new("RGB", (int(imageWidth+30.0), int(imageHeight+30.0)), "white")
+	draw = ImageDraw.Draw(im)
+	maxTime = float(playerDamageTakenOverTime[-1][0])
+	maxDamage = 0
+	for i in range(len(playerDamageTakenOverTime)) :
+		if playerDamageTakenOverTime[i][2] > maxDamage :
+			maxDamage = float(playerDamageTakenOverTime[i][2])
+	if maxDamage == 0 :
+		pass
+	for i in range(len(playerDamageTakenOverTime)) :
+		draw.point((float(playerDamageTakenOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageTakenOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageTakenOverTime[i][0])/maxTime*imageWidth-1, imageHeight-float(playerDamageTakenOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageTakenOverTime[i][0])/maxTime*imageWidth+1, imageHeight-float(playerDamageTakenOverTime[i][2])/maxDamage*imageHeight), fill=(0,0,0))
+		draw.point((float(playerDamageTakenOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageTakenOverTime[i][2])/maxDamage*imageHeight-1), fill=(0,0,0))
+		draw.point((float(playerDamageTakenOverTime[i][0])/maxTime*imageWidth, imageHeight-float(playerDamageTakenOverTime[i][2])/maxDamage*imageHeight+1), fill=(0,0,0))
+
+	del draw
+
+	im.save("createdGraphs/" + playerSteamID + "/" + replayNumber + "/playerDamageTakenGraph.png".lower())
+
 def generatePlayerDamageDealtSpecificGraph(playerDamageDealtOverTime, dealtTo) :
 	if len(playerDamageDealtOverTime) < 1:
 		return
@@ -591,6 +616,10 @@ def parseAndRunProcesses() :
 	playerDamageDealtProcess = Process(target=generatePlayerDamageDealtGraph, args=(playerDamageDealtOverTime, playerSteamID, replayNumber))
 	playerDamageDealtProcess.start()
 	playerDamageDealtProcess.join()
+
+	playerDamageTakenProcess = Process(target=generatePlayerDamageTakenGraph, arg=(playerDamageTakenOverTime, playerSteamID, replayNumber))
+	playerDamageTakenProcess.start()
+	playerDamageTakenProcess.join()
 
 	playerRunePickupProcess = Process(target=generatePlayerRunePickupGraph, args=(playerRunePickupsOverTime, playerSteamID, replayNumber))
 	playerRunePickupProcess.start()
