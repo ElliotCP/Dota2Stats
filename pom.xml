@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.se325.csgo_replay_parser</groupId>
-	<artifactId>csgo_replay_parser</artifactId>
+	<groupId>com.se325.dota2_replay_stats</groupId>
+	<artifactId>dota2_replay_stats</artifactId>
 	<packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-	<name>csgo_replay_parser Maven Webapp</name>
+	<name>dota2_replay_stats Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -232,6 +232,6 @@
 			</plugin>
 		</plugins>
 
-		<finalName>csgo_replay_parser</finalName>
+		<finalName>dota2_replay_stats</finalName>
 	</build>
 </project>
