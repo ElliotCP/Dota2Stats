@@ -83,7 +83,7 @@
 		          <p class="lead"></p>
 		        </div>
 		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerKillsGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerKillsGraph.png" data-src="holder.js/500x500/auto" alt="No Kills This Game">
 		        </div>
 		    </div>
 
@@ -91,7 +91,7 @@
 
       		<div class="row featurette">
       			<div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDeathsGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDeathsGraph.png" data-src="holder.js/500x500/auto" alt="No Deaths This Game">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Deaths. <span class="text-muted">Each of your deaths over time.</span></h2>
@@ -108,7 +108,7 @@
 		          <p class="lead"></p>
 		        </div>
 		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerAssistsGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerAssistsGraph.png" data-src="holder.js/500x500/auto" alt="No Assists This Game">
 		        </div>
 		    </div>
 
@@ -116,7 +116,7 @@
 
       		<div class="row featurette">
       			<div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDamageDealtGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDamageDealtGraph.png" data-src="holder.js/500x500/auto" alt="No Damage Dealt This Game">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Damage dealt. <span class="text-muted">Damage dealth throughout the game.</span></h2>
@@ -132,7 +132,7 @@
 		          <p class="lead"></p>
 		        </div>
 		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDamageTakenGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerDamageTakenGraph.png" data-src="holder.js/500x500/auto" alt="No Damage Taken This Game">
 		        </div>
 		    </div>
 
@@ -140,7 +140,7 @@
 
       		<div class="row featurette">
       			<div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerGoldGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerGoldGraph.png" data-src="holder.js/500x500/auto" alt="No Gold Gained This Game">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Gold. <span class="text-muted">Total gold gained during the game.</span></h2>
@@ -156,7 +156,7 @@
 		          <p class="lead"></p>
 		        </div>
 		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerGPMGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerGPMGraph.png" data-src="holder.js/500x500/auto" alt="No GPM This Game">
 		        </div>
 		    </div>
 
@@ -164,7 +164,7 @@
 
       		<div class="row featurette">
       			<div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerLevelGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerLevelGraph.png" data-src="holder.js/500x500/auto" alt="No Player Levels This Game">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Levels. <span class="text-muted">Player level over time.</span></h2>
@@ -180,7 +180,7 @@
 		          <p class="lead"></p>
 		        </div>
 		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerItemProgressionGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerItemProgressionGraph.png" data-src="holder.js/500x500/auto" alt="No Item Progression This Game">
 		        </div>
 		    </div>
 
@@ -188,7 +188,7 @@
 
       		<div class="row featurette">
       			<div class="col-md-5">
-		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerRunePickupsGraph.png" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+		          <img class="featurette-image img-responsive" src="http://49.50.241.171:5000/?steamid=${steamId64}&matchid=${replayId}&imagename=playerRunePickupsGraph.png" data-src="holder.js/500x500/auto" alt="No Runes This Game">
 		        </div>
 		        <div class="col-md-7">
 		          <h2 class="featurette-heading">Runes. <span class="text-muted">Runes picked up as well as bottled over time.</span></h2>
