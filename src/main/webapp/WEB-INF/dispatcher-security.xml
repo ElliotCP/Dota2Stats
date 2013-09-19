@@ -6,15 +6,11 @@
 			http://www.springframework.org/schema/security 
 			http://www.springframework.org/schema/security/spring-security-3.0.xsd">
 
-	<!-- This is where we configure Spring-Security -->
-	<security:http auto-config="true" use-expressions="true"
-		access-denied-page="/denied">
+	
+	<security:http auto-config="true" use-expressions="true">
 
-		<security:intercept-url pattern="/user/home"
-			access="hasRole('10')" />
+		<security:intercept-url pattern="/user/*" access="hasRole('10')" />
 
-		<!-- Adding the openid-login tag activates Spring Security's support for 
-			OpenID -->
 		<security:openid-login login-page="/"
 			authentication-failure-url="/?error=true" default-target-url="/user/home" />
 
@@ -23,6 +19,7 @@
 
 	</security:http>
 
+	<!-- bean refering to out database with our user details to be used in authentication -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://223.27.24.159:3306/se325_test" />
@@ -30,6 +27,7 @@
 		<property name="password" value="DotaReplayStats" />
 	</bean>
 
+	<!-- custom authentication manager used -->
 	<security:authentication-manager>
 		<security:authentication-provider user-service-ref="customUserDetailsService"/>
 	</security:authentication-manager>

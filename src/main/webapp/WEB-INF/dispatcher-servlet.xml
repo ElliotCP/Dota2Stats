@@ -19,6 +19,7 @@
 	<!-- Flip the switch to enable annotation processing -->
 	<mvc:annotation-driven />
 
+	<!-- these are needed to access bootstrap files -->
 	<mvc:resources mapping="/css/**" location="/css/"/>
 	<mvc:resources mapping="/img/**" location="/img/"/>
 	<mvc:resources mapping="/js/**" location="/js/"/>

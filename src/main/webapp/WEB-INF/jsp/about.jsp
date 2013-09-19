@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -13,7 +18,7 @@
 	<link href="../dist/css/bootstrap.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="jumbotron.css" rel="stylesheet">
+	<link href="../assets/css/jumbotron.css" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   	<!--[if lt IE 9]>
@@ -38,12 +43,12 @@
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">						
 						<li><a href="/user/home">Home</a></li>
-						<li><a href="upload.html">New stats</a></li>
-						<li><a href="replays.html">Previous replays</a></li>
-						<li class="active"><a href="about.html">About</a></li>
+						<li class="active"><a href="#">About</a></li>
 					</ul>
-					<form class="navbar-form navbar-right">						
-						<a href="#login"><img src="../img/steamlogo.png"></a>
+					<c:url var="openIDLoginUrl" value="/j_spring_openid_security_check" />
+					<form class="navbar-form navbar-right" action="${openIDLoginUrl}" method="post">
+						<input name="openid_identifier" type="hidden" value="http://steamcommunity.com/openid"/>
+						<input type="image" src="/img/steamlogo.png">  
 					</form>
 				</div><!--/.navbar-collapse -->
 			</div>

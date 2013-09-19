@@ -1,3 +1,7 @@
+<%@ page import="com.se325.controller.*"%>   
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,43 +42,35 @@
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">						
 						<li><a href="/user/home">Home</a></li>
-						<li><a href="upload.html">New stats</a></li>
-						<li><a href="replays.html">Previous replays</a></li>
-						<li class="active"><a href="about.html">About</a></li>
+						<li class="active"><a href="#">Generate Stats</a></li>
 					</ul>
-					<form class="navbar-form navbar-right">						
-						<a href="#login"><img src="../img/steamlogo.png"></a>
+					<form class="navbar-form navbar-right" style="margin-top:20px;">						
+						<a name="logout()" href="/logout" style="color:white;">Logout(${username})</a>
 					</form>
 				</div><!--/.navbar-collapse -->
 			</div>
 		</div>
 
 		<div class="jumbotron">
-      		<div class="container">
-        		<h1>EJK: SOFTENG325 Group Assignment</h1>
-        		<p>Team members: <br> Elliot Colquhoun - ecol120 - 2782843 <br> Ken Neth Yeoh - kyeo475 - 5386221 <br> Janodya Moonamale - jmoo829 - 5457480</p>
-      		</div>
-    	</div>
-
-    	<div class="container">
-    	<h3>Sources</h3>
-    	<p>Bootstrap - Web framework<br>Flask - Python web server<br>Python Imaging Libarary - Graph generation<br>Java Spring - Main backend<br>Tony Young - Python server hosting</p>
-    	</div>
+			<div class="container marketing" style="margin-top:50px;text-align:center;">
+				<form class="form-signin" action="/user/stats?replayId=${replayId}">
+					<h2 class="form-signin-heading">Please enter a replay number</h2>
+					<input name="replayId" type="text" class="form-control" placeholder="e.g. 15612354" autofocus>
+				</form>
+			</div>
+		</div>
 
 		<div class="container">
-
 			<hr>
-
 			<footer>
 				<p>&copy; EJK 2013</p>
 			</footer>
 		</div> <!-- /container -->
 
-
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="../assets/js/jquery.js"></script>
-	<script src="../dist/js/bootstrap.min.js"></script>
-</body>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="../assets/js/jquery.js"></script>
+		<script src="../dist/js/bootstrap.min.js"></script>
+	</body>
 </html>

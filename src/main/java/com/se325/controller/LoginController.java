@@ -12,20 +12,23 @@ public class LoginController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String displayHomepage(ModelMap model) {
-		model.addAttribute("message", "Hello! This is home page please log in to proceed.");
 		return "index";
 	}
 	
 	@RequestMapping(value = "/logout", method = RequestMethod.GET)
 	public String logout(HttpServletRequest request, ModelMap model) {
+		//invalidates current users session when user presses logout button
 		request.getSession(false).invalidate();
-		model.addAttribute("message", "You have seccessfully logged out!");
 		return "index";
 	}
 	
 	@RequestMapping(value = "/denied", method = RequestMethod.GET)
 	public String getDeniedPage(ModelMap model) {
-		model.addAttribute("message", "Hello! This i42435435 to proceed.");
 		return "index";
+	}
+	
+	@RequestMapping(value = "/about", method = RequestMethod.GET)
+	public String getAboutPage(ModelMap model) {
+		return "about";
 	}
 }

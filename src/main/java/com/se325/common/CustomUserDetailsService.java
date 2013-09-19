@@ -23,6 +23,9 @@ import org.xml.sax.SAXException;
 import com.se325.controller.AppController;
 import com.se325.persistence.HibernateUtil;
 
+
+//user authenticator for logging users in using our database
+
 @Service
 @Transactional(readOnly = true)
 public class CustomUserDetailsService implements UserDetailsService {
@@ -36,10 +39,10 @@ public class CustomUserDetailsService implements UserDetailsService {
 			throws UsernameNotFoundException, DataAccessException {
 
 		steamId64 = AppController.get64BitSteamId(openIdReturnUrl);//gets the 64 bit user name
-		steamId = AppController.convertSteamID64ToSteamID(steamId64);
+		steamId = AppController.convertSteamID64ToSteamID(steamId64);//get steam id
 		
 		try {
-			profileName = AppController.getSteamUsername(steamId64);
+			profileName = AppController.getSteamUsername(steamId64);//get 64bit id
 		} catch (MalformedURLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -54,24 +57,26 @@ public class CustomUserDetailsService implements UserDetailsService {
 			e.printStackTrace();
 		}//gets your display name for steam
 
-		com.se325.common.User user = null;
+		com.se325.common.User user = null;//this has to be explicit otherwise it conflicts with org.springframework.security.core.userdetails.User
 		
-		List<?> results = checkUserExists(openIdReturnUrl);
+		List<?> results = checkUserExists(openIdReturnUrl);//checking if user already exists in database
 		
-		if ( !results.isEmpty() ) {
+		if ( !results.isEmpty() ) {//if user exists in database
 			
 			for ( Iterator<?> iterator = results.iterator(); iterator.hasNext(); ) {
-				user = (com.se325.common.User) iterator.next(); 
+				user = (com.se325.common.User) iterator.next();//assigning user vaiable to the found user 
 			}
 
 		}else{
 
-			user = createNewUser(openIdReturnUrl);
+			user = createNewUser(openIdReturnUrl);//creating new user
 
 		}
 		
+		
+		//this following code is a requried parameter for creating a org.springframework.security.core.userdetails.User
 		List<GrantedAuthority> grantedAuthorities = new ArrayList<GrantedAuthority>();
-		grantedAuthorities.add( new GrantedAuthorityImpl( "10" ) );
+		grantedAuthorities.add( new GrantedAuthorityImpl( "10" ) );//every authenticated user has a authority of 10 
 
 		return new org.springframework.security.core.userdetails.User(
 				user.getOpenIdReturnUrl(),
@@ -86,6 +91,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 	
 	private List<?> checkUserExists(String openIdReturnUrl){
 		
+		//querying database for user by the url returned by Valve when logging in via OpenId
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 
@@ -102,8 +108,11 @@ public class CustomUserDetailsService implements UserDetailsService {
 		
 	}
 	
+	
+	
 	private com.se325.common.User createNewUser(String openIdReturnUrl){
 		
+		//creating a new user
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		com.se325.common.User user = new User();
