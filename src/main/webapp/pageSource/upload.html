@@ -37,9 +37,9 @@
 
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">						
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="upload.html">Upload</a></li>
-						<li><a href="replays.html">Replays</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="upload.html">New stats</a></li>
+						<li><a href="replays.html">Previous replays</a></li>
 					</ul>
 					<form class="navbar-form navbar-right">						
 						<a href="#login"><img src="../img/steamlogo.png"></a>
@@ -49,16 +49,10 @@
 		</div>
 
 		<div class="container marketing" style="margin-top:50px;text-align:center;">
-			<div class="row">
-				<div class="col">
-					<form action="home?upload=true" method="POST" enctype="multipart/form-data">
-						<p>Enter replay number: </p><input type="text" name="file"/>
-						<br/>
-						<input type="submit" value="Get stats" />
-					</form>
-				</div>
-			</div>
-
+			<form class="form-signin">
+				<h2 class="form-signin-heading">Please enter a replay number</h2>
+				<input type="text" class="form-control" placeholder="e.g. 15612354" autofocus>
+			</form>
 			<br>
 			<br>
 			<br>
@@ -85,10 +79,10 @@
 			</footer>
 		</div> <!-- /container -->
 
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="../assets/js/jquery.js"></script>
-	<script src="../dist/js/bootstrap.min.js"></script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="../assets/js/jquery.js"></script>
+		<script src="../dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
