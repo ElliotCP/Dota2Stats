@@ -302,26 +302,35 @@ def parseAndRunProcesses() :
 	global chosenPlayer
 	global playerSteamID
 	global replayNumber
-	print "swag"
 	try :
 		playerSteamID = request.args['steamid']
 		replayNumber = request.args['matchid']
 	except Exception :
 		return "wrong"
 
-	if request.args['imagename'] :
+	try :
 		return send_file(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber + "/" + request.args['imagename'].lower())
+	except Exception:
+		print "Not image"
 
 	if not os.path.exists(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber) :
 		os.makedirs(os.getcwd() + "/createdGraphs/" + playerSteamID + "/" + replayNumber)
 
-	
+	try :
+		os.system("DotaParser.exe " + replayNumber + ".dem")
+	except Exception :
+		return "BADPARSING"
 	# Initialise logs
 	# f = open("logs/" + replayNumber + ".log", "w+")
 	# f.write("Logging for " + str(datetime.datetime.now()))
 	
 	# Initialise globals
-	json_data=open("json/" + replayNumber + "/players.json")
+	try :
+		json_data=open("json/" + replayNumber + "/players.json")
+	except Exception :
+		return "BADREPLAY"
+
+
 
 	playerList = []
 	friendlyHeroList = []
@@ -376,8 +385,10 @@ def parseAndRunProcesses() :
 		playerList.append((playerName, hero))
 		i += 1
 
-	playerObserved = {"name" : chosenPlayer, "hero" : chosenHero}
-
+	try :
+		playerObserved = {"name" : chosenPlayer, "hero" : chosenHero}
+	except Exception:
+		return "BADUSER"
 	closeJSON()
 
 	#-----------------------------------------------------------
@@ -585,45 +596,66 @@ def parseAndRunProcesses() :
 
 
 	# Multiprocessing (is this done properly?)
+	print "Starting kills graph"
 	playerKillProcess = Process(target=generatePlayerKillsGraph, args=(playerKillsOverTime, playerSteamID, replayNumber))
 	playerKillProcess.start()
 	playerKillProcess.join()
+	print "Finished kills graph"
 
+	print "Starting deaths graph"
 	playerDeathProcess = Process(target=generatePlayerDeathsGraph, args=(playerDeathsOverTime, playerSteamID, replayNumber))
 	playerDeathProcess.start()
 	playerDeathProcess.join()
+	print "Finished deaths graph"
 
+	print "Starting assists graph"
 	playerAssistProcess = Process(target=generatePlayerAssistsGraph, args=(playerAssistsOverTime, playerSteamID, replayNumber))
 	playerAssistProcess.start()
 	playerAssistProcess.join()
+	print "Finished assists graph"
 
+	print "Starting level graph"
 	playerLevelProcess = Process(target=generatePlayerLevelGraph, args=(playerLevelOverTime, playerSteamID, replayNumber))
 	playerLevelProcess.start()
 	playerLevelProcess.join()
+	print "Finished level graph"
 
+	print "Starting item graph"
 	playerItemProgressionProcess = Process(target=generatePlayerItemProgressionGraph, args=(playerItemProgressionOverTime, playerSteamID, replayNumber))
 	playerItemProgressionProcess.start()
 	playerItemProgressionProcess.join()
+	print "Finished item graph"
 
+	print "Starting gold graph"
 	playerGoldProcess = Process(target=generatePlayerGoldGraph, args=(playerTotalGoldOverTime, playerSteamID, replayNumber))
 	playerGoldProcess.start()
 	playerGoldProcess.join()
+	print "Finished gold graph"
 
+	print "Starting gpm graph"
 	playerGPMProcess = Process(target=generatePlayerGPMGraph, args=(playerGPMOverTime, playerSteamID, replayNumber))
 	playerGPMProcess.start()
 	playerGPMProcess.join()
+	print "Finished gpm graph"
 
+	print "Starting damage dealt graph"
 	playerDamageDealtProcess = Process(target=generatePlayerDamageDealtGraph, args=(playerDamageDealtOverTime, playerSteamID, replayNumber))
 	playerDamageDealtProcess.start()
 	playerDamageDealtProcess.join()
+	print "Finished damage dealt graph"
 
-	playerDamageTakenProcess = Process(target=generatePlayerDamageTakenGraph, arg=(playerDamageTakenOverTime, playerSteamID, replayNumber))
+	print "Starting damage taken graph"
+	playerDamageTakenProcess = Process(target=generatePlayerDamageTakenGraph, args=(playerDamageTakenOverTime, playerSteamID, replayNumber))
 	playerDamageTakenProcess.start()
 	playerDamageTakenProcess.join()
+	print "Finished damage taken graph"
 
+	print "Starting runes graph"
 	playerRunePickupProcess = Process(target=generatePlayerRunePickupGraph, args=(playerRunePickupsOverTime, playerSteamID, replayNumber))
 	playerRunePickupProcess.start()
 	playerRunePickupProcess.join()
+	print "Finished runes graph"
+
 
 	# if not playerObserved["hero"] in friendlyHeroList :
 	# 	for i in range(0,5)  :
@@ -659,7 +691,7 @@ def parseAndRunProcesses() :
 
 	
 if __name__ == '__main__' :
-	app.run(host="0.0.0.0", port=5000)
+	app.run(port=5000)
 
 
 
