@@ -6,12 +6,16 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -22,6 +26,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+import com.se325.common.User;
+import com.se325.persistence.HibernateUtil;
 
 @Controller
 @RequestMapping("/user")
@@ -38,8 +45,18 @@ public class AppController{
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
 		steamId64 = AppController.get64BitSteamId(auth.getName());//gets the 64 bit user name
-		steamId = AppController.convertSteamID64ToSteamID(steamId64);
-		profileName = AppController.getSteamUsername(steamId64);//gets your display name for steam
+		
+		// Get user from database
+		Session session = HibernateUtil.getSessionFactory().openSession();
+	    List<?> users = session.createQuery("FROM User WHERE steam_id_64='" + steamId64 + "'").list();
+	    if(users.size() > 0) { //if we have at least one user
+	        User user = (User) users.get(0); //get the first user
+	        steamId = user.getSteamId();
+	        profileName = user.getSteamProfileName();
+	    } else {
+	        steamId = AppController.convertSteamID64ToSteamID(steamId64);
+	        profileName = AppController.getSteamUsername(steamId64);//gets your display name for steam
+	    }
 
 		request.setAttribute("username", profileName);//this is so that jsp pages can use this variable
 
