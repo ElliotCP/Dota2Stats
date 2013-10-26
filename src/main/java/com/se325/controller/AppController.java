@@ -67,7 +67,7 @@ public class AppController{
 	public String getStats(@RequestParam(value = "replayId", required = true) String replayId,  HttpServletRequest request, ModelMap model) throws IOException{
 
 		//comment out following to test-----
-		URL obj = new URL("http://49.50.241.171:5000/?steamid="+steamId64+"&matchid="+replayId);//sending request to private server
+		URL obj = new URL("http://223.27.24.159:5000/?steamid="+steamId64+"&matchid="+replayId);//sending request to private server
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 
 		con.setRequestMethod("GET");
